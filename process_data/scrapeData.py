@@ -38,6 +38,7 @@ sleep(1)
 input('Login manually and navigate to standings then press Enter here to continue:')
 sleep(1)
 
+
 #click other szns dropdown
 szndropdown = driver.find_element(By.ID, "scheduleYearMenuList")
 szndropdown.click()
