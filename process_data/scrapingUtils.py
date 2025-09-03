@@ -83,11 +83,13 @@ def chooseDivision(driver, division):
     return teams
 
 
-def chooseTeam(driver, team):
+def clickOneTeam(driver, team):
     team = driver.find_element(By.LINK_TEXT, team)
     team.click()
     print ("clicked team")
     sleep(1)
+
+def getRoster(driver, team):
 
     #select roster button
     roster = driver.find_element(By.LINK_TEXT, "Roster")

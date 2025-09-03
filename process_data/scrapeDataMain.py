@@ -1,6 +1,8 @@
-from scrapingUtils import openpage_signin, chooseOtherSzn, get_divisions, chooseDivision, chooseTeam, scrapeDataForOneSwimmer
+from scrapingUtils import openpage_signin, chooseOtherSzn, get_divisions, chooseDivision, clickOneTeam, getRoster, scrapeDataForOneSwimmer
 from selenium import webdriver
 from datetime import date
+import json
+import os
 import re
 
 def prompt_season() -> tuple[int, int]:
@@ -49,7 +51,39 @@ if season_cutoff_has_passed(endy):
 #choose division
 divisions = get_divisions(driver)
 div = prompt_division(divisions)
-chooseDivision(driver, div)
+teams = chooseDivision(driver, div)
+
+
+#### TODO: run this 
+
+for team in teams:
+    driver.get(teams[team])
+
+    # ensure team directory exists
+    os.makedirs(f"data/{team}", exist_ok=True)
+
+    # if getRoster returns an iterator/zip, make it reusable
+    roster = list(getRoster(driver, team))
+
+    # write roster.csv (no mkdir for a file)
+    with open(f"data/{team}/roster.csv", "w", encoding="utf-8", newline="") as f:
+        f.write("name,link\n")
+        for name, link in roster:
+            f.write(f'"{name}","{link}"\n')
+
+    # ensure swimmers directory exists
+    os.makedirs(f"data/{team}/swimmers", exist_ok=True)
+
+    for name, link in roster:
+        swimmer_data = scrapeDataForOneSwimmer(driver, link, name)
+        # sanitize filename (spaces → _, remove illegal chars)
+        safe = re.sub(r'[\\/:"*?<>|]+', "_", name).strip().replace(" ", "_")
+        with open(f"data/{team}/swimmers/{safe}.json", "w", encoding="utf-8") as f:
+            json.dump(swimmer_data, f, ensure_ascii=False, indent=2)
+        print(f"Saved data for {name}")
+
+    print(f"Finished scraping data for team {team}")
+
 
 
 
