@@ -5,6 +5,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from urllib.parse import urljoin
+import re
 
 usr=input('Enter Email Id:') 
 pwd=input('Enter Password:') 
@@ -67,7 +69,62 @@ roster.click()
 print ("clicked roster")
 sleep(1)
 
-input('Press Enter here to finish:')
+#collect all roster names + links
+elmts = driver.find_elements(
+    By.XPATH,
+    "//table[contains(@class,'table-stats')]//tbody//tr"
+    "/td[contains(@class,'text-left')][1]/a[contains(@href,'/player/')]"
+)
+names = [e.text.strip() for e in elmts]
+links = [urljoin(driver.current_url, e.get_attribute("href")) for e in elmts]
+nameandlink = zip(names, links)
+
+#output names + links
+for name, link in nameandlink:
+    print(f"{name}: {link}")
+
+#gather data for one swimmer
+driver.get(links[0])
+input("Press Enter to continue to scrape data for " + names[0])
+print ("opened swimmer page")
+events = driver.find_elements(
+    By.XPATH,
+    "//div[contains(@class,'card')][.//strong[contains(@class,'card-section-title')]]"
+)
+data = []
+for event in events: ## interates through each event card
+    title_el = event.find_element(By.CSS_SELECTOR, "strong.card-section-title")
+    event_label = title_el.text.strip()
+    event_name = re.sub(r'^\s*\d{4}\s*[–—-]\s*\d{4}\s*', '', event_label).strip()
+    rows = event.find_elements(By.CSS_SELECTOR, "div.card-body div.mb-3")
+    times = []
+    for row in rows: ## iterates through each row in the event card
+        lines = [ln.strip() for ln in row.text.splitlines() if ln.strip()]
+        if not lines:
+            continue
+        perf_line = lines[-1]
+
+        if "," in perf_line:
+            time_txt, place_txt = perf_line.split(",", 1)
+            time_txt = time_txt.strip()
+            place_txt = place_txt.strip()
+        else:
+            time_txt, place_txt = perf_line.strip(), ""
+        
+        location_txt = lines[-2] if len(lines) >= 2 else ""
+        
+        times.append({"location": location_txt, "time": time_txt})
+
+    if times != []:
+        data.append({'event': event_name, 'times': times})
+
+print(data)
+    
+
+
+
+
+
 
 
 
