@@ -1,0 +1,111 @@
+{
+  "swimmer": "Nubia Mogrovejo",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "1:24.88"
+        },
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "1:27.16"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "1:24.88"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "2:43.22"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "2:20.86"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "2:38.07"
+        },
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "2:29.87"
+        },
+        {
+          "location": "1/21/2025, Steinert (86) at Seneca (84)",
+          "time": "2:29.28"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "3:08.37"
+        },
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "3:09.22"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "3:20.72"
+        },
+        {
+          "location": "1/21/2025, Steinert (86) at Seneca (84)",
+          "time": "3:16.12"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "6:30.06"
+        },
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "5:36.76"
+        },
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "5:55.27"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "5:47.67"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "5:53.41"
+        },
+        {
+          "location": "1/21/2025, Steinert (86) at Seneca (84)",
+          "time": "5:47.58"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/21/2025, Steinert (86) at Seneca (84)",
+          "time": "0:36.47"
+        }
+      ]
+    }
+  ]
+}

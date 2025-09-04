@@ -1,0 +1,86 @@
+{
+  "swimmer": "Sasha Culcay",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "2:40.38"
+        },
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "2:39.03"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "3:43.60"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "3:15.27"
+        },
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "3:13.45"
+        },
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "3:20.72"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "3:19.92"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "6:31.00"
+        },
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "6:31.80"
+        },
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "6:42.98"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "6:30.99"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Hamilton West (51) at Steinert (111)",
+          "time": "10:11.33"
+        },
+        {
+          "location": "12/13/2024, Nottingham (34) at Steinert (127)",
+          "time": "10:11.52"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "09:57.77"
+        }
+      ]
+    }
+  ]
+}

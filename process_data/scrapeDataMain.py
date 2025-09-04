@@ -59,6 +59,7 @@ teams.pop("West Windsor-Plainsboro South")  # doesn't have roster link
 teams.pop("West Windsor-Plainsboro North")  # doesn't have roster link
 teams.pop("Princeton")  # THESE ARE ALL TEMPORARY -- PLEASE DELETE LATER
 
+
 for team in teams:
     driver.get(teams[team])
 

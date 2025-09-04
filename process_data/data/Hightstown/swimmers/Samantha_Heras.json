@@ -1,0 +1,40 @@
+{
+  "swimmer": "Samantha Heras",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "1:56.40"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:48.92"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "5:40.50"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "7:00.06"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "5:49.66"
+        }
+      ]
+    }
+  ]
+}

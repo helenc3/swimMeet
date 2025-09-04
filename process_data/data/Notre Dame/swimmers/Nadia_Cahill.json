@@ -1,0 +1,40 @@
+{
+  "swimmer": "Nadia Cahill",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "1:37.43"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "3:05.10"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "3:11.67"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "5:43.82"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "6:18.59"
+        }
+      ]
+    }
+  ]
+}
