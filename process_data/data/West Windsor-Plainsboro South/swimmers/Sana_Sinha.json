@@ -1,0 +1,149 @@
+{
+  "swimmer": "Sana Sinha",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "1:17.31"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:03.29"
+        },
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "2:15.88"
+        },
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "2:21.79"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:04.39"
+        },
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "2:04.69"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "2:04.79"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "1:54.59"
+        },
+        {
+          "location": "2/5/2025, Colts Neck (56) at West Windsor-Plainsboro South (113), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:03.03"
+        },
+        {
+          "location": "2/10/2025, West Windsor-Plainsboro South (85) at Manasquan (86), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "2:15.85"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "2:36.53"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/13/2025, Steinert (60) at West Windsor-Plainsboro South (110)",
+          "time": "3:03.15"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "2:38.25"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "2:17.85"
+        },
+        {
+          "location": "1/13/2025, Steinert (60) at West Windsor-Plainsboro South (110)",
+          "time": "2:35.41"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "4:39.29"
+        },
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "4:34.32"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "4:39.42"
+        },
+        {
+          "location": "1/13/2025, Steinert (60) at West Windsor-Plainsboro South (110)",
+          "time": "4:37.90"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "4:28.39"
+        },
+        {
+          "location": "2/5/2025, Colts Neck (56) at West Windsor-Plainsboro South (113), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "4:30.90"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "0:31.37"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "0:29.89"
+        },
+        {
+          "location": "2/5/2025, Colts Neck (56) at West Windsor-Plainsboro South (113), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "0:29.77"
+        },
+        {
+          "location": "2/10/2025, West Windsor-Plainsboro South (85) at Manasquan (86), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "0:32.89"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "07:09.64"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "swimmer": "Richa Choudhary",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "1:36.65"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "1:42.06"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "1:27.50"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "1:34.24"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "1:36.02"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "1:29.59"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "2:22.42"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "2:09.80"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "2:31.73"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "2:56.15"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "3:11.18"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:45.11"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "2:58.84"
+        },
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "2:56.88"
+        },
+        {
+          "location": "12/18/2024, West Windsor-Plainsboro North (127) at Steinert (43)",
+          "time": "2:42.06"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:46.15"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "5:11.95"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "5:29.89"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "4:48.73"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "06:44.43"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "06:35.40"
+        },
+        {
+          "location": "12/13/2024, West Windsor-Plainsboro South (99) at West Windsor-Plainsboro North (71)",
+          "time": "06:43.07"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "06:16.04"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "07:14.19"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "06:10.02"
+        }
+      ]
+    }
+  ]
+}
