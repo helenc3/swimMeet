@@ -53,11 +53,7 @@ divisions = get_divisions(driver)
 div = prompt_division(divisions)
 teams = chooseDivision(driver, div)
 
-
-#### TODO: run this 
-teams.pop("West Windsor-Plainsboro South")  # doesn't have roster link
-teams.pop("West Windsor-Plainsboro North")  # doesn't have roster link
-teams.pop("Princeton")  # THESE ARE ALL TEMPORARY -- PLEASE DELETE LATER
+## if you would like to pop items; pop it here. THIS IS IMPORTANT
 
 
 for team in teams:
