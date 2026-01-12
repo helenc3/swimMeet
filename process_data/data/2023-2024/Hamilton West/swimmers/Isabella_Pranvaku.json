@@ -1,0 +1,97 @@
+{
+  "swimmer": "Isabella Pranvaku",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/9/2024, West Windsor-Plainsboro North (129) at Hamilton West (39)",
+          "time": "1:41.65"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "3:24.19"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "2:45.36"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "3:11.69"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "2:58.63"
+        },
+        {
+          "location": "1/9/2024, West Windsor-Plainsboro North (129) at Hamilton West (39)",
+          "time": "2:55.12"
+        },
+        {
+          "location": "1/11/2024, Hamilton West (35) at Hopewell Valley (133)",
+          "time": "2:58.96"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "3:01.33"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:51.48"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "8:38.63"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "7:33.21"
+        },
+        {
+          "location": "1/9/2024, West Windsor-Plainsboro North (129) at Hamilton West (39)",
+          "time": "7:15.04"
+        },
+        {
+          "location": "1/11/2024, Hamilton West (35) at Hopewell Valley (133)",
+          "time": "6:28.61"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "7:55.68"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "0:44.41"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "0:44.79"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "0:45.45"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "0:42.32"
+        }
+      ]
+    }
+  ]
+}

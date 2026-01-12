@@ -1,0 +1,23 @@
+{
+  "swimmer": "Rachel Batz-Gonzalez",
+  "data": [
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2022, Princeton (135) at Hamilton West (30)",
+          "time": "3:54.56"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2022, Princeton (135) at Hamilton West (30)",
+          "time": "5:06.08"
+        }
+      ]
+    }
+  ]
+}

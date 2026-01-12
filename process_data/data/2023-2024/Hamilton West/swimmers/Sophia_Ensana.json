@@ -1,0 +1,113 @@
+{
+  "swimmer": "Sophia Ensana",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "1:42.78"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "1:47.35"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "1:51.64"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "1:48.95"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "1:55.77"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "1:42.74"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "2:33.51"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "2:46.66"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "2:57.99"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:39.63"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "5:14.03"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "5:12.16"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "5:41.16"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "4:23.40"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "6:04.16"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "4:46.33"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "07:32.67"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "08:26.54"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "08:36.92"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "08:30.76"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "07:27.79"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "08:52.80"
+        }
+      ]
+    }
+  ]
+}

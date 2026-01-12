@@ -1,0 +1,35 @@
+{
+  "swimmer": "Katelynn Kelley",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Notre Dame (120) at Nottingham (41)",
+          "time": "2:57.20"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "2:41.63"
+        },
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "2:23.62"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "2:32.41"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Notre Dame (120) at Nottingham (41)",
+          "time": "6:19.67"
+        }
+      ]
+    }
+  ]
+}

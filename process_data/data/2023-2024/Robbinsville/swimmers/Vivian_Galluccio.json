@@ -1,0 +1,155 @@
+{
+  "swimmer": "Vivian Galluccio",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "1:32.02"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "1:15.20"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "1:24.41"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "1:14.93"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "2:08.38"
+        },
+        {
+          "location": "12/19/2023, Robbinsville (79) at Hopewell Valley (91)",
+          "time": "2:31.52"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "2:47.24"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "2:16.88"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:29.92"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "3:04.28"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "3:09.33"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "2:47.46"
+        },
+        {
+          "location": "2/7/2024, Robbinsville (90) at New Providence (80), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "2:51.12"
+        },
+        {
+          "location": "2/12/2024, Robbinsville (78) at Shore (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "2:48.18"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:36.89"
+        },
+        {
+          "location": "12/19/2023, Robbinsville (79) at Hopewell Valley (91)",
+          "time": "3:02.94"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "3:31.60"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "2:16.95"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:43.38"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "2:35.67"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "5:23.49"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "5:19.87"
+        },
+        {
+          "location": "12/19/2023, Robbinsville (79) at Hopewell Valley (91)",
+          "time": "4:44.85"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "5:48.69"
+        },
+        {
+          "location": "1/11/2024, Robbinsville (0) at West Windsor-Plainsboro North (0)",
+          "time": "5:36.42"
+        },
+        {
+          "location": "1/11/2024, Nottingham (13) at Robbinsville (80)",
+          "time": "5:36.42"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "5:30.81"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "5:22.71"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "5:14.28"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "4:55.11"
+        }
+      ]
+    }
+  ]
+}

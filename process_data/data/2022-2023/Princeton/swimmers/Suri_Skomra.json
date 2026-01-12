@@ -1,0 +1,195 @@
+{
+  "swimmer": "Suri Skomra",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/12/2022, Princeton (116) at Hightstown (54)",
+          "time": "1:14.25"
+        },
+        {
+          "location": "1/17/2023, Princeton (109) at Nottingham (24)",
+          "time": "1:13.97"
+        },
+        {
+          "location": "1/23/2023, Steinert (44) at Princeton (112)",
+          "time": "1:04.43"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/12/2022, Princeton (116) at Hightstown (54)",
+          "time": "2:06.46"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "1:56.23"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro South (48) at Princeton (122)",
+          "time": "1:53.52"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "2:09.66"
+        },
+        {
+          "location": "1/17/2023, Princeton (109) at Nottingham (24)",
+          "time": "2:13.62"
+        },
+        {
+          "location": "1/19/2023, Lawrence (47) at Princeton (123)",
+          "time": "1:57.36"
+        },
+        {
+          "location": "1/23/2023, Steinert (44) at Princeton (112)",
+          "time": "1:56.36"
+        },
+        {
+          "location": "2/13/2023, Colts Neck (33) at Princeton (137), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "1:46.14"
+        },
+        {
+          "location": "2/16/2023, Manasquan (59) at Princeton (111), NJSIAA Tournament, Final Round, Central, Group B",
+          "time": "1:46.74"
+        },
+        {
+          "location": "2/21/2023, Princeton (97) at Shawnee (73), NJSIAA Group Tournament, Semifinal Round, Group B",
+          "time": "1:48.73"
+        },
+        {
+          "location": "2/25/2023, Princeton (91) at Chatham (79), NJSIAA Group Tournament, Final Round, Group B",
+          "time": "1:42.81"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/17/2023, Princeton (109) at Nottingham (24)",
+          "time": "2:48.85"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/14/2022, Robbinsville (47) at Princeton (119)",
+          "time": "2:12.28"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "2:02.77"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro South (48) at Princeton (122)",
+          "time": "2:00.44"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "2:11.08"
+        },
+        {
+          "location": "1/19/2023, Lawrence (47) at Princeton (123)",
+          "time": "2:03.36"
+        },
+        {
+          "location": "2/13/2023, Colts Neck (33) at Princeton (137), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "1:53.29"
+        },
+        {
+          "location": "2/16/2023, Manasquan (59) at Princeton (111), NJSIAA Tournament, Final Round, Central, Group B",
+          "time": "1:57.39"
+        },
+        {
+          "location": "2/21/2023, Princeton (97) at Shawnee (73), NJSIAA Group Tournament, Semifinal Round, Group B",
+          "time": "2:04.60"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2022, Princeton (116) at Hightstown (54)",
+          "time": "5:20.09"
+        },
+        {
+          "location": "1/17/2023, Princeton (109) at Nottingham (24)",
+          "time": "5:02.92"
+        },
+        {
+          "location": "2/13/2023, Colts Neck (33) at Princeton (137), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "3:55.35"
+        },
+        {
+          "location": "2/16/2023, Manasquan (59) at Princeton (111), NJSIAA Tournament, Final Round, Central, Group B",
+          "time": "3:50.78"
+        },
+        {
+          "location": "2/21/2023, Princeton (97) at Shawnee (73), NJSIAA Group Tournament, Semifinal Round, Group B",
+          "time": "4:16.97"
+        },
+        {
+          "location": "2/25/2023, Princeton (91) at Chatham (79), NJSIAA Group Tournament, Final Round, Group B",
+          "time": "3:52.19"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2022, Princeton (116) at Hightstown (54)",
+          "time": "0:32.20"
+        },
+        {
+          "location": "12/14/2022, Robbinsville (47) at Princeton (119)",
+          "time": "0:28.24"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "0:28.89"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro South (48) at Princeton (122)",
+          "time": "0:28.11"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "0:31.91"
+        },
+        {
+          "location": "1/19/2023, Lawrence (47) at Princeton (123)",
+          "time": "0:27.01"
+        },
+        {
+          "location": "1/23/2023, Steinert (44) at Princeton (112)",
+          "time": "0:27.31"
+        },
+        {
+          "location": "2/13/2023, Colts Neck (33) at Princeton (137), NJSIAA Tournament, Semifinal Round, Central, Group B",
+          "time": "0:27.11"
+        },
+        {
+          "location": "2/16/2023, Manasquan (59) at Princeton (111), NJSIAA Tournament, Final Round, Central, Group B",
+          "time": "0:26.92"
+        },
+        {
+          "location": "2/21/2023, Princeton (97) at Shawnee (73), NJSIAA Group Tournament, Semifinal Round, Group B",
+          "time": "44:20.00"
+        },
+        {
+          "location": "2/25/2023, Princeton (91) at Chatham (79), NJSIAA Group Tournament, Final Round, Group B",
+          "time": "0:26.37"
+        }
+      ]
+    }
+  ]
+}

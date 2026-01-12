@@ -1,0 +1,176 @@
+{
+  "swimmer": "Caitlin Stubbs",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/8/2022, Notre Dame (105) at Robbinsville (65)",
+          "time": "1:11.12"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "1:18.36"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "1:10.02"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "1:10.68"
+        },
+        {
+          "location": "1/13/2023, Hightstown (51) at Notre Dame (119)",
+          "time": "1:10.15"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "1:17.73"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro South (110) at Notre Dame (60)",
+          "time": "1:10.80"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/8/2022, Notre Dame (105) at Robbinsville (65)",
+          "time": "1:00.75"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "1:07.02"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "0:59.48"
+        },
+        {
+          "location": "1/13/2023, Hightstown (51) at Notre Dame (119)",
+          "time": "1:00.93"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "1:06.33"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro South (110) at Notre Dame (60)",
+          "time": "0:59.28"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Notre Dame (120) at Nottingham (41)",
+          "time": "2:21.21"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "2:11.52"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2022, Notre Dame (105) at Robbinsville (65)",
+          "time": "2:05.87"
+        },
+        {
+          "location": "12/12/2022, Steinert (46) at Notre Dame (122)",
+          "time": "2:07.62"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "2:19.72"
+        },
+        {
+          "location": "12/22/2022, Notre Dame (120) at Nottingham (41)",
+          "time": "2:34.77"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "2:10.28"
+        },
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "2:12.09"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "2:04.84"
+        },
+        {
+          "location": "1/13/2023, Hightstown (51) at Notre Dame (119)",
+          "time": "2:07.44"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "2:19.04"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro South (110) at Notre Dame (60)",
+          "time": "2:05.73"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2022, Notre Dame (105) at Robbinsville (65)",
+          "time": "4:08.59"
+        },
+        {
+          "location": "12/12/2022, Steinert (46) at Notre Dame (122)",
+          "time": "4:13.64"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "4:44.14"
+        },
+        {
+          "location": "1/3/2023, Notre Dame (35) at Princeton (135)",
+          "time": "4:22.58"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "4:16.16"
+        },
+        {
+          "location": "1/13/2023, Hightstown (51) at Notre Dame (119)",
+          "time": "4:14.27"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "4:43.12"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro South (110) at Notre Dame (60)",
+          "time": "4:18.16"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/12/2022, Steinert (46) at Notre Dame (122)",
+          "time": "05:59.72"
+        }
+      ]
+    }
+  ]
+}

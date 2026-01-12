@@ -1,0 +1,14 @@
+{
+  "swimmer": "Delali Doe",
+  "data": [
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/23/2023, Nottingham (42) at Hopewell Valley (135)",
+          "time": "1:34.53"
+        }
+      ]
+    }
+  ]
+}

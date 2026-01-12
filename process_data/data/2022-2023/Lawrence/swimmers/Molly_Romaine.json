@@ -1,0 +1,41 @@
+{
+  "swimmer": "Molly Romaine",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "1:30.37"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:17.22"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "3:07.73"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "5:12.18"
+        }
+      ]
+    }
+  ]
+}

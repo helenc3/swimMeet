@@ -1,0 +1,53 @@
+{
+  "swimmer": "Wiktoria Zapolska",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "1:51.49"
+        },
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "1:52.77"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "2:29.29"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "5:02.85"
+        },
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "6:08.33"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "0:47.36"
+        },
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "0:46.01"
+        }
+      ]
+    }
+  ]
+}

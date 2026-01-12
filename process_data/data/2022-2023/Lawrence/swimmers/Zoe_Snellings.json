@@ -1,0 +1,203 @@
+{
+  "swimmer": "Zoe Snellings",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/14/2022, Lawrence (128) at Hightstown (42)",
+          "time": "1:21.86"
+        },
+        {
+          "location": "12/22/2022, West Windsor-Plainsboro South (102) at Lawrence (68)",
+          "time": "1:21.47"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "1:12.44"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "1:21.82"
+        },
+        {
+          "location": "2/9/2023, Lawrence (63) at Manasquan (107), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "1:12.15"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/12/2022, Nottingham (33) at Lawrence (134)",
+          "time": "1:40.43"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/12/2022, Nottingham (33) at Lawrence (134)",
+          "time": "1:26.74"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "1:17.11"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/22/2022, West Windsor-Plainsboro South (102) at Lawrence (68)",
+          "time": "1:11.24"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/12/2022, Nottingham (33) at Lawrence (134)",
+          "time": "2:12.93"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "2:06.48"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:12.16"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:32.89"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "2:34.15"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:33.20"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/14/2022, Lawrence (128) at Hightstown (42)",
+          "time": "2:57.28"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "2:40.48"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "2:59.10"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:21.40"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "2:18.49"
+        },
+        {
+          "location": "12/22/2022, West Windsor-Plainsboro South (102) at Lawrence (68)",
+          "time": "2:33.28"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "2:05.12"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "2:21.51"
+        },
+        {
+          "location": "2/9/2023, Lawrence (63) at Manasquan (107), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:06.90"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "4:35.47"
+        },
+        {
+          "location": "12/14/2022, Lawrence (128) at Hightstown (42)",
+          "time": "4:20.60"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "4:36.60"
+        },
+        {
+          "location": "12/22/2022, West Windsor-Plainsboro South (102) at Lawrence (68)",
+          "time": "4:29.82"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "4:06.27"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "4:36.44"
+        },
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "4:53.78"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "4:50.01"
+        },
+        {
+          "location": "2/9/2023, Lawrence (63) at Manasquan (107), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "4:23.89"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "05:29.43"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "05:27.08"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "05:24.12"
+        },
+        {
+          "location": "2/9/2023, Lawrence (63) at Manasquan (107), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "06:01.65"
+        }
+      ]
+    }
+  ]
+}

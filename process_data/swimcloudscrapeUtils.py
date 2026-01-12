@@ -59,8 +59,26 @@ def comparetimestrings(t1, t2): ## returns the faster time string
 def checktimeshistory(driver, url): ## opens url and returns fastest time dictionary with valid yr
     ## if no valid time, return None
     driver.get(url)
-    rows = driver.find_elements(By.XPATH, "//h3[normalize-space()='History']/following-sibling::div//table//tbody/tr[td[contains(@class,'u-text-end')]]")
-    print (len(rows)) ###############something about getting the rows is wrong
+    sleep(1)
+    # rows = driver.find_elements(
+    # By.XPATH,
+    # "//*[@id='js-swimmer-profile-times-container']"
+    # "//tbody/tr[td//button[contains(@class,'btn-link')]]"
+    # )
+    table = driver.find_element(
+    By.XPATH,
+    "(//*[@id='js-swimmer-profile-times-container']"
+    "//table[contains(@class,'c-table-clean')])[1]"
+)
+
+    # 2) Only rows with a non-empty right-aligned time cell
+    rows = table.find_elements(
+        By.XPATH,
+        ".//tbody/tr[td[contains(@class,'u-text-end')]"
+        "[normalize-space()]]"
+    )
+    print (len(rows)) ###############something about getting the rows is wrong (37 rows instead of 20?)
+    print (rows)
 
     fasttime = '30:00.00'
     for row in rows:
@@ -83,10 +101,12 @@ def checktimeshistory(driver, url): ## opens url and returns fastest time dictio
 
 driver = webdriver.Chrome()
 driver.get('https://www.swimcloud.com/swimmer/829178/times/')
+sleep(1)
 
 rows = driver.find_elements(By.XPATH,
     "//div[@id='js-swimmer-profile-times-container']"
-    "//tbody/tr[td//button[contains(@class,'btn-link')]]")
+    "//tbody/tr[td//button[contains(@class,'btn-link')]]"
+)
 
 
 data = []

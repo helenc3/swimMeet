@@ -1,0 +1,214 @@
+{
+  "swimmer": "Sophia Yu",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "1:22.71"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "1:18.43"
+        },
+        {
+          "location": "1/3/2023, West Windsor-Plainsboro South (117) at West Windsor-Plainsboro North (53)",
+          "time": "1:22.54"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "1:20.79"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "1:20.13"
+        },
+        {
+          "location": "1/12/2023, West Windsor-Plainsboro North (87) at Nottingham (30)",
+          "time": "1:20.66"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "1:14.03"
+        },
+        {
+          "location": "1/20/2023, West Windsor-Plainsboro North (92) at Robbinsville (78)",
+          "time": "1:20.46"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "1:18.50"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro North (127) at Steinert (40)",
+          "time": "1:13.78"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "1:13.88"
+        },
+        {
+          "location": "1/12/2023, West Windsor-Plainsboro North (87) at Nottingham (30)",
+          "time": "1:13.87"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "1:13.12"
+        },
+        {
+          "location": "1/20/2023, West Windsor-Plainsboro North (92) at Robbinsville (78)",
+          "time": "1:13.44"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro North (108) at Hightstown (60)",
+          "time": "1:15.29"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:14.61"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro North (127) at Steinert (40)",
+          "time": "2:19.57"
+        },
+        {
+          "location": "1/20/2023, West Windsor-Plainsboro North (92) at Robbinsville (78)",
+          "time": "2:12.08"
+        },
+        {
+          "location": "1/23/2023, West Windsor-Plainsboro North (108) at Hightstown (60)",
+          "time": "2:10.15"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:08.61"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:46.05"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "3:08.18"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:22.96"
+        },
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "2:35.12"
+        },
+        {
+          "location": "1/3/2023, West Windsor-Plainsboro South (117) at West Windsor-Plainsboro North (53)",
+          "time": "2:32.69"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro North (127) at Steinert (40)",
+          "time": "2:29.42"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "2:32.91"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "2:31.72"
+        },
+        {
+          "location": "1/12/2023, West Windsor-Plainsboro North (87) at Nottingham (30)",
+          "time": "2:32.76"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "2:27.76"
+        },
+        {
+          "location": "1/20/2023, West Windsor-Plainsboro North (92) at Robbinsville (78)",
+          "time": "2:34.37"
+        },
+        {
+          "location": "2/7/2023, West Windsor-Plainsboro North (81) at Lawrence (89), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:23.72"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "5:17.62"
+        },
+        {
+          "location": "1/3/2023, West Windsor-Plainsboro South (117) at West Windsor-Plainsboro North (53)",
+          "time": "4:46.84"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro North (127) at Steinert (40)",
+          "time": "5:23.61"
+        },
+        {
+          "location": "1/11/2023, Princeton (114) at West Windsor-Plainsboro North (50)",
+          "time": "5:04.19"
+        },
+        {
+          "location": "1/12/2023, West Windsor-Plainsboro North (87) at Nottingham (30)",
+          "time": "5:15.13"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "4:51.74"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "0:33.65"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/20/2022, Notre Dame (75) at West Windsor-Plainsboro North (95)",
+          "time": "05:48.57"
+        },
+        {
+          "location": "1/3/2023, West Windsor-Plainsboro South (117) at West Windsor-Plainsboro North (53)",
+          "time": "05:58.07"
+        }
+      ]
+    }
+  ]
+}

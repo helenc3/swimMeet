@@ -1,0 +1,61 @@
+{
+  "swimmer": "Pragnyashree Kalidindi",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "2:16.93"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "3:14.00"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "3:06.41"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "3:17.53"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
+          "time": "3:12.94"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "3:18.16"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "3:13.06"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "6:54.00"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "7:06.18"
+        }
+      ]
+    }
+  ]
+}

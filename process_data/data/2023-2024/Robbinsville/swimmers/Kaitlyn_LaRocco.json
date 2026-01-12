@@ -1,0 +1,91 @@
+{
+  "swimmer": "Kaitlyn LaRocco",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "1:46.84"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:44.83"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "2:18.52"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:26.64"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "2:14.31"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:36.89"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "3:11.15"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:54.77"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "2:45.30"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "5:23.49"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "5:39.50"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "6:27.87"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "0:34.89"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "08:38.91"
+        }
+      ]
+    }
+  ]
+}

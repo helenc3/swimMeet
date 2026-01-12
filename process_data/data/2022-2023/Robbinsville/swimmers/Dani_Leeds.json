@@ -1,0 +1,146 @@
+{
+  "swimmer": "Dani Leeds",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "1:31.55"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/19/2023, Robbinsville (99) at Steinert (67)",
+          "time": "1:42.79"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/12/2022, West Windsor-Plainsboro South (101) at Robbinsville (69)",
+          "time": "1:32.25"
+        },
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "1:17.41"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "2:35.58"
+        },
+        {
+          "location": "1/17/2023, Robbinsville (104) at Hightstown (66)",
+          "time": "2:32.64"
+        },
+        {
+          "location": "2/7/2023, Robbinsville (81) at Bernards (89), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "2:46.17"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/14/2022, Robbinsville (47) at Princeton (119)",
+          "time": "3:23.95"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "3:51.38"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/12/2022, West Windsor-Plainsboro South (101) at Robbinsville (69)",
+          "time": "2:55.22"
+        },
+        {
+          "location": "12/14/2022, Robbinsville (47) at Princeton (119)",
+          "time": "2:18.23"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "3:41.80"
+        },
+        {
+          "location": "1/17/2023, Robbinsville (104) at Hightstown (66)",
+          "time": "2:45.29"
+        },
+        {
+          "location": "1/19/2023, Robbinsville (99) at Steinert (67)",
+          "time": "2:36.12"
+        },
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "2:27.60"
+        },
+        {
+          "location": "2/7/2023, Robbinsville (81) at Bernards (89), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "3:01.82"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2022, West Windsor-Plainsboro South (101) at Robbinsville (69)",
+          "time": "6:03.25"
+        },
+        {
+          "location": "12/14/2022, Robbinsville (47) at Princeton (119)",
+          "time": "5:07.45"
+        },
+        {
+          "location": "12/20/2022, Lawrence (101) at Robbinsville (69)",
+          "time": "6:04.86"
+        },
+        {
+          "location": "1/17/2023, Robbinsville (104) at Hightstown (66)",
+          "time": "6:03.19"
+        },
+        {
+          "location": "1/19/2023, Robbinsville (99) at Steinert (67)",
+          "time": "4:53.12"
+        },
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "5:32.81"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2022, West Windsor-Plainsboro South (101) at Robbinsville (69)",
+          "time": "0:37.29"
+        },
+        {
+          "location": "1/17/2023, Robbinsville (104) at Hightstown (66)",
+          "time": "0:36.39"
+        }
+      ]
+    }
+  ]
+}

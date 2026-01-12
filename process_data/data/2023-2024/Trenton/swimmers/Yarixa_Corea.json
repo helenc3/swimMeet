@@ -1,0 +1,53 @@
+{
+  "swimmer": "Yarixa Corea",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/3/2024, Steinert (108) at Trenton (56)",
+          "time": "3:06.26"
+        },
+        {
+          "location": "1/5/2024, Hightstown (132) at Trenton (36)",
+          "time": "3:24.33"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "4:57.45"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "8:05.65"
+        },
+        {
+          "location": "1/3/2024, Steinert (108) at Trenton (56)",
+          "time": "7:12.09"
+        },
+        {
+          "location": "1/19/2024, Lawrence (135) at Trenton (26)",
+          "time": "6:41.32"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "12:35.00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "swimmer": "Anna Smithson",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "1/5/2024, Steinert (37) at West Windsor-Plainsboro North (132)",
+          "time": "1:25.17"
+        },
+        {
+          "location": "1/11/2024, West Windsor-Plainsboro South (117) at Steinert (49)",
+          "time": "1:15.05"
+        },
+        {
+          "location": "1/15/2024, Hamilton West (55) at Steinert (107)",
+          "time": "1:16.82"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "1:15.53"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "1:17.41"
+        },
+        {
+          "location": "1/22/2024, Seneca (81) at Steinert (82)",
+          "time": "1:17.31"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "1:32.25"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "1:29.89"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "1:43.83"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "2:13.72"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "2:09.81"
+        },
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "2:22.58"
+        },
+        {
+          "location": "1/5/2024, Steinert (37) at West Windsor-Plainsboro North (132)",
+          "time": "2:24.44"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "2:08.60"
+        },
+        {
+          "location": "1/22/2024, Seneca (81) at Steinert (82)",
+          "time": "2:04.85"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "3:21.37"
+        },
+        {
+          "location": "1/15/2024, Hamilton West (55) at Steinert (107)",
+          "time": "2:48.60"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "2:33.92"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "2:57.74"
+        },
+        {
+          "location": "1/11/2024, West Windsor-Plainsboro South (117) at Steinert (49)",
+          "time": "2:32.31"
+        },
+        {
+          "location": "1/15/2024, Hamilton West (55) at Steinert (107)",
+          "time": "2:30.84"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "2:30.06"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "4:57.78"
+        },
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "5:37.24"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "5:42.18"
+        },
+        {
+          "location": "1/5/2024, Steinert (37) at West Windsor-Plainsboro North (132)",
+          "time": "5:33.57"
+        },
+        {
+          "location": "1/11/2024, West Windsor-Plainsboro South (117) at Steinert (49)",
+          "time": "4:55.75"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "4:48.89"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "5:05.83"
+        },
+        {
+          "location": "1/22/2024, Seneca (81) at Steinert (82)",
+          "time": "4:57.94"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "06:22.11"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "06:13.51"
+        },
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "05:41.41"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "05:31.64"
+        },
+        {
+          "location": "1/11/2024, West Windsor-Plainsboro South (117) at Steinert (49)",
+          "time": "06:38.98"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "06:29.61"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "06:33.44"
+        },
+        {
+          "location": "1/22/2024, Seneca (81) at Steinert (82)",
+          "time": "06:35.19"
+        }
+      ]
+    }
+  ]
+}
