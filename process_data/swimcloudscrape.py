@@ -36,52 +36,28 @@ def validyrs(yr):
         return True
     return False
 
-def scrapeprofile(driver): ## return scraped data from a page
-    hmpgurl = driver.current_url
-    driver.get(hmpgurl + 'times/')
-    sleep(1)
-    rows = driver.find_elements(By.CSS_SELECTOR, '#js-swimmer-profile-times-container tbody tr')
-    for row in rows:
-        ## get year
-        dt = row.find_elements(By.CSS_SELECTOR, "td.u-text-truncate") 
-        yr = dt.text.split(', ')[1].strip()
-
-        ###### get event
-        e = row.find_element(By.CSS_SELECTOR, "td .btn-link")
-        events = e.text.split(' ').strip()
-        event = [' '.join(events[:2]), events[2]]
-
-        #### get time
-
-        if validyrs(yr) and event[0] in HSEVENTS:
-            ## scrape the row
-        else:
-            ## click and check history (maybe a diff function for this)
-
-    # TODO -- scrape needed data from this url
 
 
+# name = 'Emma Liu'
+# hsteam = 'West Windsor-Plainsboro South' ### theres a bit of discordance with how swimcloud lists teams
+# ## for the wwps, might wanna get rid of south or north
 
-name = 'Emma Liu'
-hsteam = 'West Windsor-Plainsboro South' ### theres a bit of discordance with how swimcloud lists teams
-## for the wwps, might wanna get rid of south or north
+# profs = getallprofiles(driver, name)
 
-profs = getallprofiles(driver, name)
+# urls = []
+# for p in profs:
+#     p.replace('\n', ' ')
+#     if name in p:
+#         open_and_search(driver, p, enter=True)
+#         lastmeetyr = driver.find_element(By.CSS_SELECTOR, 'u-color-mute u-text-small u-text-normal').text
+#         lastmeetyr = lastmeetyr.split(', ')[1]
+#         if validyrs(lastmeetyr):
+#             urls.append(driver.current_url)
+#             ### TODO -- scrape needed data from this url
+#         else:
+#             continue
 
-urls = []
-for p in profs:
-    p.replace('\n', ' ')
-    if name in p:
-        open_and_search(driver, p, enter=True)
-        lastmeetyr = driver.find_element(By.CSS_SELECTOR, 'u-color-mute u-text-small u-text-normal').text
-        lastmeetyr = lastmeetyr.split(', ')[1]
-        if validyrs(lastmeetyr):
-            urls.append(driver.current_url)
-            ### TODO -- scrape needed data from this url
-        else:
-            continue
-
-        ## TODO --- examine age and years of times. ( suggest make this another function)
+#         ## TODO --- examine age and years of times. ( suggest make this another function)
 
 
 
