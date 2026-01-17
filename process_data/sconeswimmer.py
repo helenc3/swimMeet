@@ -12,6 +12,7 @@ import re
 
 HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '400 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
 TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
+STATE = 'nj' # state to search for
 
 def ishsevent(event):
     ###### return True if the event is a HS event, False otherwise
@@ -281,6 +282,53 @@ def scrapeprofile(driver): ## return scraped data from a page of one swimmer
                 if recent_time is not None:
                     race, course = splitevent(event)
                     info.append({"event": race, "course": course, "time": recent_time})
+    return info
+
+
+######## swimcloud search functions
+
+
+def open_and_search(driver, query, enter=False):### opens swimcloud and searches for query
+    driver.get('https://www.swimcloud.com/')
+    sleep(1)
+
+    searchbar = driver.find_element(By.ID, "global-search-select")
+    searchbar.click()
+    sleep(0.5)
+    searchbar.clear()
+    searchbar.send_keys(query)
+    
+    if enter:
+        # Wait for search results dropdown to appear, then click first option
+        wait = WebDriverWait(driver, 5)
+        first_result = wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, '[role="option"]:first-child'))
+        )
+        first_result.click()
+        sleep(2)  # Wait for page to navigate
+    else:
+        sleep(1)
+
+def getallprofiles (driver, query):### gets the immediate search result lists of profiles (eg. Helen Chen WWP South)
+    open_and_search(driver, query, enter=False)
+    results = driver.find_elements(By.CSS_SELECTOR, '[role="option"]')
+    texts = [r.text for r in results] 
+    return texts
+
+def searchprofile(driver, name):
+    ## the only function you actually need to call- takes in a name and then returns all available swimcloud data on them
+    ## prints warning in terminal if something seems wrong tho
+    profs = getallprofiles(driver, name + ' ' + STATE)
+    if len(profs) > 2:
+        print(f"ERROR: Too many profiles found for {name} in {STATE}-- please manually check and flag if needed")
+    elif len(profs) == 0:
+        return None
+    info = []
+    for p in profs:
+        profile = p.replace('\n', ' ')
+        open_and_search(driver, profile, enter=True)
+        sleep(10)
+        info.append({"profile": profile, "data": scrapeprofile(driver)})
     return info
 
 
