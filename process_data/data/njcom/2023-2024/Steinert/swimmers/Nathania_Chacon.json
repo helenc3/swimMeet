@@ -1,0 +1,74 @@
+{
+  "swimmer": "Nathania Chacon",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "1:48.29"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "1:33.01"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "1:28.89"
+        },
+        {
+          "location": "1/5/2024, Steinert (37) at West Windsor-Plainsboro North (132)",
+          "time": "1:33.02"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "2:13.72"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "2:45.58"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "2:56.15"
+        },
+        {
+          "location": "12/14/2023, Steinert (104) at Nottingham (58)",
+          "time": "3:15.00"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "3:28.82"
+        },
+        {
+          "location": "1/5/2024, Steinert (37) at West Windsor-Plainsboro North (132)",
+          "time": "3:33.10"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hopewell Valley (120) at Steinert (44)",
+          "time": "5:35.27"
+        }
+      ]
+    }
+  ]
+}

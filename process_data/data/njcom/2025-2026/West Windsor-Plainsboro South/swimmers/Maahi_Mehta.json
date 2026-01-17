@@ -1,0 +1,121 @@
+{
+  "swimmer": "Maahi Mehta",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "1:15.13"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "1:16.11"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "1:22.84"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "2:03.14"
+        },
+        {
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "1:56.56"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "2:29.62"
+        },
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "2:25.46"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "2:47.23"
+        },
+        {
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "2:47.50"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "2:10.75"
+        },
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "2:18.13"
+        },
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "2:18.97"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "4:09.97"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "4:09.95"
+        },
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "4:09.60"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "4:20.65"
+        },
+        {
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "4:42.39"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "06:38.93"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "06:36.94"
+        }
+      ]
+    }
+  ]
+}

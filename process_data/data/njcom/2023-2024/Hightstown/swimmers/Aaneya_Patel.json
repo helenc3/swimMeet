@@ -1,0 +1,115 @@
+{
+  "swimmer": "Aaneya Patel",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "1:52.36"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/7/2023, Nottingham (45) at Hightstown (116)",
+          "time": "1:40.35"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "1:26.29"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro South (111) at Hightstown (59)",
+          "time": "1:43.24"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "1:51.75"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "1:20.37"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Nottingham (45) at Hightstown (116)",
+          "time": "2:31.58"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "2:08.65"
+        },
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "2:39.77"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro South (111) at Hightstown (59)",
+          "time": "2:22.99"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "2:23.11"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Nottingham (45) at Hightstown (116)",
+          "time": "3:22.22"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "2:59.80"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro South (111) at Hightstown (59)",
+          "time": "3:09.73"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "3:15.04"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Nottingham (45) at Hightstown (116)",
+          "time": "2:34.18"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "2:18.48"
+        },
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "2:35.85"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro South (111) at Hightstown (59)",
+          "time": "2:35.26"
+        },
+        {
+          "location": "12/21/2023, Steinert (62) at Hightstown (104)",
+          "time": "3:00.76"
+        }
+      ]
+    }
+  ]
+}

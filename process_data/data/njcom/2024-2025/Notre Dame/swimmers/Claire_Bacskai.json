@@ -1,0 +1,144 @@
+{
+  "swimmer": "Claire Bacskai",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/9/2024, Nottingham (27) at Notre Dame (137)",
+          "time": "1:10.95"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "1:23.06"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Nottingham (27) at Notre Dame (137)",
+          "time": "2:03.52"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "2:27.53"
+        },
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "2:08.00"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "2:05.22"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "3:03.46"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:34.35"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "2:34.50"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "2:37.95"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "3:02.79"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "2:14.77"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "5:24.59"
+        },
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "4:32.91"
+        },
+        {
+          "location": "12/18/2024, Notre Dame (106) at Lawrence (64)",
+          "time": "5:21.09"
+        },
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "4:58.97"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "4:36.67"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "4:43.90"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "5:28.26"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "4:22.65"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "0:31.25"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "07:26.96"
+        },
+        {
+          "location": "12/18/2024, Notre Dame (106) at Lawrence (64)",
+          "time": "06:30.14"
+        },
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "07:23.20"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "07:15.96"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "07:06.76"
+        }
+      ]
+    }
+  ]
+}

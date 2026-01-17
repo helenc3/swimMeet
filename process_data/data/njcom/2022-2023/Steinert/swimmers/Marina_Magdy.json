@@ -1,0 +1,51 @@
+{
+  "swimmer": "Marina Magdy",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/8/2022, Steinert (38) at Hopewell Valley (130)",
+          "time": "2:02.19"
+        },
+        {
+          "location": "12/12/2022, Steinert (46) at Notre Dame (122)",
+          "time": "3:21.31"
+        },
+        {
+          "location": "12/14/2022, Nottingham (66) at Steinert (83)",
+          "time": "2:50.97"
+        },
+        {
+          "location": "12/20/2022, Hightstown (112) at Steinert (55)",
+          "time": "2:56.67"
+        },
+        {
+          "location": "1/5/2023, West Windsor-Plainsboro North (127) at Steinert (40)",
+          "time": "3:08.59"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "2:47.67"
+        },
+        {
+          "location": "1/12/2023, Steinert (39) at West Windsor-Plainsboro South (125)",
+          "time": "3:14.74"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2022, Steinert (46) at Notre Dame (122)",
+          "time": "7:16.24"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "6:36.27"
+        }
+      ]
+    }
+  ]
+}

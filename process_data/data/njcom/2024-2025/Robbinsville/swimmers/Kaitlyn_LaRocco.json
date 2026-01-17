@@ -1,0 +1,91 @@
+{
+  "swimmer": "Kaitlyn LaRocco",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "1:41.89"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:27.80"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:27.41"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:18.65"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "2:18.44"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "3:27.96"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "2:10.09"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "3:43.91"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "3:00.02"
+        },
+        {
+          "location": "2/10/2025, Ocean Township (75) at Robbinsville (95), NJSIAA Tournament, Semifinal Round, South, Group C",
+          "time": "2:42.58"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "2:25.81"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "5:58.48"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "5:58.99"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "09:35.07"
+        }
+      ]
+    }
+  ]
+}

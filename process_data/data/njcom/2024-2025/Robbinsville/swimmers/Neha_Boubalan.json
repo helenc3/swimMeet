@@ -1,0 +1,139 @@
+{
+  "swimmer": "Neha Boubalan",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:02.69"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "1:32.25"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "1:35.12"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "1:52.05"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "1:44.66"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:30.95"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "2:18.44"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "2:21.90"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "3:21.54"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "3:31.36"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "3:14.45"
+        },
+        {
+          "location": "2/10/2025, Ocean Township (75) at Robbinsville (95), NJSIAA Tournament, Semifinal Round, South, Group C",
+          "time": "3:07.50"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "3:03.48"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:37.01"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:41.43"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "5:30.34"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "5:43.63"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "5:39.35"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "5:30.60"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "0:35.89"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "09:27.83"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "swimmer": "Myla Young",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/20/2022, Hamilton West (94) at Nottingham (56)",
+          "time": "3:57.73"
+        },
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "3:33.54"
+        },
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "3:40.15"
+        },
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "3:21.58"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "2:57.65"
+        },
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "3:29.31"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "7:40.33"
+        },
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "7:08.82"
+        },
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "7:26.22"
+        }
+      ]
+    }
+  ]
+}

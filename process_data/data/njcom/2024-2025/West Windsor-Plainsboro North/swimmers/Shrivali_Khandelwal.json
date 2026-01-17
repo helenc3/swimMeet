@@ -1,0 +1,100 @@
+{
+  "swimmer": "Shrivali Khandelwal",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "1:43.02"
+        },
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "1:37.59"
+        },
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "1:36.86"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "2:30.76"
+        },
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "2:28.83"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "2:13.76"
+        },
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "2:27.99"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "3:04.46"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "3:02.18"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "2:37.97"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "5:36.25"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "5:23.77"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "5:13.77"
+        },
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "5:15.43"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "07:23.01"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "swimmer": "Sophia Vergari",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "1:32.84"
+        },
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "1:30.00"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "1:17.85"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "1:20.55"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:46.44"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:08.10"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:12.13"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:37.18"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "3:08.29"
+        },
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "3:07.70"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:20.11"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:32.36"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "6:32.24"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "5:22.49"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "0:32.85"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "0:33.53"
+        }
+      ]
+    }
+  ]
+}

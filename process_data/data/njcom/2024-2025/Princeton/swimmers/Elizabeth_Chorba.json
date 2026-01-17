@@ -1,0 +1,130 @@
+{
+  "swimmer": "Elizabeth Chorba",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "1:54.80"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "2:08.44"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "2:10.65"
+        },
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "2:12.97"
+        },
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "2:12.32"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:13.30"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:18.19"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "2:14.94"
+        },
+        {
+          "location": "2/6/2025, Red Bank Regional (67) at Princeton (103), NJSIAA Tournament, Quarterfinal Round, North 2, Group B",
+          "time": "2:14.75"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "2:15.34"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:04.66"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "3:59.21"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "4:15.74"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "4:13.69"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "4:14.25"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "4:18.04"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "05:54.44"
+        },
+        {
+          "location": "12/9/2024, Steinert (64) at Princeton (93)",
+          "time": "06:02.27"
+        },
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "06:05.32"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "06:05.93"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "06:15.78"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "05:59.73"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "06:01.85"
+        },
+        {
+          "location": "2/6/2025, Red Bank Regional (67) at Princeton (103), NJSIAA Tournament, Quarterfinal Round, North 2, Group B",
+          "time": "06:13.51"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "05:56.16"
+        }
+      ]
+    }
+  ]
+}

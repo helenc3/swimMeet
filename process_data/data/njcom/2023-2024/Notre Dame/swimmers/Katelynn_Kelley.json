@@ -1,0 +1,30 @@
+{
+  "swimmer": "Katelynn Kelley",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:19.42"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "2:29.13"
+        },
+        {
+          "location": "1/9/2024, Notre Dame (101) at Hopewell Valley (69)",
+          "time": "2:21.34"
+        },
+        {
+          "location": "1/11/2024, Notre Dame (115) at Hightstown (55)",
+          "time": "2:48.01"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "2:42.31"
+        }
+      ]
+    }
+  ]
+}

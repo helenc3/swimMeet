@@ -1,0 +1,235 @@
+{
+  "swimmer": "Grace Kunkel",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/14/2022, Hopewell Valley (68) at West Windsor-Plainsboro South (102)",
+          "time": "1:22.53"
+        },
+        {
+          "location": "12/19/2022, Hopewell Valley (99) at Robbinsville (71)",
+          "time": "1:11.78"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "1:09.97"
+        },
+        {
+          "location": "1/7/2023, Hopewell Valley (75) at Pennington (95)",
+          "time": "1:10.51"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "1:13.05"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "1:20.48"
+        },
+        {
+          "location": "2/14/2023, Shore (95) at Hopewell Valley (75), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "1:09.37"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/3/2023, Hopewell Valley (117) at Hightstown (53)",
+          "time": "1:48.38"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "1:38.62"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "1:01.02"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "1:09.48"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Princeton (104) at Hopewell Valley (66)",
+          "time": "1:59.82"
+        },
+        {
+          "location": "1/3/2023, Hopewell Valley (117) at Hightstown (53)",
+          "time": "2:08.16"
+        },
+        {
+          "location": "1/7/2023, Hopewell Valley (75) at Pennington (95)",
+          "time": "1:47.36"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "1:50.98"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "1:53.57"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "2:03.33"
+        },
+        {
+          "location": "1/23/2023, Nottingham (42) at Hopewell Valley (135)",
+          "time": "1:56.90"
+        },
+        {
+          "location": "1/23/2023, at Hopewell Valley (135)",
+          "time": "1:56.90"
+        },
+        {
+          "location": "2/14/2023, Shore (95) at Hopewell Valley (75), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "1:44.53"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "2:19.14"
+        },
+        {
+          "location": "1/7/2023, Hopewell Valley (75) at Pennington (95)",
+          "time": "2:17.95"
+        },
+        {
+          "location": "2/14/2023, Shore (95) at Hopewell Valley (75), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "2:14.34"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/3/2023, Hopewell Valley (117) at Hightstown (53)",
+          "time": "3:02.08"
+        },
+        {
+          "location": "1/23/2023, Nottingham (42) at Hopewell Valley (135)",
+          "time": "2:43.64"
+        },
+        {
+          "location": "1/23/2023, at Hopewell Valley (135)",
+          "time": "2:45.29"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/14/2022, Hopewell Valley (68) at West Windsor-Plainsboro South (102)",
+          "time": "2:34.09"
+        },
+        {
+          "location": "12/19/2022, Hopewell Valley (99) at Robbinsville (71)",
+          "time": "2:18.70"
+        },
+        {
+          "location": "12/22/2022, Princeton (104) at Hopewell Valley (66)",
+          "time": "2:09.61"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "2:02.92"
+        },
+        {
+          "location": "1/7/2023, Hopewell Valley (75) at Pennington (95)",
+          "time": "1:58.57"
+        },
+        {
+          "location": "1/9/2023, Hopewell Valley (90) at Notre Dame (80)",
+          "time": "2:06.97"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "2:12.34"
+        },
+        {
+          "location": "1/19/2023, Hopewell Valley (109) at West Windsor-Plainsboro North (61)",
+          "time": "2:17.85"
+        },
+        {
+          "location": "2/14/2023, Shore (95) at Hopewell Valley (75), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "1:59.36"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/14/2022, Hopewell Valley (68) at West Windsor-Plainsboro South (102)",
+          "time": "4:57.53"
+        },
+        {
+          "location": "12/19/2022, Hopewell Valley (99) at Robbinsville (71)",
+          "time": "4:21.41"
+        },
+        {
+          "location": "1/5/2023, Lawrence (68) at Hopewell Valley (102)",
+          "time": "4:14.55"
+        },
+        {
+          "location": "1/23/2023, Nottingham (42) at Hopewell Valley (135)",
+          "time": "4:15.64"
+        },
+        {
+          "location": "1/23/2023, at Hopewell Valley (135)",
+          "time": "4:30.00"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/14/2022, Hopewell Valley (68) at West Windsor-Plainsboro South (102)",
+          "time": "0:32.11"
+        },
+        {
+          "location": "12/19/2022, Hopewell Valley (99) at Robbinsville (71)",
+          "time": "0:28.70"
+        },
+        {
+          "location": "12/22/2022, Princeton (104) at Hopewell Valley (66)",
+          "time": "0:28.05"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "0:28.69"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/22/2022, Princeton (104) at Hopewell Valley (66)",
+          "time": "06:21.40"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "swimmer": "Lia Cristino",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "1:43.64"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:18.56"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:05.63"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:46.44"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:43.23"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "3:07.70"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:53.05"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "6:01.23"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "6:32.24"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "7:00.06"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "5:40.72"
+        },
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "5:44.15"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "0:41.97"
+        }
+      ]
+    }
+  ]
+}

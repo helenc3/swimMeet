@@ -1,0 +1,178 @@
+{
+  "swimmer": "Kylie Molnar",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/8/2022, Princeton (135) at Hamilton West (30)",
+          "time": "2:13.88"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "2:05.57"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "2:19.03"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "2:05.34"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "2:01.57"
+        },
+        {
+          "location": "1/17/2023, Steinert (86) at Hamilton West (76)",
+          "time": "1:49.07"
+        },
+        {
+          "location": "1/19/2023, Hamilton West (43) at West Windsor-Plainsboro South (118)",
+          "time": "2:04.50"
+        },
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "1:56.60"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "1:32.41"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "1:41.22"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "2:36.32"
+        },
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "2:36.16"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "2:36.22"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "2:17.28"
+        },
+        {
+          "location": "1/19/2023, Hamilton West (43) at West Windsor-Plainsboro South (118)",
+          "time": "2:54.84"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/5/2023, Notre Dame (112) at Hamilton West (57)",
+          "time": "3:53.65"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/20/2022, Hamilton West (94) at Nottingham (56)",
+          "time": "3:16.90"
+        },
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "2:57.65"
+        },
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "3:29.31"
+        },
+        {
+          "location": "1/10/2023, Hamilton West (40) at West Windsor-Plainsboro North (120)",
+          "time": "3:07.66"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "3:08.00"
+        },
+        {
+          "location": "1/17/2023, Steinert (86) at Hamilton West (76)",
+          "time": "2:59.56"
+        },
+        {
+          "location": "1/19/2023, Hamilton West (43) at West Windsor-Plainsboro South (118)",
+          "time": "3:12.84"
+        },
+        {
+          "location": "1/23/2023, Robbinsville (112) at Hamilton West (50)",
+          "time": "2:57.42"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2022, Princeton (135) at Hamilton West (30)",
+          "time": "5:06.08"
+        },
+        {
+          "location": "12/20/2022, Hamilton West (94) at Nottingham (56)",
+          "time": "6:35.12"
+        },
+        {
+          "location": "12/22/2022, Hightstown (118) at Hamilton West (45)",
+          "time": "5:13.95"
+        },
+        {
+          "location": "1/17/2023, Steinert (86) at Hamilton West (76)",
+          "time": "5:13.40"
+        },
+        {
+          "location": "1/19/2023, Hamilton West (43) at West Windsor-Plainsboro South (118)",
+          "time": "6:41.45"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/20/2022, Hamilton West (94) at Nottingham (56)",
+          "time": "0:43.37"
+        },
+        {
+          "location": "1/12/2023, Hopewell Valley (136) at Hamilton West (32)",
+          "time": "0:38.35"
+        },
+        {
+          "location": "1/17/2023, Steinert (86) at Hamilton West (76)",
+          "time": "0:38.95"
+        }
+      ]
+    }
+  ]
+}

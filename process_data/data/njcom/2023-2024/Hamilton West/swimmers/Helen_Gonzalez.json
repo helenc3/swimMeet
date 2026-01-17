@@ -1,0 +1,92 @@
+{
+  "swimmer": "Helen Gonzalez",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "3:24.19"
+        },
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "3:21.80"
+        },
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "2:56.12"
+        },
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "3:19.41"
+        },
+        {
+          "location": "12/21/2023, Nottingham (76) at Hamilton West (84)",
+          "time": "3:08.81"
+        },
+        {
+          "location": "1/5/2024, Hamilton West (35) at Notre Dame (131)",
+          "time": "2:58.84"
+        },
+        {
+          "location": "1/9/2024, West Windsor-Plainsboro North (129) at Hamilton West (39)",
+          "time": "2:55.12"
+        },
+        {
+          "location": "1/17/2024, Hamilton West (54) at West Windsor-Plainsboro South (109)",
+          "time": "3:14.51"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "3:29.16"
+        },
+        {
+          "location": "1/30/2024, Hamilton West (45) at Robbinsville (124)",
+          "time": "2:51.48"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/11/2023, Lacey (115) at Hamilton West (50)",
+          "time": "8:38.63"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "0:59.71"
+        },
+        {
+          "location": "1/5/2024, Hamilton West (35) at Notre Dame (131)",
+          "time": "0:45.01"
+        },
+        {
+          "location": "1/9/2024, West Windsor-Plainsboro North (129) at Hamilton West (39)",
+          "time": "0:48.92"
+        },
+        {
+          "location": "1/11/2024, Hamilton West (35) at Hopewell Valley (133)",
+          "time": "0:46.20"
+        },
+        {
+          "location": "1/15/2024, Hamilton West (55) at Steinert (107)",
+          "time": "0:46.35"
+        },
+        {
+          "location": "1/17/2024, Hamilton West (54) at West Windsor-Plainsboro South (109)",
+          "time": "0:46.23"
+        },
+        {
+          "location": "1/22/2024, Hamilton West (40) at Hightstown (124)",
+          "time": "0:53.77"
+        }
+      ]
+    }
+  ]
+}

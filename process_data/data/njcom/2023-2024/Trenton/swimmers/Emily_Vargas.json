@@ -1,0 +1,90 @@
+{
+  "swimmer": "Emily Vargas",
+  "data": [
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/18/2023, Trenton (38) at Notre Dame (126)",
+          "time": "1:58.73"
+        },
+        {
+          "location": "1/3/2024, Steinert (108) at Trenton (56)",
+          "time": "1:59.17"
+        },
+        {
+          "location": "1/17/2024, Trenton (51) at Nottingham (99)",
+          "time": "2:17.00"
+        },
+        {
+          "location": "1/19/2024, Lawrence (135) at Trenton (26)",
+          "time": "1:56.82"
+        },
+        {
+          "location": "1/30/2024, Hopewell Valley (136) at Trenton (27)",
+          "time": "1:55.86"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "1:57.64"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "2:18.56"
+        },
+        {
+          "location": "12/21/2023, West Windsor-Plainsboro South (112) at Trenton (42)",
+          "time": "2:31.83"
+        },
+        {
+          "location": "1/3/2024, Steinert (108) at Trenton (56)",
+          "time": "2:46.22"
+        },
+        {
+          "location": "1/17/2024, Trenton (51) at Nottingham (99)",
+          "time": "2:58.71"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/11/2024, Trenton (29) at Princeton (136)",
+          "time": "4:10.52"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "3:08.94"
+        },
+        {
+          "location": "1/30/2024, Hopewell Valley (136) at Trenton (27)",
+          "time": "2:53.56"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/21/2023, West Windsor-Plainsboro South (112) at Trenton (42)",
+          "time": "6:28.92"
+        },
+        {
+          "location": "1/3/2024, Steinert (108) at Trenton (56)",
+          "time": "7:12.09"
+        }
+      ]
+    }
+  ]
+}

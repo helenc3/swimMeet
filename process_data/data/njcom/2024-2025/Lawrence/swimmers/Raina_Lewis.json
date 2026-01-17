@@ -1,0 +1,177 @@
+{
+  "swimmer": "Raina Lewis",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "1/17/2025, Hamilton West (42) at Lawrence (123)",
+          "time": "1:32.16"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "1:29.77"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "1:34.01"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "1:38.48"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "1:27.07"
+        },
+        {
+          "location": "1/8/2025, Trenton (41) at Lawrence (126)",
+          "time": "1:32.68"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "1:32.90"
+        },
+        {
+          "location": "2/4/2025, Neptune (55) at Lawrence (114), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "1:37.32"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "1:29.74"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "1:06.62"
+        },
+        {
+          "location": "1/17/2025, Hamilton West (42) at Lawrence (123)",
+          "time": "1:12.04"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "1:58.77"
+        },
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "2:14.65"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "1:59.69"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:15.88"
+        },
+        {
+          "location": "1/8/2025, Trenton (41) at Lawrence (126)",
+          "time": "2:31.93"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "2:12.65"
+        },
+        {
+          "location": "2/4/2025, Neptune (55) at Lawrence (114), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:13.51"
+        },
+        {
+          "location": "2/6/2025, Lawrence (70) at West Windsor-Plainsboro North (100), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:10.14"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "3:02.98"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "2:46.97"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "3:06.37"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "3:03.44"
+        },
+        {
+          "location": "2/4/2025, Neptune (55) at Lawrence (114), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "3:03.32"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "2:14.62"
+        },
+        {
+          "location": "12/11/2024, West Windsor-Plainsboro South (101) at Lawrence (68)",
+          "time": "2:25.81"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "2:20.02"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:25.87"
+        },
+        {
+          "location": "1/8/2025, Trenton (41) at Lawrence (126)",
+          "time": "2:34.48"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro North (101) at Lawrence (69)",
+          "time": "2:28.79"
+        },
+        {
+          "location": "1/17/2025, Hamilton West (42) at Lawrence (123)",
+          "time": "2:42.90"
+        },
+        {
+          "location": "2/4/2025, Neptune (55) at Lawrence (114), NJSIAA Tournament, First Round, Central, Group B",
+          "time": "2:26.60"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "05:56.27"
+        }
+      ]
+    }
+  ]
+}

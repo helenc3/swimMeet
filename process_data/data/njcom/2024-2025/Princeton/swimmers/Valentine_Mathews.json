@@ -1,0 +1,81 @@
+{
+  "swimmer": "Valentine Mathews",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "1:32.29"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "2:35.41"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:15.68"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "2:10.08"
+        },
+        {
+          "location": "2/6/2025, Red Bank Regional (67) at Princeton (103), NJSIAA Tournament, Quarterfinal Round, North 2, Group B",
+          "time": "2:08.89"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "2:19.95"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "2:42.66"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/5/2024, Lawrence (61) at Princeton (94)",
+          "time": "5:29.97"
+        },
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "5:31.46"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "5:00.70"
+        },
+        {
+          "location": "12/19/2024, Princeton (79) at West Windsor-Plainsboro South (91)",
+          "time": "5:08.00"
+        },
+        {
+          "location": "1/9/2025, West Windsor-Plainsboro North (51) at Princeton (119)",
+          "time": "5:01.11"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "4:49.75"
+        },
+        {
+          "location": "2/10/2025, Princeton (61) at Chatham (109), NJSIAA Tournament, Semifinal Round, North 2, Group B",
+          "time": "4:44.65"
+        }
+      ]
+    }
+  ]
+}

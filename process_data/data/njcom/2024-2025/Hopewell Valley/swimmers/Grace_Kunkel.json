@@ -1,0 +1,218 @@
+{
+  "swimmer": "Grace Kunkel",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "1:08.27"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "1:10.23"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "1:08.19"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "1:21.28"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "0:58.98"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "1:00.28"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "1:05.60"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "1:00.91"
+        },
+        {
+          "location": "1/11/2025, Pennington (95) at Hopewell Valley (75)",
+          "time": "0:58.94"
+        },
+        {
+          "location": "2/6/2025, Metuchen (77) at Hopewell Valley (93), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "0:59.17"
+        },
+        {
+          "location": "2/10/2025, Hopewell Valley (78) at Gov. Livingston (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "0:58.58"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "1:56.23"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "1:53.77"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "1:49.50"
+        },
+        {
+          "location": "2/6/2025, Metuchen (77) at Hopewell Valley (93), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "1:48.11"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:34.96"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "2:02.86"
+        },
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "2:07.99"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:05.52"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "2:03.80"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "2:14.49"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "2:00.19"
+        },
+        {
+          "location": "1/11/2025, Pennington (95) at Hopewell Valley (75)",
+          "time": "2:00.71"
+        },
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "2:09.33"
+        },
+        {
+          "location": "2/6/2025, Metuchen (77) at Hopewell Valley (93), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "1:57.92"
+        },
+        {
+          "location": "2/10/2025, Hopewell Valley (78) at Gov. Livingston (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "1:58.84"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "4:11.69"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "4:07.77"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "4:31.10"
+        },
+        {
+          "location": "1/11/2025, Pennington (95) at Hopewell Valley (75)",
+          "time": "4:05.10"
+        },
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "4:26.75"
+        },
+        {
+          "location": "2/10/2025, Hopewell Valley (78) at Gov. Livingston (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "4:21.38"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "0:26.84"
+        },
+        {
+          "location": "12/10/2024, Princeton (100) at Hopewell Valley (65)",
+          "time": "0:26.44"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "0:26.01"
+        },
+        {
+          "location": "1/3/2025, Lawrence (63) at Hopewell Valley (107)",
+          "time": "0:26.55"
+        },
+        {
+          "location": "1/7/2025, Hopewell Valley (78) at West Windsor-Plainsboro North (92)",
+          "time": "0:29.71"
+        },
+        {
+          "location": "1/9/2025, Hopewell Valley (67) at West Windsor-Plainsboro South (103)",
+          "time": "0:26.93"
+        },
+        {
+          "location": "1/11/2025, Pennington (95) at Hopewell Valley (75)",
+          "time": "0:26.25"
+        },
+        {
+          "location": "2/6/2025, Metuchen (77) at Hopewell Valley (93), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "0:26.30"
+        },
+        {
+          "location": "2/10/2025, Hopewell Valley (78) at Gov. Livingston (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "0:26.59"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/16/2025, Steinert (49) at Hopewell Valley (121)",
+          "time": "06:02.13"
+        }
+      ]
+    }
+  ]
+}

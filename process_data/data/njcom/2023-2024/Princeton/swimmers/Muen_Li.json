@@ -1,0 +1,99 @@
+{
+  "swimmer": "Muen Li",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "1:36.43"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "1:36.85"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "1:10.52"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "2:07.03"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "1:58.55"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "2:00.17"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/11/2024, Trenton (29) at Princeton (136)",
+          "time": "2:36.69"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "2:14.66"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro North (39) at Princeton (131)",
+          "time": "2:11.71"
+        },
+        {
+          "location": "12/21/2023, Hopewell Valley (38) at Princeton (132)",
+          "time": "2:15.21"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Hamilton West (40) at Princeton (114)",
+          "time": "5:08.31"
+        },
+        {
+          "location": "12/12/2023, Hightstown (37) at Princeton (133)",
+          "time": "4:23.74"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "4:28.67"
+        },
+        {
+          "location": "12/19/2023, West Windsor-Plainsboro North (39) at Princeton (131)",
+          "time": "4:21.16"
+        },
+        {
+          "location": "1/11/2024, Trenton (29) at Princeton (136)",
+          "time": "4:45.17"
+        },
+        {
+          "location": "1/18/2024, Princeton (111) at Steinert (53)",
+          "time": "4:51.07"
+        }
+      ]
+    }
+  ]
+}

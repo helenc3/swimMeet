@@ -1,0 +1,131 @@
+{
+  "swimmer": "Karleigh Iraca",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/9/2024, Nottingham (27) at Notre Dame (137)",
+          "time": "1:30.90"
+        },
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "1:27.72"
+        },
+        {
+          "location": "12/18/2024, Notre Dame (106) at Lawrence (64)",
+          "time": "1:38.41"
+        },
+        {
+          "location": "1/7/2025, Notre Dame (71) at West Windsor-Plainsboro South (99)",
+          "time": "1:30.25"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "1:27.65"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "1:24.50"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "1:24.81"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "1:15.55"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "2:13.15"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "2:35.22"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/9/2024, Nottingham (27) at Notre Dame (137)",
+          "time": "2:43.47"
+        },
+        {
+          "location": "12/11/2024, Notre Dame (79) at West Windsor-Plainsboro North (91)",
+          "time": "3:23.11"
+        },
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "2:31.73"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:35.60"
+        },
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "2:33.70"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "2:53.50"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "2:24.38"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "5:20.60"
+        },
+        {
+          "location": "12/17/2024, Notre Dame (125) at Hamilton West (41)",
+          "time": "4:32.91"
+        },
+        {
+          "location": "12/18/2024, Notre Dame (106) at Lawrence (64)",
+          "time": "6:01.15"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "5:27.38"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "5:26.70"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "4:55.37"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/4/2024, Hopewell Valley (74) at Notre Dame (96)",
+          "time": "0:34.86"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "swimmer": "Angeina Penaloza",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "2:18.56"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "3:08.94"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Trenton (61) at Hamilton West (80)",
+          "time": "0:30.09"
+        },
+        {
+          "location": "12/18/2023, Trenton (38) at Notre Dame (126)",
+          "time": "0:30.52"
+        }
+      ]
+    }
+  ]
+}

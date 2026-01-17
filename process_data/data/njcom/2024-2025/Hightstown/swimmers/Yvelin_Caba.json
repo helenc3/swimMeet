@@ -1,0 +1,69 @@
+{
+  "swimmer": "Yvelin Caba",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:02.97"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "1:49.53"
+        },
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "1:46.68"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:00.68"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:46.44"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:17.26"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:23.83"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:53.05"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:55.03"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:51.68"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "0:41.95"
+        }
+      ]
+    }
+  ]
+}

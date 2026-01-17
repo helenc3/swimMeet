@@ -1,0 +1,53 @@
+{
+  "swimmer": "Maddison Rabby",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/10/2025, Steinert (114) at Nottingham (54)",
+          "time": "2:14.95"
+        },
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "1:51.05"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/10/2025, Steinert (114) at Nottingham (54)",
+          "time": "1:47.23"
+        },
+        {
+          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
+          "time": "1:27.98"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/10/2025, Steinert (114) at Nottingham (54)",
+          "time": "3:14.15"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "3:07.58"
+        },
+        {
+          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
+          "time": "2:54.12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "swimmer": "Liah Kibbey",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/12/2023, Lawrence (136) at Nottingham (27)",
+          "time": "1:32.09"
+        },
+        {
+          "location": "12/22/2023, Lawrence (77) at West Windsor-Plainsboro South (92)",
+          "time": "1:21.24"
+        },
+        {
+          "location": "1/5/2024, Hopewell Valley (71) at Lawrence (99)",
+          "time": "1:28.46"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "1:27.92"
+        },
+        {
+          "location": "2/7/2024, West Windsor-Plainsboro South (88) at Lawrence (82), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "1:25.16"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/12/2023, Lawrence (136) at Nottingham (27)",
+          "time": "1:28.50"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "1:17.89"
+        },
+        {
+          "location": "1/19/2024, Lawrence (135) at Trenton (26)",
+          "time": "1:17.45"
+        },
+        {
+          "location": "1/30/2024, Steinert (33) at Lawrence (134)",
+          "time": "1:24.65"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "1:11.07"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "2:17.49"
+        },
+        {
+          "location": "1/19/2024, Lawrence (135) at Trenton (26)",
+          "time": "2:07.42"
+        },
+        {
+          "location": "1/30/2024, Steinert (33) at Lawrence (134)",
+          "time": "2:18.12"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/30/2024, Steinert (33) at Lawrence (134)",
+          "time": "2:30.30"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/7/2023, Lawrence (109) at West Windsor-Plainsboro North (61)",
+          "time": "2:50.13"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "2:52.08"
+        },
+        {
+          "location": "12/22/2023, Lawrence (77) at West Windsor-Plainsboro South (92)",
+          "time": "2:35.11"
+        },
+        {
+          "location": "1/5/2024, Hopewell Valley (71) at Lawrence (99)",
+          "time": "2:49.38"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "2:50.07"
+        },
+        {
+          "location": "1/17/2024, Princeton (119) at Lawrence (49)",
+          "time": "2:53.81"
+        },
+        {
+          "location": "2/7/2024, West Windsor-Plainsboro South (88) at Lawrence (82), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:42.75"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Lawrence (109) at West Windsor-Plainsboro North (61)",
+          "time": "2:19.89"
+        },
+        {
+          "location": "12/12/2023, Lawrence (136) at Nottingham (27)",
+          "time": "2:25.52"
+        },
+        {
+          "location": "12/14/2023, Hightstown (62) at Lawrence (108)",
+          "time": "2:41.64"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "2:16.20"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "2:33.52"
+        },
+        {
+          "location": "12/22/2023, Lawrence (77) at West Windsor-Plainsboro South (92)",
+          "time": "2:11.58"
+        },
+        {
+          "location": "1/5/2024, Hopewell Valley (71) at Lawrence (99)",
+          "time": "2:29.72"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "2:21.72"
+        },
+        {
+          "location": "1/17/2024, Princeton (119) at Lawrence (49)",
+          "time": "2:24.45"
+        },
+        {
+          "location": "1/19/2024, Lawrence (135) at Trenton (26)",
+          "time": "2:22.95"
+        },
+        {
+          "location": "1/30/2024, Steinert (33) at Lawrence (134)",
+          "time": "2:28.75"
+        },
+        {
+          "location": "2/7/2024, West Windsor-Plainsboro South (88) at Lawrence (82), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "2:26.86"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Lawrence (109) at West Windsor-Plainsboro North (61)",
+          "time": "4:39.22"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "4:02.54"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "4:33.36"
+        },
+        {
+          "location": "12/22/2023, Lawrence (77) at West Windsor-Plainsboro South (92)",
+          "time": "4:17.93"
+        },
+        {
+          "location": "1/5/2024, Hopewell Valley (71) at Lawrence (99)",
+          "time": "4:50.48"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "4:35.22"
+        },
+        {
+          "location": "1/17/2024, Princeton (119) at Lawrence (49)",
+          "time": "4:44.01"
+        },
+        {
+          "location": "2/7/2024, West Windsor-Plainsboro South (88) at Lawrence (82), NJSIAA Tournament, Quarterfinal Round, Central, Group B",
+          "time": "4:46.19"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Lawrence (109) at West Windsor-Plainsboro North (61)",
+          "time": "05:25.22"
+        },
+        {
+          "location": "12/19/2023, Lawrence (124) at Hamilton West (35)",
+          "time": "06:06.20"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "05:15.71"
+        },
+        {
+          "location": "1/17/2024, Princeton (119) at Lawrence (49)",
+          "time": "05:19.43"
+        }
+      ]
+    }
+  ]
+}

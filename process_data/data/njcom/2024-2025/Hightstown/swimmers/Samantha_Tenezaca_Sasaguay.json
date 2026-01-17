@@ -1,0 +1,53 @@
+{
+  "swimmer": "Samantha Tenezaca Sasaguay",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "1:40.71"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:43.23"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:37.18"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:17.26"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "5:40.50"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "5:40.72"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "07:54.57"
+        }
+      ]
+    }
+  ]
+}

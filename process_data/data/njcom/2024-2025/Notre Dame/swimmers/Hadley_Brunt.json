@@ -1,0 +1,40 @@
+{
+  "swimmer": "Hadley Brunt",
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/14/2025, Princeton (112) at Notre Dame (58)",
+          "time": "3:05.10"
+        },
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "3:11.67"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "3:29.66"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/16/2025, Notre Dame (134) at Trenton (32)",
+          "time": "2:53.50"
+        },
+        {
+          "location": "2/3/2025, Notre Dame (85) at St. Rose (86), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "2:51.83"
+        }
+      ]
+    }
+  ]
+}

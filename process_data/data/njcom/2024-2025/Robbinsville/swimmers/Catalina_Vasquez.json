@@ -1,0 +1,148 @@
+{
+  "swimmer": "Catalina Vasquez",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "1:44.37"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "1:31.82"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "1:31.85"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "1:31.77"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "1:31.89"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "1:32.76"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "1:42.15"
+        },
+        {
+          "location": "2/10/2025, Ocean Township (75) at Robbinsville (95), NJSIAA Tournament, Semifinal Round, South, Group C",
+          "time": "1:25.89"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "1:26.36"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "1:43.88"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:33.44"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:30.95"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:25.96"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:50.28"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:33.61"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "2:21.74"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "2:45.84"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "2:22.35"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "2:17.62"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "2:37.45"
+        },
+        {
+          "location": "2/10/2025, Ocean Township (75) at Robbinsville (95), NJSIAA Tournament, Semifinal Round, South, Group C",
+          "time": "2:13.88"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "2:13.60"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "5:57.72"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "5:43.63"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "5:30.60"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "0:36.62"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "07:04.22"
+        }
+      ]
+    }
+  ]
+}

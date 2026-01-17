@@ -1,0 +1,163 @@
+{
+  "swimmer": "Kelly Lindner",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "6:59.81"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "2:06.16"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:13.88"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:37.18"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:17.26"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "2:16.15"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:23.83"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:53.42"
+        },
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "2:55.15"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:36.36"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:37.40"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "2:34.63"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:34.66"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "2:40.27"
+        },
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "2:32.60"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:48.24"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "2:28.22"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "2:20.11"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "2:21.11"
+        },
+        {
+          "location": "1/9/2025, Hightstown (65) at Notre Dame (105)",
+          "time": "2:27.99"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "2:51.68"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "5:44.14"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "5:10.07"
+        },
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "4:51.95"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "06:19.41"
+        },
+        {
+          "location": "12/13/2024, Princeton (96) at Hightstown (69)",
+          "time": "06:13.40"
+        },
+        {
+          "location": "12/17/2024, Hightstown (125) at Trenton (37)",
+          "time": "07:18.51"
+        },
+        {
+          "location": "12/19/2024, Hightstown (57) at Hopewell Valley (112)",
+          "time": "07:00.05"
+        },
+        {
+          "location": "1/7/2025, Lawrence (99) at Hightstown (71)",
+          "time": "06:12.45"
+        },
+        {
+          "location": "1/14/2025, West Windsor-Plainsboro South (102) at Hightstown (68)",
+          "time": "07:06.77"
+        },
+        {
+          "location": "1/16/2025, Hightstown (118) at Hamilton West (52)",
+          "time": "06:58.64"
+        },
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "06:00.14"
+        }
+      ]
+    }
+  ]
+}

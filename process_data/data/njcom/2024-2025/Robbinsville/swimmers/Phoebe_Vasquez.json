@@ -1,0 +1,156 @@
+{
+  "swimmer": "Phoebe Vasquez",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "1:42.16"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "1:35.81"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "1:45.27"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "1:18.12"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "1:24.20"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "1:13.54"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:14.01"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:09.96"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:18.65"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "2:15.57"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "2:40.01"
+        },
+        {
+          "location": "1/14/2025, Robbinsville (123) at Hamilton West (46)",
+          "time": "2:09.56"
+        },
+        {
+          "location": "1/16/2025, Robbinsville (85) at West Windsor-Plainsboro North (85)",
+          "time": "2:25.71"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "2:56.70"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:37.01"
+        },
+        {
+          "location": "12/16/2024, Princeton (108) at Robbinsville (62)",
+          "time": "2:33.61"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "2:33.18"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "2:25.34"
+        },
+        {
+          "location": "2/10/2025, Ocean Township (75) at Robbinsville (95), NJSIAA Tournament, Semifinal Round, South, Group C",
+          "time": "2:17.83"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "2:25.81"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "5:30.72"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "5:31.07"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "5:30.34"
+        },
+        {
+          "location": "1/7/2025, Nottingham (27) at Robbinsville (136)",
+          "time": "6:01.56"
+        },
+        {
+          "location": "1/9/2025, Steinert (56) at Robbinsville (114)",
+          "time": "5:39.35"
+        },
+        {
+          "location": "2/13/2025, Robbinsville (67) at Haddonfield (103), NJSIAA Tournament, Final Round, South, Group C",
+          "time": "4:49.81"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/9/2024, Robbinsville (79) at West Windsor-Plainsboro South (91)",
+          "time": "0:33.50"
+        },
+        {
+          "location": "12/11/2024, Robbinsville (131) at Trenton (32)",
+          "time": "0:33.71"
+        },
+        {
+          "location": "12/17/2024, Robbinsville (66.5) at Hopewell Valley (103.5)",
+          "time": "3:37.00"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "swimmer": "Natalia Rodriguez-Ibanez",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "1:20.49"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "2:42.31"
+        },
+        {
+          "location": "1/19/2024, Notre Dame (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:17.78"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:35.32"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "2:37.84"
+        },
+        {
+          "location": "1/16/2024, Lawrence (86) at Notre Dame (84)",
+          "time": "3:00.14"
+        },
+        {
+          "location": "1/19/2024, Notre Dame (79) at West Windsor-Plainsboro South (91)",
+          "time": "2:37.63"
+        },
+        {
+          "location": "2/5/2024, Notre Dame (83) at Immaculata (87), NJSIAA Tournament, First Round, Non-Public, South",
+          "time": "2:34.03"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "5:21.44"
+        }
+      ]
+    }
+  ]
+}

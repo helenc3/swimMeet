@@ -79,7 +79,7 @@ starty, endy, szn = prompt_season()
 if season_cutoff_has_passed(endy):
     chooseOtherSzn(driver, szn)
 
-os.makedirs(f"data/{szn}", exist_ok=True)
+os.makedirs(f"data/njcom/{szn}", exist_ok=True)
 
 #choose division
 divisions = get_divisions(driver)
@@ -96,25 +96,25 @@ for team in teams:
     driver.get(teams[team])
 
     # ensure team directory exists
-    os.makedirs(f"data/{szn}/{team}", exist_ok=True)
+    os.makedirs(f"data/njcom/{szn}/{team}", exist_ok=True)
 
     # if getRoster returns an iterator/zip, make it reusable
     roster = list(getRoster(driver, team))
 
     # write roster.csv (no mkdir for a file)
-    with open(f"data/{szn}/{team}/roster.csv", "w", encoding="utf-8", newline="") as f:
+    with open(f"data/njcom/{szn}/{team}/roster.csv", "w", encoding="utf-8", newline="") as f:
         f.write("name,link\n")
         for name, link in roster:
             f.write(f'"{name}","{link}"\n')
 
     # ensure swimmers directory exists
-    os.makedirs(f"data/{szn}/{team}/swimmers", exist_ok=True)
+    os.makedirs(f"data/njcom/{szn}/{team}/swimmers", exist_ok=True)
 
     for name, link in roster:
         swimmer_data = scrapeDataForOneSwimmer(driver, link, name)
         # sanitize filename (spaces → _, remove illegal chars)
         safe = re.sub(r'[\\/:"*?<>|]+', "_", name).strip().replace(" ", "_")
-        with open(f"data/{szn}/{team}/swimmers/{safe}.json", "w", encoding="utf-8") as f:
+        with open(f"data/njcom/{szn}/{team}/swimmers/{safe}.json", "w", encoding="utf-8") as f:
             json.dump(swimmer_data, f, ensure_ascii=False, indent=2)
         print(f"Saved data for {name}")
 

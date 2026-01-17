@@ -1,0 +1,71 @@
+{
+  "swimmer": "Charley Korsos",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "1:44.12"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "1:29.45"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/14/2022, Lawrence (128) at Hightstown (42)",
+          "time": "1:42.84"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "2:22.87"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2022, West Windsor-Plainsboro North (74) at Lawrence (96)",
+          "time": "2:48.56"
+        },
+        {
+          "location": "12/22/2022, West Windsor-Plainsboro South (102) at Lawrence (68)",
+          "time": "2:38.87"
+        },
+        {
+          "location": "1/10/2023, Lawrence (128) at Steinert (41)",
+          "time": "2:40.35"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/17/2023, Notre Dame (69) at Lawrence (101)",
+          "time": "5:37.15"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/28/2022, Hamilton West (41) at Lawrence (125)",
+          "time": "0:35.75"
+        }
+      ]
+    }
+  ]
+}

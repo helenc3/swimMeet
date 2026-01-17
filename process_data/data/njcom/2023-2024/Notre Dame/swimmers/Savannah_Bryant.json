@@ -1,0 +1,82 @@
+{
+  "swimmer": "Savannah Bryant",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/21/2023, West Windsor-Plainsboro North (78) at Notre Dame (92)",
+          "time": "1:06.84"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "2:19.42"
+        },
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "2:15.44"
+        },
+        {
+          "location": "12/18/2023, Trenton (38) at Notre Dame (126)",
+          "time": "2:24.80"
+        },
+        {
+          "location": "12/21/2023, West Windsor-Plainsboro North (78) at Notre Dame (92)",
+          "time": "2:01.44"
+        },
+        {
+          "location": "12/22/2023, Nottingham (32) at Notre Dame (131)",
+          "time": "2:01.00"
+        },
+        {
+          "location": "1/5/2024, Hamilton West (35) at Notre Dame (131)",
+          "time": "2:10.14"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/21/2023, West Windsor-Plainsboro North (78) at Notre Dame (92)",
+          "time": "2:25.27"
+        },
+        {
+          "location": "1/5/2024, Hamilton West (35) at Notre Dame (131)",
+          "time": "2:37.38"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/18/2023, Trenton (38) at Notre Dame (126)",
+          "time": "4:52.18"
+        },
+        {
+          "location": "12/22/2023, Nottingham (32) at Notre Dame (131)",
+          "time": "6:19.11"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2023, Notre Dame (125) at Steinert (41)",
+          "time": "0:29.88"
+        },
+        {
+          "location": "12/22/2023, Nottingham (32) at Notre Dame (131)",
+          "time": "0:29.06"
+        }
+      ]
+    }
+  ]
+}

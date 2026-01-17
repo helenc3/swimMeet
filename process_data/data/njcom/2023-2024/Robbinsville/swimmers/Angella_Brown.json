@@ -1,0 +1,244 @@
+{
+  "swimmer": "Angella Brown",
+  "data": [
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "1:08.70"
+        },
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "1:08.53"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "1:17.59"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "1:10.47"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "1:10.21"
+        },
+        {
+          "location": "2/7/2024, Robbinsville (90) at New Providence (80), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "1:08.25"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "1:34.79"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "1:16.30"
+        },
+        {
+          "location": "2/12/2024, Robbinsville (78) at Shore (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "1:09.17"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "1:01.21"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "1:02.38"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "1:01.11"
+        },
+        {
+          "location": "2/7/2024, Robbinsville (90) at New Providence (80), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "1:00.77"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "1:50.76"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "1:53.37"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "2:04.46"
+        },
+        {
+          "location": "1/11/2024, Robbinsville (0) at West Windsor-Plainsboro North (0)",
+          "time": "2:17.16"
+        },
+        {
+          "location": "1/11/2024, Nottingham (13) at Robbinsville (80)",
+          "time": "2:17.16"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "2:09.12"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "2:14.31"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "2:16.57"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "2:19.30"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "2:28.36"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "2:44.25"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "2:14.51"
+        },
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "2:03.91"
+        },
+        {
+          "location": "12/21/2023, Robbinsville (88) at Lawrence (82)",
+          "time": "2:14.01"
+        },
+        {
+          "location": "1/11/2024, Robbinsville (0) at West Windsor-Plainsboro North (0)",
+          "time": "2:14.44"
+        },
+        {
+          "location": "1/11/2024, Nottingham (13) at Robbinsville (80)",
+          "time": "2:14.44"
+        },
+        {
+          "location": "1/15/2024, Robbinsville (110) at Hightstown (60)",
+          "time": "2:24.00"
+        },
+        {
+          "location": "1/17/2024, Steinert (50) at Robbinsville (119)",
+          "time": "2:16.95"
+        },
+        {
+          "location": "1/31/2024, Trenton (36) at Robbinsville (126)",
+          "time": "2:41.15"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "1:58.54"
+        },
+        {
+          "location": "2/7/2024, Robbinsville (90) at New Providence (80), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "2:14.93"
+        },
+        {
+          "location": "2/12/2024, Robbinsville (78) at Shore (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "2:13.89"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/7/2023, Robbinsville (79) at Notre Dame (91)",
+          "time": "4:05.24"
+        },
+        {
+          "location": "12/12/2023, Robbinsville (82) at West Windsor-Plainsboro South (88)",
+          "time": "4:07.88"
+        },
+        {
+          "location": "2/5/2024, Rumson-Fair Haven (70) at Robbinsville (100), NJSIAA Tournament, First Round, Central, Group C",
+          "time": "4:29.65"
+        },
+        {
+          "location": "2/7/2024, Robbinsville (90) at New Providence (80), NJSIAA Tournament, Quarterfinal Round, Central, Group C",
+          "time": "3:49.56"
+        },
+        {
+          "location": "2/12/2024, Robbinsville (78) at Shore (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "3:39.91"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/11/2024, Robbinsville (0) at West Windsor-Plainsboro North (0)",
+          "time": "0:32.01"
+        },
+        {
+          "location": "1/11/2024, Nottingham (13) at Robbinsville (80)",
+          "time": "0:32.01"
+        },
+        {
+          "location": "2/12/2024, Robbinsville (78) at Shore (92), NJSIAA Tournament, Semifinal Round, Central, Group C",
+          "time": "0:28.30"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/14/2023, Princeton (117) at Robbinsville (53)",
+          "time": "06:08.12"
+        },
+        {
+          "location": "1/11/2024, Robbinsville (0) at West Windsor-Plainsboro North (0)",
+          "time": "05:30.96"
+        },
+        {
+          "location": "1/11/2024, Nottingham (13) at Robbinsville (80)",
+          "time": "05:30.96"
+        }
+      ]
+    }
+  ]
+}

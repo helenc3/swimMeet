@@ -1,0 +1,94 @@
+{
+  "swimmer": "Bridget Lowery",
+  "data": [
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:21.53"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:10.69"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:59.85"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "1:45.92"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "2:00.64"
+        }
+      ]
+    },
+    {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "2:32.32"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "2:15.01"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "4:18.29"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "3:44.31"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "0:28.34"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "05:21.02"
+        }
+      ]
+    }
+  ]
+}

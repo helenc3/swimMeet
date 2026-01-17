@@ -1,0 +1,32 @@
+{
+  "swimmer": "Jiya Patel",
+  "data": [
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "1:58.58"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/5/2024, West Windsor-Plainsboro North (101) at Hightstown (69)",
+          "time": "3:30.19"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/28/2025, Nottingham (43) at Hightstown (122)",
+          "time": "6:03.12"
+        }
+      ]
+    }
+  ]
+}
