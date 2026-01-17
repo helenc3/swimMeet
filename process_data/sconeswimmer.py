@@ -16,9 +16,8 @@ TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
 def ishsevent(event):
     ###### return True if the event is a HS event, False otherwise
     ##### input is a string in the format of "50 Free SCY"
-    split_event = event.split(' ')
-    event = split_event[0]+' '+split_event[1]
-    if event in HSEVENTS:
+    race, course = splitevent(event)
+    if race in HSEVENTS:
         return True
     else:
         return False
@@ -214,6 +213,14 @@ def check_event_progression(driver, event): ## returns fastest time
     fastest = min(valid_times, key=lambda x: x["time_seconds"])
     return fastest["time"]  # Return just the time string
     
+def splitevent(event):
+
+    ## event is a string in the format of "50 Free SCY"
+    ## returns a tuple of (race, course)
+    eventlist = event.split(' ')
+    race = eventlist[0]+' '+eventlist[1]
+    course = eventlist[2]
+    return race, course
 
 def scrapeprofile(driver): ## return scraped data from a page of one swimmer
     hmpgurl = driver.current_url
@@ -256,7 +263,8 @@ def scrapeprofile(driver): ## return scraped data from a page of one swimmer
             continue
 
         if validdate(dt):
-            info.append({"event": event, "time": time, "date": dt})
+            race, course = splitevent(event)
+            info.append({"event": race, "course": course, "time": time})
         else:
             if ishsevent(event):
                 flagged_events.append(event) ## you mighttt have to also append time and date idk tho
@@ -269,19 +277,11 @@ def scrapeprofile(driver): ## return scraped data from a page of one swimmer
         if click_event_progression_button(driver):
             # Process flagged events here
             for event in flagged_events:
-                check_event_progression(driver, event)
+                recent_time = check_event_progression(driver, event)
+                if recent_time is not None:
+                    race, course = splitevent(event)
+                    info.append({"event": race, "course": course, "time": recent_time})
     return info
 
 
-######## test
-
-driver = webdriver.Chrome()
-driver.get('https://www.swimcloud.com/swimmer/1870961/' + 'times/')
-
-if click_event_progression_button(driver):
-    print(check_event_progression(driver, "500 Free SCY"))
-else:
-    print("Failed to click EVENT PROGRESSION button")
-
-
-#print(scrapeprofile(driver))
+#ok this all works functionally now
