@@ -1,5 +1,4 @@
 from scrapingUtils import openpage_signin, chooseOtherSzn, get_divisions, chooseDivision, clickOneTeam, getRoster, scrapeDataForOneSwimmer
-from mongodb_helper import connect_to_mongodb, save_swimmer_to_mongodb
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from datetime import date
@@ -37,37 +36,6 @@ def prompt_division(divisions):
             continue
         return div
 
-def prompt_teams(available_teams):
-    """
-    Prompt user for which teams to scrape.
-    Returns a set of team names to scrape.
-    If user enters "*", returns None (meaning all teams).
-    Otherwise, parses comma-separated team names.
-    """
-    while True:
-        print(f"\nAvailable teams: {', '.join(sorted(available_teams.keys()))}")
-        response = input('Enter teams to scrape (use "*" for all, or comma-separated list like "Hightstown, Princeton"): ').strip()
-        
-        if response == "*":
-            return None  # None means scrape all teams
-        
-        # Parse comma-separated list
-        selected_teams = [team.strip() for team in response.split(',')]
-        selected_teams = [team for team in selected_teams if team]  # Remove empty strings
-        
-        if not selected_teams:
-            print("Please enter at least one team name or '*' for all teams.")
-            continue
-        
-        # Validate team names
-        invalid_teams = [team for team in selected_teams if team not in available_teams]
-        if invalid_teams:
-            print(f"Invalid team names: {', '.join(invalid_teams)}")
-            print(f"Available teams: {', '.join(sorted(available_teams.keys()))}")
-            continue
-        
-        return set(selected_teams)
-
 
 ###################____________________________________________________________
 
@@ -103,13 +71,6 @@ chrome_options.page_load_strategy = "eager"  # Loads when DOM is ready, not all 
 
 driver = webdriver.Chrome(options=chrome_options)
 
-# Connect to MongoDB
-print("Connecting to MongoDB...")
-client, db = connect_to_mongodb()
-if not client:
-    print("Failed to connect to MongoDB. Exiting.")
-    exit(1)
-print("✓ Connected to MongoDB!")
 
 openpage_signin(driver)
 
@@ -118,59 +79,50 @@ starty, endy, szn = prompt_season()
 if season_cutoff_has_passed(endy):
     chooseOtherSzn(driver, szn)
 
-os.makedirs(f"data/njcom/{szn}", exist_ok=True)
+os.makedirs(f"data/{szn}", exist_ok=True)
 
 #choose division
 divisions = get_divisions(driver)
 div = prompt_division(divisions)
 teams = chooseDivision(driver, div)
 
-# Ask which teams to scrape
-selected_teams = prompt_teams(teams)
+## if you would like to pop items; pop it here. THIS IS IMPORTANT
+##teams.pop('Hightstown')
+##teams.pop('Hopewell Valley')
+##teams.pop('Princeton')
 
-# Filter teams if specific ones were selected
-if selected_teams is not None:
-    teams = {team: teams[team] for team in selected_teams if team in teams}
-    print(f"\nScraping {len(teams)} team(s): {', '.join(sorted(teams.keys()))}")
-else:
-    print(f"\nScraping all {len(teams)} teams")
 
 for team in teams:
     driver.get(teams[team])
 
     # ensure team directory exists
-    os.makedirs(f"data/njcom/{szn}/{team}", exist_ok=True)
+    os.makedirs(f"data/{szn}/{team}", exist_ok=True)
 
     # if getRoster returns an iterator/zip, make it reusable
     roster = list(getRoster(driver, team))
 
     # write roster.csv (no mkdir for a file)
-    with open(f"data/njcom/{szn}/{team}/roster.csv", "w", encoding="utf-8", newline="") as f:
+    with open(f"data/{szn}/{team}/roster.csv", "w", encoding="utf-8", newline="") as f:
         f.write("name,link\n")
         for name, link in roster:
             f.write(f'"{name}","{link}"\n')
 
-    # ensure swimmers directory exists (for roster.csv backup)
-    os.makedirs(f"data/njcom/{szn}/{team}/swimmers", exist_ok=True)
+    # ensure swimmers directory exists
+    os.makedirs(f"data/{szn}/{team}/swimmers", exist_ok=True)
 
     for name, link in roster:
         swimmer_data = scrapeDataForOneSwimmer(driver, link, name)
-        
-        # Save to MongoDB (merges with existing data, avoids duplicates)
-        result = save_swimmer_to_mongodb(db, swimmer_data, year=szn, team=team, source='njcom')
-        
-        # Also save JSON backup (optional - you can remove this later)
+        # sanitize filename (spaces → _, remove illegal chars)
         safe = re.sub(r'[\\/:"*?<>|]+', "_", name).strip().replace(" ", "_")
-        with open(f"data/njcom/{szn}/{team}/swimmers/{safe}.json", "w", encoding="utf-8") as f:
-            json.dump(swimmer_data, f, ensure_ascii=False, indent=2)
         
-        # Print status
-        if result['inserted']:
-            print(f"✓ Inserted {name} ({result['new_times_count']} times)")
-        elif result['new_times_count'] > 0:
-            print(f"✓ Updated {name} (added {result['new_times_count']} new times)")
-        else:
-            print(f"○ Skipped {name} (no new times)")
+        # Create folder for each swimmer
+        swimmer_dir = f"data/{szn}/{team}/swimmers/{safe}"
+        os.makedirs(swimmer_dir, exist_ok=True)
+        
+        # Write nj.com data to njcom.json
+        with open(f"{swimmer_dir}/njcom.json", "w", encoding="utf-8") as f:
+            json.dump(swimmer_data, f, ensure_ascii=False, indent=2)
+        print(f"Saved nj.com data for {name}")
 
     print(f"Finished scraping data for team {team}")
 

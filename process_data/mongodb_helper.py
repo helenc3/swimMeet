@@ -15,12 +15,22 @@ from pymongo import MongoClient
 import json
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
-# Your MongoDB connection string
-# Replace this with your actual connection string from MongoDB Atlas or local MongoDB
-# Example for Atlas: "mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority"
-# Example for local: "mongodb://localhost:27017/"
-MONGODB_URI = "mongodb+srv://helenc:WWP9funpurpleducks@cluster0.mmsj5ru.mongodb.net/"
+# Load environment variables from .env file
+load_dotenv()
+
+# Your MongoDB connection string (loaded from .env file)
+# Create a .env file with: MONGODB_URI=your_connection_string_here
+# See .env.example for template
+MONGODB_URI = os.getenv("MONGODB_URI")
+
+if not MONGODB_URI:
+    raise ValueError(
+        "MONGODB_URI not found in environment variables. "
+        "Please create a .env file with your MongoDB connection string. "
+        "See .env.example for template."
+    )
 
 # Database and collection names
 DB_NAME = "swimmeet"
