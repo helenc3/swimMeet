@@ -1,4 +1,5 @@
 from scrapingUtils import openpage_signin, chooseOtherSzn, get_divisions, chooseDivision, clickOneTeam, getRoster, scrapeDataForOneSwimmer
+from mongodb_helper import connect_to_mongodb, save_swimmer_to_mongodb
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from datetime import date
@@ -36,6 +37,37 @@ def prompt_division(divisions):
             continue
         return div
 
+def prompt_teams(available_teams):
+    """
+    Prompt user for which teams to scrape.
+    Returns a set of team names to scrape.
+    If user enters "*", returns None (meaning all teams).
+    Otherwise, parses comma-separated team names.
+    """
+    while True:
+        print(f"\nAvailable teams: {', '.join(sorted(available_teams.keys()))}")
+        response = input('Enter teams to scrape (use "*" for all, or comma-separated list like "Hightstown, Princeton"): ').strip()
+        
+        if response == "*":
+            return None  # None means scrape all teams
+        
+        # Parse comma-separated list
+        selected_teams = [team.strip() for team in response.split(',')]
+        selected_teams = [team for team in selected_teams if team]  # Remove empty strings
+        
+        if not selected_teams:
+            print("Please enter at least one team name or '*' for all teams.")
+            continue
+        
+        # Validate team names
+        invalid_teams = [team for team in selected_teams if team not in available_teams]
+        if invalid_teams:
+            print(f"Invalid team names: {', '.join(invalid_teams)}")
+            print(f"Available teams: {', '.join(sorted(available_teams.keys()))}")
+            continue
+        
+        return set(selected_teams)
+
 
 ###################____________________________________________________________
 
@@ -71,6 +103,13 @@ chrome_options.page_load_strategy = "eager"  # Loads when DOM is ready, not all 
 
 driver = webdriver.Chrome(options=chrome_options)
 
+# Connect to MongoDB
+print("Connecting to MongoDB...")
+client, db = connect_to_mongodb()
+if not client:
+    print("Failed to connect to MongoDB. Exiting.")
+    exit(1)
+print("✓ Connected to MongoDB!")
 
 openpage_signin(driver)
 
@@ -86,11 +125,15 @@ divisions = get_divisions(driver)
 div = prompt_division(divisions)
 teams = chooseDivision(driver, div)
 
-## if you would like to pop items; pop it here. THIS IS IMPORTANT
-##teams.pop('Hightstown')
-##teams.pop('Hopewell Valley')
-##teams.pop('Princeton')
+# Ask which teams to scrape
+selected_teams = prompt_teams(teams)
 
+# Filter teams if specific ones were selected
+if selected_teams is not None:
+    teams = {team: teams[team] for team in selected_teams if team in teams}
+    print(f"\nScraping {len(teams)} team(s): {', '.join(sorted(teams.keys()))}")
+else:
+    print(f"\nScraping all {len(teams)} teams")
 
 for team in teams:
     driver.get(teams[team])
@@ -107,16 +150,27 @@ for team in teams:
         for name, link in roster:
             f.write(f'"{name}","{link}"\n')
 
-    # ensure swimmers directory exists
+    # ensure swimmers directory exists (for roster.csv backup)
     os.makedirs(f"data/njcom/{szn}/{team}/swimmers", exist_ok=True)
 
     for name, link in roster:
         swimmer_data = scrapeDataForOneSwimmer(driver, link, name)
-        # sanitize filename (spaces → _, remove illegal chars)
+        
+        # Save to MongoDB (merges with existing data, avoids duplicates)
+        result = save_swimmer_to_mongodb(db, swimmer_data, year=szn, team=team, source='njcom')
+        
+        # Also save JSON backup (optional - you can remove this later)
         safe = re.sub(r'[\\/:"*?<>|]+', "_", name).strip().replace(" ", "_")
         with open(f"data/njcom/{szn}/{team}/swimmers/{safe}.json", "w", encoding="utf-8") as f:
             json.dump(swimmer_data, f, ensure_ascii=False, indent=2)
-        print(f"Saved data for {name}")
+        
+        # Print status
+        if result['inserted']:
+            print(f"✓ Inserted {name} ({result['new_times_count']} times)")
+        elif result['new_times_count'] > 0:
+            print(f"✓ Updated {name} (added {result['new_times_count']} new times)")
+        else:
+            print(f"○ Skipped {name} (no new times)")
 
     print(f"Finished scraping data for team {team}")
 

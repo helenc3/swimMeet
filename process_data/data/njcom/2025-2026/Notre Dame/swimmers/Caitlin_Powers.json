@@ -19,15 +19,45 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:36.34"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:28.45"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:58.78"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:05.83"
         }
       ]
     },
     {
-      "event": "200 Free",
+      "event": "100 Free",
       "times": [
         {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "2:46.13"
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "1:20.25"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:32.12"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "0:35.16"
         }
       ]
     },
@@ -41,8 +71,28 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "4:55.48"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "5:09.00"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "5:15.82"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "2:46.13"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

@@ -2,32 +2,11 @@
   "swimmer": "Hayden Perry",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
-          "time": "1:23.29"
-        },
-        {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "1:24.49"
-        },
-        {
-          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "1:22.04"
-        },
-        {
-          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "1:17.05"
-        }
-      ]
-    },
-    {
-      "event": "100 Fly",
-      "times": [
-        {
-          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
-          "time": "1:30.44"
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "3:02.31"
         }
       ]
     },
@@ -45,24 +24,61 @@
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
-          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
-          "time": "2:40.90"
+          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
+          "time": "05:39.34"
         },
         {
-          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "2:40.08"
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "06:20.92"
+        },
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "05:32.89"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "05:30.91"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "05:22.98"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "100 Free",
       "times": [
         {
-          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
-          "time": "3:02.31"
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "1:04.83"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
+          "time": "1:23.29"
+        },
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:24.49"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "1:22.04"
+        },
+        {
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "1:17.05"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "1:24.02"
         }
       ]
     },
@@ -92,6 +108,32 @@
         {
           "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
           "time": "2:43.14"
+        },
+        {
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "2:25.61"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "2:23.15"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "0:29.64"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "1:30.44"
         }
       ]
     },
@@ -113,25 +155,36 @@
         {
           "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
           "time": "6:08.33"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "4:50.62"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "4:50.02"
         }
       ]
     },
     {
-      "event": "500 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
-          "time": "05:39.34"
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "2:40.90"
         },
         {
-          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "06:20.92"
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "2:40.08"
         },
         {
-          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
-          "time": "05:32.89"
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "2:33.99"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Lawrence",
+  "source": "njcom"
 }

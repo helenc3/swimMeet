@@ -2,11 +2,11 @@
   "swimmer": "Olivia Kudela",
   "data": [
     {
-      "event": "100 Free",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "1:28.48"
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "3:49.73"
         }
       ]
     },
@@ -28,24 +28,36 @@
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "2:51.17"
+          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
+          "time": "08:39.84"
         },
         {
-          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
-          "time": "2:59.36"
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "07:40.86"
+        },
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "07:56.02"
+        },
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "07:02.95"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "08:05.96"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "100 Free",
       "times": [
         {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "3:49.73"
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "1:28.48"
         }
       ]
     },
@@ -71,6 +83,19 @@
       ]
     },
     {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "0:38.45"
+        },
+        {
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "0:38.30"
+        }
+      ]
+    },
+    {
       "event": "400 FR",
       "times": [
         {
@@ -88,42 +113,32 @@
         {
           "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
           "time": "5:29.97"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "5:24.81"
         }
       ]
     },
     {
-      "event": "50 Free",
+      "event": "200 Free",
       "times": [
-        {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "0:38.45"
-        },
-        {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "0:38.30"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
-          "time": "08:39.84"
-        },
-        {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "07:40.86"
-        },
         {
           "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "07:56.02"
+          "time": "2:51.17"
         },
         {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "07:02.95"
+          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
+          "time": "2:59.36"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:52.40"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

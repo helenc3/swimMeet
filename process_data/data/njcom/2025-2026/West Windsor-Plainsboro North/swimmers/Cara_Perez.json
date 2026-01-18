@@ -2,19 +2,6 @@
   "swimmer": "Cara Perez",
   "data": [
     {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "1:02.37"
-        },
-        {
-          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
-          "time": "1:10.28"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -32,6 +19,91 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "2:17.59"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:03.40"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "05:29.44"
+        },
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "05:59.73"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "37:25.90"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "06:10.29"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "1:02.37"
+        },
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "1:10.28"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "1:28.28"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "2:26.72"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "2:22.82"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "2:49.50"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:19.31"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "5:03.81"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "4:00.08"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "4:11.40"
         }
       ]
     },
@@ -61,63 +133,15 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "2:30.89"
-        }
-      ]
-    },
-    {
-      "event": "200 MR",
-      "times": [
-        {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "2:26.72"
         },
         {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "2:22.82"
-        },
-        {
-          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "2:49.50"
-        }
-      ]
-    },
-    {
-      "event": "400 FR",
-      "times": [
-        {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "5:03.81"
-        },
-        {
-          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
-          "time": "4:00.08"
-        },
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "4:11.40"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "05:29.44"
-        },
-        {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "05:59.73"
-        },
-        {
-          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
-          "time": "37:25.90"
-        },
-        {
-          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "06:10.29"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:28.65"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro North",
+  "source": "njcom"
 }

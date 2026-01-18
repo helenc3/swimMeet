@@ -2,6 +2,15 @@
   "swimmer": "Claire Bacskai",
   "data": [
     {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "3:31.05"
+        }
+      ]
+    },
+    {
       "event": "200 FR",
       "times": [
         {
@@ -11,15 +20,10 @@
         {
           "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
           "time": "2:17.59"
-        }
-      ]
-    },
-    {
-      "event": "200 Free",
-      "times": [
+        },
         {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "2:39.73"
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:58.78"
         }
       ]
     },
@@ -29,6 +33,14 @@
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
           "time": "3:19.11"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:33.76"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:32.12"
         }
       ]
     },
@@ -50,8 +62,32 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "4:55.48"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "5:09.00"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "5:15.82"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "4:44.03"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "2:39.73"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

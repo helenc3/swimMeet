@@ -2,20 +2,11 @@
   "swimmer": "Aamya Sachdeva",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
-          "time": "1:20.20"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "1:12.84"
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:55.02"
         }
       ]
     },
@@ -29,15 +20,28 @@
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
           "time": "2:13.53"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:06.47"
         }
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "07:28.00"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
       "times": [
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "2:38.21"
+          "time": "1:12.84"
         }
       ]
     },
@@ -51,6 +55,32 @@
         {
           "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
           "time": "2:18.97"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:39.94"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:52.77"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "1:20.20"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "0:31.88"
         }
       ]
     },
@@ -76,26 +106,24 @@
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
           "time": "5:24.19"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "5:10.45"
         }
       ]
     },
     {
-      "event": "50 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "0:31.88"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "07:28.00"
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "2:38.21"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro South",
+  "source": "njcom"
 }

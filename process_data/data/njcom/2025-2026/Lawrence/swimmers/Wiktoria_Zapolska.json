@@ -2,6 +2,19 @@
   "swimmer": "Wiktoria Zapolska",
   "data": [
     {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
+          "time": "2:29.29"
+        },
+        {
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "2:21.93"
+        }
+      ]
+    },
+    {
       "event": "100 Free",
       "times": [
         {
@@ -11,15 +24,48 @@
         {
           "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
           "time": "1:52.77"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "1:56.95"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "1:50.35"
         }
       ]
     },
     {
-      "event": "200 FR",
+      "event": "100 Back",
       "times": [
         {
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "1:59.10"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
+          "time": "0:47.36"
+        },
+        {
           "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
-          "time": "2:29.29"
+          "time": "0:46.01"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "0:47.10"
+        },
+        {
+          "location": "1/14/2026, Lawrence (115) at Trenton (7)",
+          "time": "0:44.03"
+        },
+        {
+          "location": "1/15/2026, Lawrence (62) at West Windsor-Plainsboro North (108)",
+          "time": "0:46.48"
         }
       ]
     },
@@ -35,19 +81,9 @@
           "time": "6:08.33"
         }
       ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/8/2025, South Brunswick (100) at Lawrence (69)",
-          "time": "0:47.36"
-        },
-        {
-          "location": "1/8/2026, Nottingham (59) at Lawrence (104)",
-          "time": "0:46.01"
-        }
-      ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Lawrence",
+  "source": "njcom"
 }

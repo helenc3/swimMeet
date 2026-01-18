@@ -2,20 +2,11 @@
   "swimmer": "Sragvi Baline",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "1:27.10"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "1:15.91"
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "3:25.15"
         }
       ]
     },
@@ -37,15 +28,23 @@
         {
           "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
           "time": "2:18.56"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:06.47"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:45.80"
         }
       ]
     },
     {
-      "event": "200 Free",
+      "event": "100 Free",
       "times": [
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "2:47.03"
+          "time": "1:15.91"
         }
       ]
     },
@@ -59,6 +58,23 @@
         {
           "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
           "time": "2:30.41"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:29.06"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:52.77"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "1:27.10"
         }
       ]
     },
@@ -76,8 +92,24 @@
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
           "time": "5:24.19"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "5:30.10"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "2:47.03"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro South",
+  "source": "njcom"
 }

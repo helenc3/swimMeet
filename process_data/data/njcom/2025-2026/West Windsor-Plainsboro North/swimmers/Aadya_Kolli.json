@@ -2,19 +2,11 @@
   "swimmer": "Aadya Kolli",
   "data": [
     {
-      "event": "100 Breast",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "1:39.61"
-        },
-        {
-          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
-          "time": "1:30.61"
-        },
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "1:28.82"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:22.94"
         }
       ]
     },
@@ -40,11 +32,32 @@
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "06:29.45"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "1:39.61"
+        },
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "1:30.61"
+        },
+        {
           "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "2:42.05"
+          "time": "1:28.82"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "1:39.16"
         }
       ]
     },
@@ -62,6 +75,10 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "2:30.57"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:00.57"
         }
       ]
     },
@@ -79,13 +96,16 @@
       ]
     },
     {
-      "event": "500 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
-          "time": "06:29.45"
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "2:42.05"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro North",
+  "source": "njcom"
 }

@@ -2,13 +2,46 @@
   "swimmer": "Jiya Patel",
   "data": [
     {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:12.73"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:38.53"
+        }
+      ]
+    },
+    {
       "event": "400 FR",
       "times": [
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "7:34.30"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "7:15.55"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:23.28"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:57.47"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

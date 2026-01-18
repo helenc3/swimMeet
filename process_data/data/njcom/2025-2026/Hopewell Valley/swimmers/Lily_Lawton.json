@@ -1,4 +1,17 @@
 {
   "swimmer": "Lily Lawton",
-  "data": []
+  "data": [
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "0:33.62"
+        }
+      ]
+    }
+  ],
+  "year": "2025-2026",
+  "team": "Hopewell Valley",
+  "source": "njcom"
 }

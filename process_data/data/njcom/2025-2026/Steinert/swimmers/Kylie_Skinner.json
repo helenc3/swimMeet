@@ -2,6 +2,44 @@
   "swimmer": "Kylie Skinner",
   "data": [
     {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "2:24.02"
+        },
+        {
+          "location": "12/10/2025, Steinert (114) at Nottingham (54)",
+          "time": "2:23.43"
+        },
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "2:09.33"
+        },
+        {
+          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
+          "time": "2:34.48"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "2:20.88"
+        },
+        {
+          "location": "1/16/2026, Steinert (118) at Trenton (43)",
+          "time": "2:15.55"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "1:26.30"
+        }
+      ]
+    },
+    {
       "event": "100 Breast",
       "times": [
         {
@@ -23,36 +61,14 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "2:04.64"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
-          "time": "1:26.30"
-        }
-      ]
-    },
-    {
-      "event": "200 FR",
-      "times": [
-        {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "2:24.02"
         },
         {
-          "location": "12/10/2025, Steinert (114) at Nottingham (54)",
-          "time": "2:23.43"
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "1:50.28"
         },
         {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "2:09.33"
-        },
-        {
-          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
-          "time": "2:34.48"
+          "location": "1/16/2026, Steinert (118) at Trenton (43)",
+          "time": "1:43.92"
         }
       ]
     },
@@ -74,6 +90,10 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "3:16.66"
+        },
+        {
+          "location": "1/16/2026, Steinert (118) at Trenton (43)",
+          "time": "2:51.13"
         }
       ]
     },
@@ -95,8 +115,28 @@
         {
           "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
           "time": "0:34.34"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "0:33.26"
+        },
+        {
+          "location": "1/16/2026, Steinert (118) at Trenton (43)",
+          "time": "0:32.10"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "0:00.00"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Steinert",
+  "source": "njcom"
 }

@@ -2,15 +2,6 @@
   "swimmer": "Alishya Ahuja",
   "data": [
     {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
-          "time": "1:27.06"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -32,6 +23,15 @@
       ]
     },
     {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
+          "time": "1:27.06"
+        }
+      ]
+    },
+    {
       "event": "200 MR",
       "times": [
         {
@@ -49,5 +49,8 @@
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

@@ -2,6 +2,15 @@
   "swimmer": "Sofia Crome",
   "data": [
     {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
+          "time": "2:51.50"
+        }
+      ]
+    },
+    {
       "event": "100 Free",
       "times": [
         {
@@ -19,15 +28,14 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "1:19.57"
-        }
-      ]
-    },
-    {
-      "event": "200 FR",
-      "times": [
+        },
         {
-          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
-          "time": "2:51.50"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "1:16.46"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "1:17.55"
         }
       ]
     },
@@ -45,6 +53,35 @@
         {
           "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
           "time": "2:51.12"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:36.62"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
+          "time": "0:33.99"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "0:35.00"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "0:35.95"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "0:34.35"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "0:34.78"
         }
       ]
     },
@@ -72,23 +109,9 @@
           "time": "5:27.60"
         }
       ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
-          "time": "0:33.99"
-        },
-        {
-          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "0:35.00"
-        },
-        {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "0:35.95"
-        }
-      ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

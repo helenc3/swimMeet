@@ -2,15 +2,6 @@
   "swimmer": "Laya Arumugam",
   "data": [
     {
-      "event": "100 Back",
-      "times": [
-        {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "2:01.24"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -32,11 +23,29 @@
       ]
     },
     {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "2:01.24"
+        }
+      ]
+    },
+    {
       "event": "200 MR",
       "times": [
         {
           "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
           "time": "3:08.22"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
+          "time": "0:39.15"
         }
       ]
     },
@@ -52,15 +61,9 @@
           "time": "6:35.47"
         }
       ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
-          "time": "0:39.15"
-        }
-      ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

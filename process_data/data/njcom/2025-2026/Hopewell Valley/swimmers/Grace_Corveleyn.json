@@ -2,23 +2,15 @@
   "swimmer": "Grace Corveleyn",
   "data": [
     {
-      "event": "100 Free",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
-          "time": "1:07.56"
+          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
+          "time": "3:18.59"
         },
         {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "1:07.80"
-        },
-        {
-          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
-          "time": "1:08.84"
-        },
-        {
-          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
-          "time": "1:06.38"
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "3:19.28"
         }
       ]
     },
@@ -48,32 +40,40 @@
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
-          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
-          "time": "2:27.14"
+          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
+          "time": "05:59.70"
         },
         {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "2:26.50"
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "05:44.90"
         },
         {
-          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
-          "time": "2:22.89"
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "06:28.10"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "100 Free",
       "times": [
         {
-          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
-          "time": "3:18.59"
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "1:07.56"
         },
         {
-          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "3:19.28"
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "1:07.80"
+        },
+        {
+          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
+          "time": "1:08.84"
+        },
+        {
+          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
+          "time": "1:06.38"
         }
       ]
     },
@@ -95,6 +95,32 @@
         {
           "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
           "time": "2:17.71"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:21.09"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "2:22.62"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
+          "time": "0:31.28"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:21.42"
         }
       ]
     },
@@ -112,30 +138,44 @@
         {
           "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
           "time": "4:36.67"
-        }
-      ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/22/2025, Steinert (54) at Hopewell Valley (110)",
-          "time": "0:31.28"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/10/2025, Hopewell Valley (98) at Lawrence (71)",
-          "time": "05:59.70"
         },
         {
-          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "05:44.90"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "4:29.32"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "4:31.73"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/8/2025, West Windsor-Plainsboro South (107) at Hopewell Valley (63)",
+          "time": "2:27.14"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "2:26.50"
+        },
+        {
+          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
+          "time": "2:22.89"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:22.86"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "2:28.50"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hopewell Valley",
+  "source": "njcom"
 }

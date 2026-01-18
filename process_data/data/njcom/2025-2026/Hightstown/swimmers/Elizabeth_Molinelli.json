@@ -2,24 +2,19 @@
   "swimmer": "Elizabeth Molinelli",
   "data": [
     {
-      "event": "100 Fly",
-      "times": [
-        {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "1:18.56"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
+      "event": "200 IM",
       "times": [
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:04.19"
+          "time": "2:40.14"
+        },
+        {
+          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
+          "time": "2:20.53"
         },
         {
           "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "1:04.00"
+          "time": "2:38.00"
         }
       ]
     },
@@ -45,36 +40,52 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "2:10.49"
-        }
-      ]
-    },
-    {
-      "event": "200 Free",
-      "times": [
-        {
-          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "2:21.40"
         },
         {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "2:24.62"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:02.13"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:03.79"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
+          "time": "05:37.81"
+        },
+        {
+          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
+          "time": "05:08.52"
+        },
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "05:01.45"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
       "times": [
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "2:40.14"
-        },
-        {
-          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
-          "time": "2:20.53"
+          "time": "1:04.19"
         },
         {
           "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "2:38.00"
+          "time": "1:04.00"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "1:02.91"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "1:03.37"
         }
       ]
     },
@@ -96,25 +107,49 @@
         {
           "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
           "time": "2:22.09"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:18.23"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:17.74"
         }
       ]
     },
     {
-      "event": "500 Free",
+      "event": "100 Fly",
       "times": [
         {
-          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
-          "time": "05:37.81"
-        },
-        {
-          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
-          "time": "05:08.52"
-        },
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "1:18.56"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
         {
           "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "05:01.45"
+          "time": "2:21.40"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "2:24.62"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:20.78"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:19.45"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

@@ -2,11 +2,23 @@
   "swimmer": "Samantha Tenezaca Sasaguay",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 FR",
       "times": [
         {
+          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
+          "time": "2:51.50"
+        },
+        {
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "3:14.00"
+        },
+        {
           "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "1:40.46"
+          "time": "3:06.41"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "2:27.39"
         }
       ]
     },
@@ -40,23 +52,11 @@
       ]
     },
     {
-      "event": "200 FR",
+      "event": "100 Back",
       "times": [
         {
-          "location": "12/12/2025, Hightstown (124) at Nottingham (43)",
-          "time": "2:51.50"
-        },
-        {
-          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "3:14.00"
-        },
-        {
           "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "3:06.41"
-        },
-        {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "2:27.39"
+          "time": "1:40.46"
         }
       ]
     },
@@ -102,5 +102,8 @@
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

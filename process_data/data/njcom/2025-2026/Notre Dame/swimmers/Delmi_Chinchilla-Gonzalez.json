@@ -2,6 +2,24 @@
   "swimmer": "Delmi Chinchilla-Gonzalez",
   "data": [
     {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "3:11.12"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "0:46.48"
+        }
+      ]
+    },
+    {
       "event": "200 FR",
       "times": [
         {
@@ -19,17 +37,15 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:36.34"
-        }
-      ]
-    },
-    {
-      "event": "200 MR",
-      "times": [
+        },
         {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "3:11.12"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:28.45"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

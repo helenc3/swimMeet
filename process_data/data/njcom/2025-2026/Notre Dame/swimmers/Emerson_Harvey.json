@@ -2,24 +2,37 @@
   "swimmer": "Emerson Harvey",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
-          "time": "1:06.08"
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "2:37.34"
         },
         {
-          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "1:07.11"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:37.30"
         }
       ]
     },
     {
-      "event": "100 Fly",
+      "event": "200 FR",
       "times": [
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:22.58"
+          "time": "2:13.92"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:52.89"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "06:00.50"
         }
       ]
     },
@@ -33,20 +46,32 @@
       ]
     },
     {
-      "event": "200 FR",
+      "event": "100 Breast",
       "times": [
         {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "2:13.92"
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "1:39.36"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "100 Back",
       "times": [
         {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "1:06.08"
+        },
+        {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "2:37.34"
+          "time": "1:07.11"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:06.96"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:07.34"
         }
       ]
     },
@@ -60,6 +85,27 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:09.99"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:38.39"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:05.02"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:22.58"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:09.81"
         }
       ]
     },
@@ -77,17 +123,19 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "4:18.16"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
+        },
         {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "06:00.50"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "4:24.49"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "4:09.51"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

@@ -2,37 +2,11 @@
   "swimmer": "Annie Flanagan",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
-        {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "1:04.51"
-        },
-        {
-          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
-          "time": "1:02.36"
-        }
-      ]
-    },
-    {
-      "event": "100 Fly",
-      "times": [
-        {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "1:10.92"
-        },
         {
           "location": "12/10/2025, Hightstown (63) at Princeton (107)",
-          "time": "1:08.88"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
-          "time": "0:59.49"
+          "time": "2:19.42"
         }
       ]
     },
@@ -54,24 +28,23 @@
         {
           "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
           "time": "1:47.42"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "2:10.09"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "1:54.93"
         }
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
-          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
-          "time": "2:08.07"
-        }
-      ]
-    },
-    {
-      "event": "200 IM",
-      "times": [
-        {
-          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
-          "time": "2:19.42"
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "04:59.82"
         }
       ]
     },
@@ -85,6 +58,48 @@
         {
           "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
           "time": "2:07.01"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "2:20.23"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "2:11.11"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "0:29.05"
+        },
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "0:26.56"
+        },
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "0:25.90"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "0:27.07"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "1:10.92"
+        },
+        {
+          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
+          "time": "1:08.88"
         }
       ]
     },
@@ -106,25 +121,55 @@
         {
           "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
           "time": "4:10.61"
+        },
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "4:23.39"
         }
       ]
     },
     {
-      "event": "50 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "0:29.05"
-        },
+          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
+          "time": "2:08.07"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
+          "time": "0:59.49"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "1:24.32"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
         {
           "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "0:26.56"
+          "time": "1:04.51"
         },
         {
           "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
-          "time": "0:25.90"
+          "time": "1:02.36"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Princeton",
+  "source": "njcom"
 }

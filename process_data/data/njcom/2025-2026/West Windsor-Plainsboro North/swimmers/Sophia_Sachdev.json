@@ -2,24 +2,6 @@
   "swimmer": "Sophia Sachdev",
   "data": [
     {
-      "event": "100 Breast",
-      "times": [
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
-          "time": "1:31.87"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
-          "time": "1:12.05"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -45,6 +27,24 @@
         {
           "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
           "time": "2:20.47"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "1:12.05"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro North (76) at Hopewell Valley (94)",
+          "time": "1:31.87"
         }
       ]
     },
@@ -82,5 +82,8 @@
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro North",
+  "source": "njcom"
 }

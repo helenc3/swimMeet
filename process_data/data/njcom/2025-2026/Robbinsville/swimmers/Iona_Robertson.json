@@ -2,11 +2,53 @@
   "swimmer": "Iona Robertson",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "1:29.16"
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "3:06.99"
+        },
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "2:46.02"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:49.64"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "2:08.53"
+        },
+        {
+          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
+          "time": "2:07.64"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:03.84"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "05:59.45"
+        },
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "06:48.88"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "06:49.94"
         }
       ]
     },
@@ -24,37 +66,15 @@
       ]
     },
     {
-      "event": "200 FR",
-      "times": [
-        {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "2:08.53"
-        },
-        {
-          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
-          "time": "2:07.64"
-        }
-      ]
-    },
-    {
-      "event": "200 Free",
+      "event": "100 Back",
       "times": [
         {
           "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "2:48.78"
-        }
-      ]
-    },
-    {
-      "event": "200 IM",
-      "times": [
-        {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "3:06.99"
+          "time": "1:29.16"
         },
         {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "2:46.02"
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "1:16.95"
         }
       ]
     },
@@ -80,6 +100,19 @@
         {
           "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
           "time": "2:21.11"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:18.68"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "0:33.95"
         }
       ]
     },
@@ -101,30 +134,28 @@
         {
           "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
           "time": "4:47.99"
-        }
-      ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "0:33.95"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "05:59.45"
         },
         {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "06:48.88"
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "5:09.23"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "2:48.78"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "2:29.45"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

@@ -23,6 +23,10 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "3:17.53"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "3:17.19"
         }
       ]
     },
@@ -32,6 +36,32 @@
         {
           "location": "12/10/2025, Hightstown (63) at Princeton (107)",
           "time": "3:12.94"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:23.28"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "2:09.74"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "0:51.88"
+        },
+        {
+          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
+          "time": "0:45.59"
         }
       ]
     },
@@ -49,21 +79,15 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "7:34.30"
-        }
-      ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "0:51.88"
         },
         {
-          "location": "12/10/2025, Hightstown (63) at Princeton (107)",
-          "time": "0:45.59"
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "6:56.52"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

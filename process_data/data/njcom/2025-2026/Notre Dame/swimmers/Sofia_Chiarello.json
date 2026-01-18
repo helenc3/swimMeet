@@ -2,29 +2,11 @@
   "swimmer": "Sofia Chiarello",
   "data": [
     {
-      "event": "100 Back",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "1:23.21"
-        }
-      ]
-    },
-    {
-      "event": "100 Fly",
-      "times": [
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
-          "time": "1:23.11"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:15.34"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:53.19"
         }
       ]
     },
@@ -46,11 +28,28 @@
       ]
     },
     {
-      "event": "200 Free",
+      "event": "100 Free",
       "times": [
         {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "2:34.90"
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:15.34"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:23.21"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:13.13"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:11.80"
         }
       ]
     },
@@ -72,19 +71,14 @@
         {
           "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
           "time": "2:23.73"
-        }
-      ]
-    },
-    {
-      "event": "400 FR",
-      "times": [
-        {
-          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
-          "time": "4:38.12"
         },
         {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "4:50.65"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:15.73"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:17.61"
         }
       ]
     },
@@ -98,8 +92,54 @@
         {
           "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
           "time": "0:30.63"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "0:30.08"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "1:23.11"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "4:38.12"
+        },
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "4:50.65"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "4:24.49"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "4:44.03"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
+      "times": [
+        {
+          "location": "12/4/2025, Trenton (42) at Notre Dame (122)",
+          "time": "2:34.90"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

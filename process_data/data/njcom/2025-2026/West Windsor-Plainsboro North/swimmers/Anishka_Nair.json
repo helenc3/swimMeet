@@ -2,15 +2,6 @@
   "swimmer": "Anishka Nair",
   "data": [
     {
-      "event": "100 Back",
-      "times": [
-        {
-          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
-          "time": "1:31.71"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -24,6 +15,24 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:22.63"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
+          "time": "06:37.85"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "1/8/2026, Steinert (42) at West Windsor-Plainsboro North (125)",
+          "time": "1:31.71"
         }
       ]
     },
@@ -64,15 +73,9 @@
           "time": "5:22.32"
         }
       ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
-        {
-          "location": "12/8/2025, Princeton (91) at West Windsor-Plainsboro North (79)",
-          "time": "06:37.85"
-        }
-      ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro North",
+  "source": "njcom"
 }

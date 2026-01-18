@@ -2,41 +2,6 @@
   "swimmer": "Reagan Maida",
   "data": [
     {
-      "event": "100 Back",
-      "times": [
-        {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "1:19.55"
-        }
-      ]
-    },
-    {
-      "event": "100 Breast",
-      "times": [
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
-          "time": "1:20.71"
-        },
-        {
-          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "1:21.45"
-        }
-      ]
-    },
-    {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:09.88"
-        },
-        {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "1:09.05"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -54,6 +19,65 @@
         {
           "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
           "time": "1:54.51"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:45.43"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:04.56"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:50.37"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:09.88"
+        },
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:09.05"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:01.48"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "1:20.71"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "1:21.45"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:21.27"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:20.88"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:19.55"
         }
       ]
     },
@@ -71,15 +95,18 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:09.99"
-        }
-      ]
-    },
-    {
-      "event": "400 FR",
-      "times": [
+        },
         {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "4:22.48"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:05.13"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:25.38"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:05.02"
         }
       ]
     },
@@ -97,8 +124,28 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "0:27.80"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "0:27.01"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "4:22.48"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "4:27.77"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

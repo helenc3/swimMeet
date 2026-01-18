@@ -2,15 +2,6 @@
   "swimmer": "Nakshatra Satheeshkumar",
   "data": [
     {
-      "event": "100 Free",
-      "times": [
-        {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "1:31.90"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -28,15 +19,6 @@
       ]
     },
     {
-      "event": "400 FR",
-      "times": [
-        {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "6:23.48"
-        }
-      ]
-    },
-    {
       "event": "500 Free",
       "times": [
         {
@@ -44,6 +26,40 @@
           "time": "09:00.71"
         }
       ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "1:31.90"
+        }
+      ]
+    },
+    {
+      "event": "200 MR",
+      "times": [
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:50.20"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "6:23.48"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "6:00.93"
+        }
+      ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

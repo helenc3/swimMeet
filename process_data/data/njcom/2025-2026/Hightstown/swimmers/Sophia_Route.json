@@ -2,15 +2,6 @@
   "swimmer": "Sophia Route",
   "data": [
     {
-      "event": "100 Back",
-      "times": [
-        {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "2:30.99"
-        }
-      ]
-    },
-    {
       "event": "200 FR",
       "times": [
         {
@@ -24,6 +15,23 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "3:17.53"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:12.73"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "3:17.19"
+        }
+      ]
+    },
+    {
+      "event": "100 Back",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "2:30.99"
         }
       ]
     },
@@ -33,19 +41,10 @@
         {
           "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
           "time": "3:09.30"
-        }
-      ]
-    },
-    {
-      "event": "400 FR",
-      "times": [
-        {
-          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
-          "time": "6:54.00"
         },
         {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "7:34.30"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:23.28"
         }
       ]
     },
@@ -63,8 +62,32 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "0:48.16"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "0:48.93"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "0:48.14"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/16/2025, Hopewell Valley (97) at Hightstown (73)",
+          "time": "6:54.00"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "7:34.30"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

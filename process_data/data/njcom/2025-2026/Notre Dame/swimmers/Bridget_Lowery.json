@@ -2,20 +2,19 @@
   "swimmer": "Bridget Lowery",
   "data": [
     {
-      "event": "100 Breast",
-      "times": [
-        {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "1:21.53"
-        }
-      ]
-    },
-    {
-      "event": "100 Fly",
+      "event": "200 IM",
       "times": [
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:10.69"
+          "time": "2:32.32"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:13.58"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:10.84"
         }
       ]
     },
@@ -29,24 +28,27 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "1:45.92"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:45.43"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "1:43.22"
         }
       ]
     },
     {
-      "event": "200 Free",
+      "event": "500 Free",
       "times": [
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "2:00.64"
-        }
-      ]
-    },
-    {
-      "event": "200 IM",
-      "times": [
+          "time": "05:21.02"
+        },
         {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "2:32.32"
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "05:15.33"
         }
       ]
     },
@@ -60,19 +62,6 @@
       ]
     },
     {
-      "event": "400 FR",
-      "times": [
-        {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "4:18.29"
-        },
-        {
-          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "3:44.31"
-        }
-      ]
-    },
-    {
       "event": "50 Free",
       "times": [
         {
@@ -82,13 +71,76 @@
       ]
     },
     {
-      "event": "500 Free",
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:10.69"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "1:09.38"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "4:18.29"
+        },
+        {
+          "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
+          "time": "3:44.31"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "3:50.76"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "4:27.77"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "3:47.64"
+        }
+      ]
+    },
+    {
+      "event": "200 Free",
       "times": [
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
-          "time": "05:21.02"
+          "time": "2:00.64"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:18.31"
+        }
+      ]
+    },
+    {
+      "event": "100 Free",
+      "times": [
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "0:55.12"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "1:21.53"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

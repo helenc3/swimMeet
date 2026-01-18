@@ -2,15 +2,15 @@
   "swimmer": "Micaela Silva Garzon",
   "data": [
     {
-      "event": "200 FR",
+      "event": "100 Free",
       "times": [
         {
-          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
-          "time": "3:06.41"
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "1:45.82"
         },
         {
-          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
-          "time": "3:17.53"
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "1:48.48"
         }
       ]
     },
@@ -24,6 +24,31 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "3:13.06"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:57.47"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/18/2025, Hightstown (91) at Lawrence (74)",
+          "time": "3:06.41"
+        },
+        {
+          "location": "1/8/2026, Trenton (28) at Hightstown (133)",
+          "time": "3:17.53"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "3:12.73"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "3:17.19"
         }
       ]
     },
@@ -37,8 +62,15 @@
         {
           "location": "1/8/2026, Trenton (28) at Hightstown (133)",
           "time": "7:34.30"
+        },
+        {
+          "location": "1/12/2026, Hightstown (70) at West Windsor-Plainsboro North (100)",
+          "time": "7:15.55"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Hightstown",
+  "source": "njcom"
 }

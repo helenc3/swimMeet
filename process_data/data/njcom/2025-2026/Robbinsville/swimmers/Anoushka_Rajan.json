@@ -1,4 +1,26 @@
 {
   "swimmer": "Anoushka Rajan",
-  "data": []
+  "data": [
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:06.47"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "5:33.45"
+        }
+      ]
+    }
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

@@ -2,6 +2,49 @@
   "swimmer": "Krisha Bhavsar",
   "data": [
     {
+      "event": "200 IM",
+      "times": [
+        {
+          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
+          "time": "4:03.08"
+        }
+      ]
+    },
+    {
+      "event": "200 FR",
+      "times": [
+        {
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "2:45.26"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "2:27.78"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
+          "time": "07:24.16"
+        },
+        {
+          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
+          "time": "08:08.40"
+        },
+        {
+          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
+          "time": "08:06.48"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "08:05.09"
+        }
+      ]
+    },
+    {
       "event": "100 Breast",
       "times": [
         {
@@ -19,37 +62,10 @@
         {
           "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
           "time": "1:53.81"
-        }
-      ]
-    },
-    {
-      "event": "200 FR",
-      "times": [
-        {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "2:45.26"
-        }
-      ]
-    },
-    {
-      "event": "200 Free",
-      "times": [
-        {
-          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
-          "time": "3:11.96"
         },
         {
-          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
-          "time": "3:23.14"
-        }
-      ]
-    },
-    {
-      "event": "200 IM",
-      "times": [
-        {
-          "location": "12/8/2025, Robbinsville (100) at Steinert (70)",
-          "time": "4:03.08"
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "1:53.28"
         }
       ]
     },
@@ -88,25 +104,32 @@
         {
           "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
           "time": "6:23.48"
+        },
+        {
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "5:56.34"
         }
       ]
     },
     {
-      "event": "500 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "12/4/2025, West Windsor-Plainsboro North (132) at Robbinsville (38)",
-          "time": "07:24.16"
+          "location": "12/2/2025, Robbinsville (31) at East Brunswick (136)",
+          "time": "3:11.96"
         },
         {
-          "location": "12/12/2025, Robbinsville (51) at Princeton (119)",
-          "time": "08:08.40"
+          "location": "12/18/2025, Robbinsville (117) at Nottingham (52)",
+          "time": "3:23.14"
         },
         {
-          "location": "1/6/2026, Trenton (30) at Robbinsville (84)",
-          "time": "08:06.48"
+          "location": "1/15/2026, Hopewell Valley (125) at Robbinsville (45)",
+          "time": "3:02.91"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Robbinsville",
+  "source": "njcom"
 }

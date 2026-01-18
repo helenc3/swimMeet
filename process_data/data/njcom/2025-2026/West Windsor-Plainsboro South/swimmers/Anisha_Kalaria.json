@@ -11,6 +11,23 @@
         {
           "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
           "time": "2:18.56"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:06.47"
+        },
+        {
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "2:23.40"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "1:35.26"
         }
       ]
     },
@@ -24,6 +41,19 @@
         {
           "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
           "time": "2:30.41"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:29.06"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "0:33.56"
         }
       ]
     },
@@ -49,13 +79,16 @@
       ]
     },
     {
-      "event": "50 Free",
+      "event": "200 Free",
       "times": [
         {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "0:33.56"
+          "location": "1/15/2026, West Windsor-Plainsboro South (97) at Hightstown (73)",
+          "time": "3:03.53"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro South",
+  "source": "njcom"
 }

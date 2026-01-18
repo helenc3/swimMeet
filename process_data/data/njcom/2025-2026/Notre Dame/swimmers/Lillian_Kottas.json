@@ -2,11 +2,11 @@
   "swimmer": "Lillian Kottas",
   "data": [
     {
-      "event": "100 Breast",
+      "event": "200 IM",
       "times": [
         {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "1:48.65"
+          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
+          "time": "3:20.58"
         }
       ]
     },
@@ -20,15 +20,32 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "2:36.34"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:20.67"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:05.83"
         }
       ]
     },
     {
-      "event": "200 IM",
+      "event": "500 Free",
       "times": [
         {
-          "location": "12/16/2025, Notre Dame (122) at Lawrence (45)",
-          "time": "3:20.58"
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "06:17.46"
+        }
+      ]
+    },
+    {
+      "event": "100 Breast",
+      "times": [
+        {
+          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
+          "time": "1:48.65"
         }
       ]
     },
@@ -42,6 +59,31 @@
         {
           "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
           "time": "3:19.11"
+        },
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "2:33.76"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "2:38.39"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "2:32.12"
+        }
+      ]
+    },
+    {
+      "event": "100 Fly",
+      "times": [
+        {
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "1:35.09"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "1:48.62"
         }
       ]
     },
@@ -67,17 +109,23 @@
         {
           "location": "1/5/2026, West Windsor-Plainsboro North (67) at Notre Dame (103)",
           "time": "4:55.48"
-        }
-      ]
-    },
-    {
-      "event": "500 Free",
-      "times": [
+        },
         {
-          "location": "12/8/2025, Notre Dame (103) at Hightstown (66)",
-          "time": "06:17.46"
+          "location": "1/12/2026, Notre Dame (111) at Hopewell Valley (59)",
+          "time": "5:09.00"
+        },
+        {
+          "location": "1/14/2026, Notre Dame (130) at Nottingham (39)",
+          "time": "6:48.33"
+        },
+        {
+          "location": "1/16/2026, Notre Dame (92) at Princeton (78)",
+          "time": "4:44.03"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Notre Dame",
+  "source": "njcom"
 }

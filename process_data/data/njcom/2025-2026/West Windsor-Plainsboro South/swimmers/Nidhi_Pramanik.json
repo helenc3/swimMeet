@@ -2,19 +2,15 @@
   "swimmer": "Nidhi Pramanik",
   "data": [
     {
-      "event": "100 Breast",
+      "event": "200 FR",
       "times": [
         {
-          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
-          "time": "1:27.85"
+          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
+          "time": "2:09.16"
         },
         {
-          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
-          "time": "1:26.06"
-        },
-        {
-          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
-          "time": "1:24.56"
+          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
+          "time": "2:00.95"
         }
       ]
     },
@@ -32,15 +28,23 @@
       ]
     },
     {
-      "event": "200 FR",
+      "event": "100 Breast",
       "times": [
         {
-          "location": "12/12/2025, Steinert (48) at West Windsor-Plainsboro South (122)",
-          "time": "2:09.16"
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "1:27.85"
         },
         {
-          "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
-          "time": "2:00.95"
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "1:26.06"
+        },
+        {
+          "location": "12/18/2025, West Windsor-Plainsboro South (69) at Notre Dame (99)",
+          "time": "1:24.56"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "1:23.41"
         }
       ]
     },
@@ -62,6 +66,23 @@
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
           "time": "2:18.38"
+        },
+        {
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "2:12.80"
+        }
+      ]
+    },
+    {
+      "event": "50 Free",
+      "times": [
+        {
+          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
+          "time": "0:31.30"
+        },
+        {
+          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
+          "time": "0:30.92"
         }
       ]
     },
@@ -83,21 +104,15 @@
         {
           "location": "1/6/2026, Lawrence (54) at West Windsor-Plainsboro South (105)",
           "time": "4:42.39"
-        }
-      ]
-    },
-    {
-      "event": "50 Free",
-      "times": [
-        {
-          "location": "12/10/2025, West Windsor-Plainsboro North (72) at West Windsor-Plainsboro South (98)",
-          "time": "0:31.30"
         },
         {
-          "location": "12/16/2025, West Windsor-Plainsboro South (80) at Princeton (90)",
-          "time": "0:30.92"
+          "location": "1/14/2026, West Windsor-Plainsboro South (118) at Robbinsville (52)",
+          "time": "4:27.61"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "West Windsor-Plainsboro South",
+  "source": "njcom"
 }

@@ -7,8 +7,37 @@
         {
           "location": "1/6/2026, Hopewell Valley (72) at Princeton (98)",
           "time": "2:25.30"
+        },
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "2:43.01"
+        }
+      ]
+    },
+    {
+      "event": "500 Free",
+      "times": [
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "09:11.49"
+        }
+      ]
+    },
+    {
+      "event": "400 FR",
+      "times": [
+        {
+          "location": "1/12/2026, Princeton (119) at Lawrence (50)",
+          "time": "6:22.20"
+        },
+        {
+          "location": "1/14/2026, Steinert (37) at Princeton (129)",
+          "time": "5:15.81"
         }
       ]
     }
-  ]
+  ],
+  "year": "2025-2026",
+  "team": "Princeton",
+  "source": "njcom"
 }
