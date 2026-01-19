@@ -223,15 +223,19 @@ def example_queries(db):
     for team in sorted(teams):
         print(f"   - {team}")
 
-def save_swimmer_to_mongodb(db, swimmer_data, year, team, source='njcom'):
+def save_swimmer_to_mongodb(db, swimmer_data, year=None, team=None, profile=None, source='njcom'):
     """
     Save a single swimmer's data to MongoDB
     Merges new times with existing data, avoiding duplicates
     
     Args:
-        swimmer_data: Dictionary with 'swimmer' and 'data' keys (from scrapeDataForOneSwimmer)
-        year: Season year (e.g., "2024-2025")
-        team: Team name
+        db: MongoDB database object
+        swimmer_data: Dictionary with 'swimmer' and 'data' keys
+            - For njcom: 'data' is list of events with times (from scrapeDataForOneSwimmer)
+            - For swimcloud: 'data' is flat list of dicts with 'event', 'course', 'time' (from scrapeprofile)
+        year: Season year (e.g., "2024-2025") - required for njcom
+        team: Team name - required for njcom
+        profile: Profile name (e.g., "Helen Chen WWP South") - required for swimcloud
         source: Data source ('njcom' or 'swimcloud')
     
     Returns:
@@ -239,13 +243,65 @@ def save_swimmer_to_mongodb(db, swimmer_data, year, team, source='njcom'):
     """
     collection = db[COLLECTION_NAME]
     
+    # Handle swimcloud data transformation (flat list to grouped events)
+    if source == 'swimcloud':
+        if profile is None:
+            raise ValueError("profile is required when source='swimcloud'")
+        
+        # Transform swimcloud data from flat list to grouped events format
+        raw_data = swimmer_data.get('data', [])
+        if raw_data is None:
+            raw_data = []
+        
+        # Group by event name
+        event_dict = {}
+        for item in raw_data:
+            event_name = item.get('event', '')
+            if event_name not in event_dict:
+                event_dict[event_name] = []
+            
+            # Convert swimcloud format to times array format
+            # Note: swimcloud doesn't have location, so we don't include it
+            time_entry = {
+                'time': item.get('time', '')
+            }
+            if 'course' in item:
+                time_entry['course'] = item.get('course')
+            
+            event_dict[event_name].append(time_entry)
+        
+        # Convert to njcom-like structure
+        transformed_data = []
+        for event_name, times in event_dict.items():
+            transformed_data.append({
+                'event': event_name,
+                'times': times
+            })
+        
+        swimmer_data['data'] = transformed_data
+    
+    # Determine unique identifier based on source
+    if source == 'njcom':
+        if year is None or team is None:
+            raise ValueError("year and team are required when source='njcom'")
+        
+        query_filter = {
+            'swimmer': swimmer_data['swimmer'],
+            'year': year,
+            'team': team,
+            'source': source
+        }
+    elif source == 'swimcloud':
+        query_filter = {
+            'swimmer': swimmer_data['swimmer'],
+            'profile': profile,
+            'source': source
+        }
+    else:
+        raise ValueError("source must be 'njcom' or 'swimcloud'")
+    
     # Check if swimmer already exists
-    existing = collection.find_one({
-        'swimmer': swimmer_data['swimmer'],
-        'year': year,
-        'team': team,
-        'source': source
-    })
+    existing = collection.find_one(query_filter)
     
     if existing:
         # Merge new data with existing data
@@ -267,15 +323,24 @@ def save_swimmer_to_mongodb(db, swimmer_data, year, team, source='njcom'):
                 existing_times = existing_event.get('times', [])
                 new_times = new_event.get('times', [])
                 
-                # Create a set of (time, location) tuples for quick lookup
-                existing_time_set = {(t.get('time', ''), t.get('location', '')) for t in existing_times}
-                
-                # Add only new times that don't already exist
-                for new_time in new_times:
-                    time_key = (new_time.get('time', ''), new_time.get('location', ''))
-                    if time_key not in existing_time_set:
-                        existing_times.append(new_time)
-                        new_times_count += 1
+                # Create a set for quick lookup
+                # For njcom: use (time, location) since location matters
+                # For swimcloud: use time only since there's no location field
+                if source == 'swimcloud':
+                    existing_time_set = {t.get('time', '') for t in existing_times}
+                    # Add only new times that don't already exist
+                    for new_time in new_times:
+                        if new_time.get('time', '') not in existing_time_set:
+                            existing_times.append(new_time)
+                            new_times_count += 1
+                else:  # njcom
+                    existing_time_set = {(t.get('time', ''), t.get('location', '')) for t in existing_times}
+                    # Add only new times that don't already exist
+                    for new_time in new_times:
+                        time_key = (new_time.get('time', ''), new_time.get('location', ''))
+                        if time_key not in existing_time_set:
+                            existing_times.append(new_time)
+                            new_times_count += 1
                 
                 merged_data.append({
                     'event': event_name,
@@ -291,19 +356,14 @@ def save_swimmer_to_mongodb(db, swimmer_data, year, team, source='njcom'):
         
         # Update with merged data
         swimmer_data['data'] = merged_data
-        swimmer_data['year'] = year
-        swimmer_data['team'] = team
+        if source == 'njcom':
+            swimmer_data['year'] = year
+            swimmer_data['team'] = team
+        elif source == 'swimcloud':
+            swimmer_data['profile'] = profile
         swimmer_data['source'] = source
         
-        result = collection.update_one(
-            {
-                'swimmer': swimmer_data['swimmer'],
-                'year': year,
-                'team': team,
-                'source': source
-            },
-            {'$set': swimmer_data}
-        )
+        result = collection.update_one(query_filter, {'$set': swimmer_data})
         
         return {
             'inserted': False,
@@ -312,8 +372,11 @@ def save_swimmer_to_mongodb(db, swimmer_data, year, team, source='njcom'):
         }
     else:
         # New swimmer, just insert
-        swimmer_data['year'] = year
-        swimmer_data['team'] = team
+        if source == 'njcom':
+            swimmer_data['year'] = year
+            swimmer_data['team'] = team
+        elif source == 'swimcloud':
+            swimmer_data['profile'] = profile
         swimmer_data['source'] = source
         
         result = collection.insert_one(swimmer_data)
