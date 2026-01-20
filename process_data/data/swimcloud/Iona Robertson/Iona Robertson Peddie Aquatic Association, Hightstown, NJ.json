@@ -1,0 +1,122 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCM",
+    "time": "37.44"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCM",
+    "time": "1:18.56"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "2:23.47"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCM",
+    "time": "2:41.24"
+  },
+  {
+    "event": "400 Free",
+    "course": "SCM",
+    "time": "5:39.62"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "6:27.17"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCM",
+    "time": "37.93"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCM",
+    "time": "1:20.63"
+  },
+  {
+    "event": "100 Breast",
+    "course": "LCM",
+    "time": "1:49.62"
+  },
+  {
+    "event": "50 Fly",
+    "course": "LCM",
+    "time": "42.91"
+  },
+  {
+    "event": "100 Fly",
+    "course": "LCM",
+    "time": "1:39.45"
+  },
+  {
+    "event": "100 IM",
+    "course": "SCY",
+    "time": "1:18.21"
+  },
+  {
+    "event": "200 IM",
+    "course": "LCM",
+    "time": "3:18.31"
+  },
+  {
+    "event": "400 IM",
+    "course": "SCY",
+    "time": "5:55.92"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "30.85"
+  },
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "36.13"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:06.96"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:20.61"
+  },
+  {
+    "event": "200 Free",
+    "course": "LCM",
+    "time": "3:01.75"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:12.58"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:32.20"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:31.93"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:22.83"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:47.86"
+  }
+]

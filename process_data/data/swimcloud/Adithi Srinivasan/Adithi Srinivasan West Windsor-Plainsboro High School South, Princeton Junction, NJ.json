@@ -1,0 +1,27 @@
+[
+  {
+    "event": "50 Fly",
+    "course": "SCM",
+    "time": "38.72"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCM",
+    "time": "1:28.25"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCM",
+    "time": "3:06.58"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:19.43"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:46.22"
+  }
+]

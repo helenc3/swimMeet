@@ -1,0 +1,137 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCM",
+    "time": "32.59"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:02.57"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCM",
+    "time": "1:12.42"
+  },
+  {
+    "event": "400 Free",
+    "course": "SCM",
+    "time": "5:26.08"
+  },
+  {
+    "event": "1000 Free",
+    "course": "SCY",
+    "time": "13:10.56"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCM",
+    "time": "36.70"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:22.90"
+  },
+  {
+    "event": "50 Breast",
+    "course": "LCM",
+    "time": "46.50"
+  },
+  {
+    "event": "100 Breast",
+    "course": "LCM",
+    "time": "1:39.66"
+  },
+  {
+    "event": "200 Breast",
+    "course": "SCY",
+    "time": "3:10.23"
+  },
+  {
+    "event": "50 Fly",
+    "course": "SCM",
+    "time": "37.71"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCM",
+    "time": "1:22.26"
+  },
+  {
+    "event": "100 Fly",
+    "course": "LCM",
+    "time": "1:27.86"
+  },
+  {
+    "event": "200 Fly",
+    "course": "SCY",
+    "time": "2:52.89"
+  },
+  {
+    "event": "100 IM",
+    "course": "SCY",
+    "time": "1:17.17"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "29.04"
+  },
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "34.16"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:12.51"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "2:17.52"
+  },
+  {
+    "event": "200 Free",
+    "course": "LCM",
+    "time": "2:46.76"
+  },
+  {
+    "event": "400 Free",
+    "course": "LCM",
+    "time": "5:42.81"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "6:04.12"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:11.73"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:25.40"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:12.82"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:38.41"
+  },
+  {
+    "event": "200 IM",
+    "course": "LCM",
+    "time": "3:10.95"
+  }
+]

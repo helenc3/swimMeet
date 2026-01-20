@@ -1,0 +1,72 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "37.87"
+  },
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "41.92"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:25.46"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:37.04"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "3:26.61"
+  },
+  {
+    "event": "200 Free",
+    "course": "LCM",
+    "time": "3:49.73"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCY",
+    "time": "43.27"
+  },
+  {
+    "event": "50 Back",
+    "course": "LCM",
+    "time": "49.96"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:40.92"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:53.91"
+  },
+  {
+    "event": "50 Breast",
+    "course": "SCY",
+    "time": "45.65"
+  },
+  {
+    "event": "50 Breast",
+    "course": "LCM",
+    "time": "51.98"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:37.24"
+  },
+  {
+    "event": "100 Breast",
+    "course": "LCM",
+    "time": "1:51.55"
+  }
+]

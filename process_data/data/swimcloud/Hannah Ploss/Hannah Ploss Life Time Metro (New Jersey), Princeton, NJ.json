@@ -1,0 +1,127 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "26.77"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCM",
+    "time": "32.20"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:00.60"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCM",
+    "time": "1:08.76"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:11.46"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "2:12.72"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "6:23.88"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCY",
+    "time": "32.33"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:06.72"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:20.71"
+  },
+  {
+    "event": "200 Back",
+    "course": "SCY",
+    "time": "2:23.71"
+  },
+  {
+    "event": "200 Back",
+    "course": "LCM",
+    "time": "2:56.94"
+  },
+  {
+    "event": "50 Breast",
+    "course": "SCY",
+    "time": "33.18"
+  },
+  {
+    "event": "50 Breast",
+    "course": "SCM",
+    "time": "38.00"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:11.93"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCM",
+    "time": "1:21.83"
+  },
+  {
+    "event": "100 Breast",
+    "course": "LCM",
+    "time": "1:24.93"
+  },
+  {
+    "event": "200 Breast",
+    "course": "SCY",
+    "time": "2:42.26"
+  },
+  {
+    "event": "200 Breast",
+    "course": "LCM",
+    "time": "3:14.02"
+  },
+  {
+    "event": "50 Fly",
+    "course": "SCY",
+    "time": "32.33"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:11.31"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:26.61"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCM",
+    "time": "2:42.74"
+  },
+  {
+    "event": "400 IM",
+    "course": "SCY",
+    "time": "5:31.20"
+  },
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "34.07"
+  }
+]

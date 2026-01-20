@@ -13,6 +13,7 @@ import re
 HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '400 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
 TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
 STATE = 'nj' # state to search for
+PROBLEMSFILESPATH = 'problems.txt'
 
 def ishsevent(event):
     ###### return True if the event is a HS event, False otherwise
@@ -63,10 +64,8 @@ def select_event_from_dropdown(driver, event_name):
     """
     try:
         # Wait for dropdown to be present
-        wait = WebDriverWait(driver, 10)
-        dropdown_element = wait.until(
-            EC.presence_of_element_located((By.ID, "select_1"))
-        )
+        sleep(2)
+        dropdown_element = driver.find_element(By.ID, "select_1")
         
         # Create Select object
         select = Select(dropdown_element)
@@ -87,37 +86,31 @@ def click_event_progression_button(driver):
     Returns True if successful, False otherwise
     """
     try:
-        # Wait for page to load and try multiple selectors
-        wait = WebDriverWait(driver, 10)
+        # Wait for page to load
+        sleep(2)
         
         # Try finding by text content first (most reliable)
         try:
-            event_prog_button = wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'EVENT PROGRESSION')]"))
-            )
+            event_prog_button = driver.find_element(By.XPATH, "//button[contains(text(), 'EVENT PROGRESSION')]")
             event_prog_button.click()
             sleep(1)
             return True
         except:
             # Fallback: try by CSS selector
             try:
-                event_prog_button = wait.until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, "li.c-tabs__item button.c-tabs__link"))
-                )
+                event_prog_button = driver.find_element(By.CSS_SELECTOR, "li.c-tabs__item button.c-tabs__link")
                 event_prog_button.click()
-                sleep(1)
+                sleep(0.5)
                 return True
             except:
                 # Fallback: try just the button class
                 try:
-                    event_prog_button = wait.until(
-                        EC.element_to_be_clickable((By.CSS_SELECTOR, "button.c-tabs__link"))
-                    )
-                    # Check if it's the right button by text
-                    if "EVENT PROGRESSION" in event_prog_button.text:
-                        event_prog_button.click()
-                        sleep(1)
-                        return True
+                    buttons = driver.find_elements(By.CSS_SELECTOR, "button.c-tabs__link")
+                    for btn in buttons:
+                        if "EVENT PROGRESSION" in btn.text:
+                            btn.click()
+                            sleep(1)
+                            return True
                 except:
                     pass
         
@@ -225,8 +218,11 @@ def splitevent(event):
 
 def scrapeprofile(driver): ## return scraped data from a page of one swimmer
     hmpgurl = driver.current_url
-    driver.get(hmpgurl + 'times/')
-    sleep(1) 
+    # Only navigate if not already on times page
+    if not hmpgurl.endswith('/times/'):
+        driver.get(hmpgurl.rstrip('/') + '/times/')
+    # Wait for table to load
+    sleep(2)
     
     rows = driver.find_elements(By.CSS_SELECTOR, '#js-swimmer-profile-times-container tbody tr')
     
@@ -290,8 +286,8 @@ def scrapeprofile(driver): ## return scraped data from a page of one swimmer
 
 def open_and_search(driver, query, enter=False):### opens swimcloud and searches for query
     driver.get('https://www.swimcloud.com/')
+    # Wait for page to load
     sleep(1)
-
     searchbar = driver.find_element(By.ID, "global-search-select")
     searchbar.click()
     sleep(0.5)
@@ -300,20 +296,24 @@ def open_and_search(driver, query, enter=False):### opens swimcloud and searches
     
     if enter:
         # Wait for search results dropdown to appear, then click first option
-        wait = WebDriverWait(driver, 5)
-        first_result = wait.until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, '[role="option"]:first-child'))
-        )
+        sleep(2)
+        first_result = driver.find_element(By.CSS_SELECTOR, '[role="option"]:first-child')
         first_result.click()
         sleep(2)  # Wait for page to navigate
     else:
-        sleep(1)
+        # Wait for search to process
+        sleep(2)
 
 def getallprofiles (driver, query):### gets the immediate search result lists of profiles (eg. Helen Chen WWP South)
     open_and_search(driver, query, enter=False)
-    results = driver.find_elements(By.CSS_SELECTOR, '[role="option"]')
-    texts = [r.text for r in results] 
-    return texts
+    # Try to find results, but if nothing found, return empty list
+    try:
+        results = driver.find_elements(By.CSS_SELECTOR, '[role="option"]')
+        texts = [r.text for r in results]
+        return texts
+    except:
+        # Nothing found, return empty list
+        return []
 
 def searchprofile(driver, name):
     ## the only function you actually need to call- takes in a name and then returns all available swimcloud data on them
@@ -321,13 +321,16 @@ def searchprofile(driver, name):
     profs = getallprofiles(driver, name + ' ' + STATE)
     if len(profs) > 2:
         print(f"ERROR: Too many profiles found for {name} in {STATE}-- please manually check and flag if needed")
+        with open(PROBLEMSFILESPATH, "a") as f:
+            f.write(f"{name} {STATE}\n")
     elif len(profs) == 0:
         return None
     info = []
     for p in profs:
         profile = p.replace('\n', ' ')
         open_and_search(driver, profile, enter=True)
-        sleep(10)
+        # Wait for times table to load
+        sleep(3)
         info.append({"profile": profile, "data": scrapeprofile(driver)})
     return info
 

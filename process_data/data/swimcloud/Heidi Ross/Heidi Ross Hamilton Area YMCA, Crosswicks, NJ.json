@@ -1,0 +1,127 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "26.48"
+  },
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "30.15"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "55.87"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:03.88"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "1:59.39"
+  },
+  {
+    "event": "200 Free",
+    "course": "LCM",
+    "time": "2:16.11"
+  },
+  {
+    "event": "400 Free",
+    "course": "LCM",
+    "time": "4:37.34"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "5:09.26"
+  },
+  {
+    "event": "800 Free",
+    "course": "LCM",
+    "time": "9:37.84"
+  },
+  {
+    "event": "1000 Free",
+    "course": "SCY",
+    "time": "10:34.58"
+  },
+  {
+    "event": "1500 Free",
+    "course": "LCM",
+    "time": "18:28.86"
+  },
+  {
+    "event": "1650 Free",
+    "course": "SCY",
+    "time": "17:37.89"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCY",
+    "time": "34.03"
+  },
+  {
+    "event": "50 Back",
+    "course": "LCM",
+    "time": "38.63"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:09.44"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:18.20"
+  },
+  {
+    "event": "200 Back",
+    "course": "SCY",
+    "time": "2:27.07"
+  },
+  {
+    "event": "200 Back",
+    "course": "LCM",
+    "time": "2:46.49"
+  },
+  {
+    "event": "50 Breast",
+    "course": "LCM",
+    "time": "41.76"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:19.62"
+  },
+  {
+    "event": "50 Fly",
+    "course": "LCM",
+    "time": "34.44"
+  },
+  {
+    "event": "100 Fly",
+    "course": "LCM",
+    "time": "1:15.40"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:18.56"
+  },
+  {
+    "event": "200 IM",
+    "course": "LCM",
+    "time": "2:37.26"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:05.19"
+  }
+]

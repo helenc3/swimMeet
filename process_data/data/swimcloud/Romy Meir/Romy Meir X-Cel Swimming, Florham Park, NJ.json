@@ -1,0 +1,162 @@
+[
+  {
+    "event": "50 Free",
+    "course": "LCM",
+    "time": "32.21"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:02.21"
+  },
+  {
+    "event": "100 Free",
+    "course": "LCM",
+    "time": "1:10.33"
+  },
+  {
+    "event": "200 Free",
+    "course": "SCY",
+    "time": "2:08.05"
+  },
+  {
+    "event": "200 Free",
+    "course": "LCM",
+    "time": "2:26.68"
+  },
+  {
+    "event": "400 Free",
+    "course": "LCM",
+    "time": "5:02.34"
+  },
+  {
+    "event": "800 Free",
+    "course": "LCM",
+    "time": "10:32.45"
+  },
+  {
+    "event": "1000 Free",
+    "course": "SCY",
+    "time": "11:33.69"
+  },
+  {
+    "event": "1500 Free",
+    "course": "LCM",
+    "time": "20:05.87"
+  },
+  {
+    "event": "1650 Free",
+    "course": "SCY",
+    "time": "19:10.30"
+  },
+  {
+    "event": "50 Back",
+    "course": "SCY",
+    "time": "34.10"
+  },
+  {
+    "event": "50 Back",
+    "course": "LCM",
+    "time": "37.45"
+  },
+  {
+    "event": "100 Back",
+    "course": "SCY",
+    "time": "1:09.85"
+  },
+  {
+    "event": "100 Back",
+    "course": "LCM",
+    "time": "1:22.94"
+  },
+  {
+    "event": "200 Back",
+    "course": "SCY",
+    "time": "2:30.37"
+  },
+  {
+    "event": "200 Back",
+    "course": "LCM",
+    "time": "2:51.87"
+  },
+  {
+    "event": "50 Breast",
+    "course": "SCY",
+    "time": "38.50"
+  },
+  {
+    "event": "100 Breast",
+    "course": "LCM",
+    "time": "1:38.02"
+  },
+  {
+    "event": "50 Fly",
+    "course": "SCY",
+    "time": "31.72"
+  },
+  {
+    "event": "50 Fly",
+    "course": "LCM",
+    "time": "35.79"
+  },
+  {
+    "event": "100 Fly",
+    "course": "SCY",
+    "time": "1:07.55"
+  },
+  {
+    "event": "100 Fly",
+    "course": "LCM",
+    "time": "1:17.03"
+  },
+  {
+    "event": "200 Fly",
+    "course": "SCY",
+    "time": "2:25.34"
+  },
+  {
+    "event": "200 Fly",
+    "course": "LCM",
+    "time": "2:48.75"
+  },
+  {
+    "event": "100 IM",
+    "course": "SCY",
+    "time": "1:17.92"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:28.22"
+  },
+  {
+    "event": "200 IM",
+    "course": "LCM",
+    "time": "2:53.62"
+  },
+  {
+    "event": "400 IM",
+    "course": "SCY",
+    "time": "5:09.54"
+  },
+  {
+    "event": "400 IM",
+    "course": "LCM",
+    "time": "5:50.08"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "28.94"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "5:52.19"
+  },
+  {
+    "event": "100 Breast",
+    "course": "SCY",
+    "time": "1:22.61"
+  }
+]

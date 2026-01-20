@@ -1,0 +1,32 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "28.42"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCM",
+    "time": "31.69"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:03.52"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCM",
+    "time": "1:10.63"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:34.32"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCM",
+    "time": "2:51.29"
+  }
+]

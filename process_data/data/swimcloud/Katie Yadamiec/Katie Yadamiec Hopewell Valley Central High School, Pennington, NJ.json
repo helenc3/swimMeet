@@ -1,0 +1,42 @@
+[
+  {
+    "event": "50 Free",
+    "course": "SCY",
+    "time": "30.05"
+  },
+  {
+    "event": "50 Free",
+    "course": "SCM",
+    "time": "33.50"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCM",
+    "time": "1:12.39"
+  },
+  {
+    "event": "400 Free",
+    "course": "SCM",
+    "time": "5:46.58"
+  },
+  {
+    "event": "500 Free",
+    "course": "SCY",
+    "time": "6:35.10"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCY",
+    "time": "2:45.79"
+  },
+  {
+    "event": "200 IM",
+    "course": "SCM",
+    "time": "3:04.03"
+  },
+  {
+    "event": "100 Free",
+    "course": "SCY",
+    "time": "1:05.10"
+  }
+]

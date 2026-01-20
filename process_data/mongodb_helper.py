@@ -389,4 +389,3 @@ def save_swimmer_to_mongodb(db, swimmer_data, year=None, team=None, profile=None
             'new_times_count': total_times
         }
 
-
