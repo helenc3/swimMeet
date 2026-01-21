@@ -13,7 +13,7 @@ import re
 HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '400 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
 TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
 STATE = 'nj' # state to search for
-PROBLEMSFILESPATH = 'problems.txt'
+PROBLEMSFILESPATH = '/Users/helenchen/workspace/swimMeet/process_data/data/swimcloud/problem'
 
 def ishsevent(event):
     ###### return True if the event is a HS event, False otherwise
