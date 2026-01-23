@@ -2,6 +2,7 @@
 
 from mongodb_helper import connect_to_mongodb
 import re
+import json
 
 
 
@@ -32,6 +33,7 @@ def parse_teams_from_location(location_str):
 
 
 def get_unique_teams_for_swimmer(swimmer_name, collection):
+    ## this is js for testing purposes only
     """
     Gets all unique teams found in location strings for a swimmer's njcom data
     Returns a set of team names
@@ -55,6 +57,7 @@ def get_unique_teams_for_swimmer(swimmer_name, collection):
 
 
 def print_unique_teams_for_all_swimmers(collection, filename="all_unique_teams.txt"):
+    ## this is js for testing purposes only
     """
     Prints all unique teams found across ALL swimmers (no duplicates)
     If a team appears in multiple swimmers' data, it's only listed once
@@ -86,6 +89,7 @@ def print_unique_teams_for_all_swimmers(collection, filename="all_unique_teams.t
 
 
 def save_unique_teams_per_swimmer_to_file(collection, filename="swimmer_teams.txt"):
+    ## this is js for testing purposes only
     """
     Gets unique teams for every swimmer and saves them to a text file
     Each swimmer's teams are listed separately
@@ -108,6 +112,7 @@ def save_unique_teams_per_swimmer_to_file(collection, filename="swimmer_teams.tx
 
 
 def find_swimmers_and_times_by_team(collection):
+    ## this is js for testing purposes only
     """
     Interactive function that:
     1. Asks for a team name
@@ -145,6 +150,7 @@ def find_swimmers_and_times_by_team(collection):
                 print(f"  {idx}. {swimmer}")
             
             selected_swimmer = None
+            choice = None
             while True:
                 try:
                     choice = input(f"\nSelect a swimmer (1-{len(swimmers_with_team)}), 't' for new team, or 'q' to quit: ").strip()
@@ -163,7 +169,7 @@ def find_swimmers_and_times_by_team(collection):
                     print("Please enter a valid number, 't' for new team, or 'q' to quit")
             
             # If user chose 't', break out of swimmer loop to go back to team selection
-            if choice.lower() == 't':
+            if choice and choice.lower() == 't':
                 break
             
             # If no swimmer selected, continue to next iteration
@@ -247,13 +253,114 @@ def find_swimmers_and_times_by_team(collection):
             # Loop back to show swimmer list again (user can type 'q' to quit when selecting)
 
 
-client, db = connect_to_mongodb()
-if db is None:
-    print("Failed to connect to MongoDB. Exiting.")
-    exit(1)
+def add_course_to_times(collection, teamcourses_file, year_specific_overrides):
+    """
+    Adds a 'course' field to each time entry in njcom documents based on the team
+    parsed from the location string. Accounts for year-specific course overrides.
+    
+    Args:
+        collection: MongoDB collection object
+        teamcourses_file: Path to JSON file mapping team names to courses
+    """
+    # Load team courses mapping
+    try:
+        with open(teamcourses_file, 'r', encoding='utf-8') as f:
+            team_courses = json.load(f)
+    except FileNotFoundError:
+        print(f"Error: {teamcourses_file} not found!")
+        return
+    except json.JSONDecodeError as e:
+        print(f"Error: Invalid JSON in {teamcourses_file}: {e}")
+        return
+    
+    print(f"Loaded {len(team_courses)} team-course mappings from {teamcourses_file}")
+    
+    
+    # Get all documents with source "njcom"
+    njcom_docs = list(collection.find({"source": "njcom"}))
+    print(f"Found {len(njcom_docs)} njcom documents to process")
+    
+    updated_count = 0
+    times_updated = 0
+    times_skipped = 0
+    
+    for doc in njcom_docs:
+        data = doc.get('data', [])
+        modified = False
+        doc_times_updated = 0
+        year = doc.get('year', '')  # Get year from document
+        
+        # Process each event
+        for event_data in data:
+            times = event_data.get('times', [])
+            
+            # Process each time entry
+            for time_entry in times:
+                # Skip if course already exists
+                if 'course' in time_entry:
+                    times_skipped += 1
+                    continue
+                
+                location = time_entry.get('location', '')
+                if not location:
+                    # No location, can't determine course
+                    times_skipped += 1
+                    continue
+                
+                # Parse team from location
+                team = parse_teams_from_location(location)
+                if not team:
+                    # Couldn't parse team from location
+                    times_skipped += 1
+                    continue
+                
+                # Check for year-specific override first
+                course = None
+                if year:
+                    override_key = (year, team)
+                    if override_key in year_specific_overrides:
+                        course = year_specific_overrides[override_key]
+                        print(f"Using year-specific override: {team} in {year} = {course}")
+                
+                # If no override, use default from teamcourses.json
+                if not course:
+                    course = team_courses.get(team)
+                    if not course:
+                        # Team not found in mapping
+                        print(f"Warning: Team '{team}' not found in teamcourses.json")
+                        times_skipped += 1
+                        continue
+                
+                # Add course field
+                time_entry['course'] = course
+                modified = True
+                doc_times_updated += 1
+                times_updated += 1
+        
+        # Update document if any times were modified
+        if modified:
+            result = collection.update_one(
+                {'_id': doc['_id']},
+                {'$set': {'data': data}}
+            )
+            if result.modified_count > 0:
+                updated_count += 1
+                print(f"✓ Updated {doc.get('swimmer', 'Unknown')} ({doc.get('team', 'Unknown')}): added course to {doc_times_updated} time entries")
+    
+    print(f"\n{'='*60}")
+    print(f"Update complete!")
+    print(f"  Documents updated: {updated_count}")
+    print(f"  Time entries updated: {times_updated}")
+    print(f"  Time entries skipped (already had course or no location/team): {times_skipped}")
+    print(f"{'='*60}")
 
-collection = db["swimmers"]
 
-#print_unique_teams_for_all_swimmers(collection)
-#save_unique_teams_per_swimmer_to_file(collection)
-find_swimmers_and_times_by_team(collection)
+
+YEAR_SPECIFIC_OVERRIDES = {
+        ("2022-2023", "West Windsor-Plainsboro South"): "SCM",
+        # Add more year-specific overrides here as needed
+        # Example: ("2021-2022", "Team Name"): "SCM",
+    }
+TEAMCOURSES_FILE = "/Users/helenchen/workspace/swimMeet/process_data/teamcourses.json"
+
+
