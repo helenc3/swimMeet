@@ -10,7 +10,16 @@ from datetime import datetime, date
 import re
 
 
-HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '400 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
+HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
+# Equivalent events across different courses (e.g., 500 Free SCY = 400 Free SCM/LCM)
+EQUIVALENT_EVENTS = {
+    "500 Free": "400 Free",      # 500 Free (SCY) = 400 Free (SCM/LCM)
+    "400 Free": "500 Free",       # 400 Free (SCM/LCM) = 500 Free (SCY)
+    "1000 Free": "800 Free",     # 1000 Free (SCY) = 800 Free (SCM/LCM)
+    "800 Free": "1000 Free",     # 800 Free (SCM/LCM) = 1000 Free (SCY)
+    "1650 Free": "1500 Free",    # 1650 Free (SCY) = 1500 Free (SCM/LCM)
+    "1500 Free": "1650 Free",    # 1500 Free (SCM/LCM) = 1650 Free (SCY)
+}
 TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
 STATE = 'nj' # state to search for
 PROBLEMSFILESPATH = '/Users/helenchen/workspace/swimMeet/process_data/data/swimcloud/problem'
@@ -18,11 +27,21 @@ PROBLEMSFILESPATH = '/Users/helenchen/workspace/swimMeet/process_data/data/swimc
 def ishsevent(event):
     ###### return True if the event is a HS event, False otherwise
     ##### input is a string in the format of "50 Free SCY"
+    ##### checks HSEVENTS and also equivalent events (e.g., 400 Free matches 500 Free)
     race, course = splitevent(event)
+    # Check if race is directly in HSEVENTS
     if race in HSEVENTS:
         return True
-    else:
-        return False
+    # Check if race is equivalent to any event in HSEVENTS
+    if race in EQUIVALENT_EVENTS:
+        equivalent = EQUIVALENT_EVENTS[race]
+        if equivalent in HSEVENTS:
+            return True
+    # Check if any event in HSEVENTS is equivalent to this race
+    for hs_event in HSEVENTS:
+        if hs_event in EQUIVALENT_EVENTS and EQUIVALENT_EVENTS[hs_event] == race:
+            return True
+    return False
 
 def validdate(date_str): 
     """

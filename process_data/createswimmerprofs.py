@@ -4,23 +4,13 @@ Merges all profiles for each swimmer and keeps only the fastest time per event
 """
 
 from mongodb_helper import connect_to_mongodb, COLLECTION_NAME
-from sconeswimmer import parse_time_to_seconds
+from sconeswimmer import parse_time_to_seconds, EQUIVALENT_EVENTS, HSEVENTS
 import json
 import os
 
 OFFICIAL_COLLECTION_NAME = "officialswimmerprofiles"
 CONVERSIONS_FILE = "scraped_conversions.json"
 
-# Equivalent events across different courses
-# SCY events that correspond to SCM/LCM events
-EQUIVALENT_EVENTS = {
-    "500 Free": "400 Free",      # 500 Free (SCY) = 400 Free (SCM/LCM)
-    "400 Free": "500 Free",       # 400 Free (SCM/LCM) = 500 Free (SCY)
-    "1000 Free": "800 Free",     # 1000 Free (SCY) = 800 Free (SCM/LCM)
-    "800 Free": "1000 Free",     # 800 Free (SCM/LCM) = 1000 Free (SCY)
-    "1650 Free": "1500 Free",    # 1650 Free (SCY) = 1500 Free (SCM/LCM)
-    "1500 Free": "1650 Free",    # 1500 Free (SCM/LCM) = 1650 Free (SCY)
-}
 
 # Cache for loaded conversions
 _conversions_cache = None
@@ -196,4 +186,59 @@ def get_best_time_from_swimmer(collection, swimmer, event): ## works functionall
         return None
     
     return min(all_times_scy)
+
+def get_seasons_and_teams(collection, swimmer):
+    """
+    Get a dict mapping season (year) to team for a swimmer based on nj.com documents.
+    Only includes seasons where the swimmer has non-empty data.
+    
+    This dict should be stored in the official profile document as a "teams" field
+    to enable efficient queries like: find({"teams.2025-2026": "Lawrence"})
+    
+    Args:
+        collection: MongoDB collection object (should be "swimmers" collection)
+        swimmer: Name of the swimmer
+    
+    Returns:
+        Dict with format {season: team} for each season with data, or empty dict if none found
+        Example: {"2024-2025": "Hightstown", "2025-2026": "Princeton"}
+    """
+    # Query for all nj.com documents for this swimmer
+    swimmer_docs = list(collection.find({
+        "swimmer": swimmer,
+        "source": "njcom"
+    }))
+    
+    if not swimmer_docs:
+        return {}
+    
+    seasons_teams = {}
+    
+    for doc in swimmer_docs:
+        # Check if data exists and is not empty
+        data = doc.get('data', [])
+        if data is None or len(data) == 0:
+            continue
+        
+        # Extract season (year) and team
+        year = doc.get('year')
+        team = doc.get('team')
+        
+        # Only add if both year and team exist
+        if year and team:
+            seasons_teams[year] = team
+    
+    return seasons_teams
+
+
+def findallbesttimes(collection, swimmer):
+    """
+    Find the best time for each event for each swimmer
+    """
+    best_times = {}
+    for event in HSEVENTS:
+        best_times[event] = get_best_time_from_swimmer(collection, swimmer, event)
+    return best_times
+
+
 
