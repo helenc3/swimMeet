@@ -8,9 +8,8 @@ from sconeswimmer import parse_time_to_seconds, EQUIVALENT_EVENTS, HSEVENTS
 import json
 import os
 
-OFFICIAL_COLLECTION_NAME = "officialswimmerprofiles"
 CONVERSIONS_FILE = "scraped_conversions.json"
-
+OFFICIAL_COLLECTION_NAME = "officialswimmerprofiles"
 
 # Cache for loaded conversions
 _conversions_cache = None

@@ -1,6 +1,6 @@
 from mongodb_helper import connect_to_mongodb, COLLECTION_NAME
 from sconeswimmer import parse_time_to_seconds, EQUIVALENT_EVENTS, HSEVENTS
-from createswimmerprofs import convert_time_to_scy, get_best_time_from_swimmer
+from createswimmerprofsutils import convert_time_to_scy, get_best_time_from_swimmer
 import json
 import os
 import numpy as np
