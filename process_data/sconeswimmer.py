@@ -45,13 +45,27 @@ def ishsevent(event):
 
 def validdate(date_str): 
     """
-    date_str is a string in the format of "Jan 23, 2025"
+    date_str is a string in the format of "Jan 23, 2025" or "Jan 3, 2025" (with or without leading zero)
     Returns True if the date is within TIMEEXPIRATION years to the last November 1st that occurred, False otherwise
     """
     try:
-        # Parse the date string using datetime
-        # Format: "Jan 23, 2025" -> "%b %d, %Y"
-        parsed_date = datetime.strptime(date_str.strip(), "%b %d, %Y").date()
+        date_str = date_str.strip()
+        
+        # Try parsing with different formats
+        # Format 1: "Jan 23, 2025" -> "%b %d, %Y" (with leading zero)
+        # Format 2: "Jan 3, 2025" -> "%b %-d, %Y" (without leading zero) - but Python doesn't support %-d
+        # So we'll try both: with and without leading zero
+        
+        try:
+            # Try standard format first
+            parsed_date = datetime.strptime(date_str, "%b %d, %Y").date()
+        except ValueError:
+            # Try without leading zero - manually handle single digit days
+            # Replace "Jan 3, 2025" -> "Jan 03, 2025"
+            import re
+            # Match pattern like "Jan 3, 2025" and pad to "Jan 03, 2025"
+            date_str_padded = re.sub(r'(\w+) (\d{1}), (\d{4})', r'\1 0\2, \3', date_str)
+            parsed_date = datetime.strptime(date_str_padded, "%b %d, %Y").date()
         
         # Get current date
         today = date.today()
@@ -68,10 +82,11 @@ def validdate(date_str):
         nov_1_expiration_years_ago = date(last_nov_1.year - TIMEEXPIRATION, 11, 1)
         
         # Check if date is between Nov 1st (TIMEEXPIRATION years ago) and last Nov 1st
-        return nov_1_expiration_years_ago <= parsed_date <= last_nov_1
+        return nov_1_expiration_years_ago <= parsed_date
         
-    except (ValueError, AttributeError):
-        # If date parsing fails, return False
+    except (ValueError, AttributeError) as e:
+        # If date parsing fails, print debug info and return False
+        print(f"Warning: Could not parse date '{date_str}': {e}")
         return False
 
 
@@ -353,5 +368,12 @@ def searchprofile(driver, name):
         info.append({"profile": profile, "data": scrapeprofile(driver)})
     return info
 
+def searchprofilev2(driver, urls, name):
+    info = []
+    for url in urls:
+        driver.get(url)
+        sleep(3)
+        info.append(scrapeprofile(driver))
+    return info
 
 #ok this all works functionally now
