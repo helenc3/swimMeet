@@ -26,10 +26,8 @@ def update_best_times(newdata, old_best_times):
     # Process each profile's data
     for profile_idx, profile_data in enumerate(newdata):
         if not profile_data:  # Skip empty profiles
-            print(f"  Profile {profile_idx + 1}: Empty, skipping")
             continue
         
-        print(f"  Processing profile {profile_idx + 1}: {len(profile_data)} time entries")
         
         # profile_data is a list of dicts: [{"event": "...", "course": "...", "time": "..."}, ...]
         for time_entry in profile_data:
@@ -80,9 +78,6 @@ def update_best_times(newdata, old_best_times):
                 if target_event not in all_times_by_event:
                     all_times_by_event[target_event] = []
                 all_times_by_event[target_event].append(time_scy)
-                print(f"    Added: {target_event} = {time_scy:.2f}s (from {event} {course} {time_str})")
-            else:
-                print(f"    Skipped: {event} {course} (not mapped to HSEVENTS)")
     
     # Find best time for each event from newdata
     new_best_times = {}
@@ -90,26 +85,34 @@ def update_best_times(newdata, old_best_times):
         if event in all_times_by_event and all_times_by_event[event]:
             new_best_times[event] = min(all_times_by_event[event])
     
-    print(f"\nBest times from newdata: {new_best_times}")
     
     # Merge with old_best_times, keeping the faster time for each event
     updated_best_times = old_best_times.copy()
     
-    print(f"\nComparing with old best times:")
     for event, new_time in new_best_times.items():
         current_time = old_best_times.get(event)
         
         # Update if: no current time (None) OR new time is faster
         if current_time is None:
-            print(f"  {event}: None -> {new_time:.2f}s (NEW)")
             updated_best_times[event] = new_time
         elif new_time < current_time:
-            print(f"  {event}: {current_time:.2f}s -> {new_time:.2f}s (FASTER)")
             updated_best_times[event] = new_time
-        else:
-            print(f"  {event}: {current_time:.2f}s (keeping, new {new_time:.2f}s is slower)")
     
     return updated_best_times
+
+def update_one_swimmer(swimmer, collection, driver):
+    doc = collection.find_one({"swimmer": swimmer})
+    if not doc:
+        raise ValueError(f"Swimmer '{swimmer}' not found in collection")
+    
+    urls = doc.get("swimcloud")
+    if not urls:
+        raise ValueError(f"Swimmer '{swimmer}' has no swimcloud field or it's empty")
+    
+    old_best_times = doc.get("best_times")
+    newdata = searchprofilev2(driver, urls, swimmer)
+    updated_best_times = update_best_times(newdata, old_best_times)
+    collection.update_one({"swimmer": swimmer}, {"$set": {"best_times": updated_best_times}})
 
 if __name__ == "__main__":
     client, db = connect_to_mongodb()
@@ -120,7 +123,6 @@ if __name__ == "__main__":
     chrome_options = Options()
     chrome_options.add_argument("--disable-images")
     chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--disable-plugins")
@@ -132,12 +134,20 @@ if __name__ == "__main__":
 
     collection = db[OFFICIAL_COLLECTION_NAME]
 
-    swimmer = "Adithi Srinivasan"
-    urls = collection.find_one({"swimmer": swimmer})["swimcloud"]
-    old_best_times = collection.find_one({"swimmer": swimmer})["best_times"]
-    newdata = searchprofilev2(driver, urls, swimmer)
-    print(newdata)
-    updated_best_times = update_best_times(newdata, old_best_times)
-    print(old_best_times)
-    print("--------------------------------")
-    print(updated_best_times)
+    # # Find all swimmers with the swimcloud field (exists, not null, and not empty array)
+    swimmers = collection.distinct("swimmer", {
+        "$and": [
+            {"swimcloud": {"$exists": True}},
+            {"swimcloud": {"$ne": None}},
+            {"swimcloud": {"$ne": []}}
+        ]
+    })
+
+    for swimmer in swimmers:
+        try:
+            update_one_swimmer(swimmer, collection, driver)
+            print(f"Updated {swimmer}")
+        except Exception as e:
+            print(f"Error updating {swimmer}: {e}")
+
+    driver.quit()
