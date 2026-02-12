@@ -44,6 +44,10 @@ def convert_time_to_scy(time_seconds, event, course):
     Returns:
         Time in seconds (float) as SCY equivalent, or None if conversion fails
     """
+    # Check if time_seconds is None
+    if time_seconds is None:
+        return None
+    
     # If already SCY, no conversion needed
     if course == 'SCY':
         return time_seconds

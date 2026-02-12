@@ -5,16 +5,21 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from urllib.parse import urljoin
 import re
-from createswimmerprofsutils import convert_time_to_scy
-from sconeswimmer import parse_time_to_seconds
+from createswimmerprofsutils import convert_time_to_scy, OFFICIAL_COLLECTION_NAME
+from sconeswimmer import parse_time_to_seconds, HSEVENTS
 import csv
 import os
-from datetime import datetime
+from datetime import datetime, date
+from time import sleep
+from datetime import timedelta
+from mongodb_helper import connect_to_mongodb
 
 SKIPPED_EVENTS = ["200 MR", "200 FR", "400 FR"]
 ERRORS_PATH = "/Users/helenchen/workspace/swimMeet/process_data/errorevents"
+SCHEDULE_URL = "https://highschoolsports.nj.com/girlsswimming/schedule/"
+TIMEDELTA_BETWEEN_GAMES = 2
 
-def write_result_to_csv(result):
+def write_result_to_csv(result, datestr, teams):
     """
     Writes a result dictionary to a CSV file in the ERRORS_PATH directory.
     
@@ -43,7 +48,10 @@ def write_result_to_csv(result):
     event_name = result.get("event", "unknown_event").replace(" ", "_")
     course = result.get("course", "unknown_course")
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"{event_name}_{course}_{timestamp}_unverified.csv"
+    # Truncate team names to first 5 characters
+    team1 = teams[0][:5] if teams and len(teams) > 0 else "none"
+    team2 = teams[1][:5] if teams and len(teams) > 1 else "none"
+    filename = f"{event_name}_{course}_{datestr}_{team1}_{team2}_unverified.csv"
     filepath = os.path.join(ERRORS_PATH, filename)
     
     try:
@@ -115,8 +123,8 @@ def format_verified_result(verified_result):
     
     for entry in data:
         place = entry["place"]
-        name = entry["name"][:28]  # Truncate if too long
-        team = entry["team"][:18]  # Truncate if too long
+        name = entry["name"][:28] if entry["name"] else ""  # Truncate if too long
+        team = entry["team"][:18] if entry["team"] else ""  # Truncate if too long
         time_str = entry["time"]
         output.append(f"{place:<8} {name:<30} {team:<20} {time_str:<12}")
     
@@ -202,11 +210,6 @@ def verifycard(result):
         "data": converted_data
     }
 
-
-
-        
-        
-
 def scrapeOneCard(card_element):
     """
     Scrapes one event card from Swimcloud meet results page.
@@ -239,11 +242,13 @@ def scrapeOneCard(card_element):
         # First check if this card actually has an event title (skip non-event cards)
         try:
             event_title = card_element.find_element(By.CSS_SELECTOR, "h2.card-title")
-        except:
+        except Exception:
             # This card doesn't have an event title, skip it (likely a header/nav card)
             return None
         
         event, course = parseeventname(event_title.text.strip())
+        if event is None or course is None:
+            return None
         if event in SKIPPED_EVENTS:
             return None
         result["event"] = event
@@ -313,26 +318,228 @@ def scrapeOneCard(card_element):
     
     return result
 
-def scrapeOneMeet(driver):
+def scrapeOneMeet(driver, date):
+    """
+    Scrapes all events from a meet results page.
+    
+    Args:
+        driver: Selenium WebDriver instance
+        date: datetime.date object
+    
+    Returns:
+        dict: {
+            "date": "YYYY-MM-DD",
+            "teams": ["Team1", "Team2"],
+            "data": [verified_result1, verified_result2, ...]
+        }
+    """
     events = driver.find_elements(By.CSS_SELECTOR, "div.card")
+
+    data = {"date": "", "teams": [], "data": []}
+    data["date"] = date.strftime("%Y-%m-%d")
+    
+    # Extract teams from the first card (usually events[0]) which contains the teams table
+    if events:
+        try:
+            first_card = events[0]
+            # Find all team names in <p class="lead"> tags within table cells
+            team_elements = first_card.find_elements(By.CSS_SELECTOR, 'table p.lead')
+            for team_elem in team_elements:
+                team_text = team_elem.text.strip()
+                if team_text:
+                    # Extract team name (remove win-loss record if present)
+                    # e.g., "Watchung Hills (6-4)" -> "Watchung Hills"
+                    team_name = team_text.split('(')[0].strip()
+                    if team_name:
+                        data["teams"].append(team_name)
+                        
+        except Exception as e:
+            print(f"Error extracting teams: {e}")
+
     for event in events:
         result = scrapeOneCard(event)
         if result is None:
             continue
         try:
             verified_result = verifycard(result)
-            if verified_result is not None:
-                print(format_verified_result(verified_result))
-            else:
-                print(f"Error verifying card: {result}")
+            data["data"].append(verified_result)
         except Exception as e:
             print(f"Error verifying card: {e}")
-            write_result_to_csv(result)
+            write_result_to_csv(result, data["date"], data["teams"])
             continue
-        
+    
+    return data
 
-url = "https://highschoolsports.nj.com/game/1091442"
-driver = webdriver.Chrome()
-driver.get(url)
-scrapeOneMeet(driver)
-driver.quit()
+def getdayurl(date):
+    ## date is a datetime object
+    month = date.month  # int, no leading zero (e.g., 2 for February)
+    day = date.day      # int, no leading zero (e.g., 5 for 5th)
+    year = date.year    # int (e.g., 2025)
+    return SCHEDULE_URL + f"{year}/{month}/{day}"
+
+def getgameurl(box):
+    try:
+        # Find the "Box Score" or "View Game Result" link within this box
+        # Look for link with href containing "/game/"
+        game_link = box.find_element(By.CSS_SELECTOR, 'a[href*="/game/"]')
+        href = game_link.get_attribute("href")
+        
+        if href:
+            # Convert relative URL to absolute if needed
+            if href.startswith("/"):
+                full_url = urljoin("https://highschoolsports.nj.com", href)
+            elif href.startswith("http"):
+                # Already an absolute URL
+                full_url = href
+            else:
+                # Invalid URL format
+                return None
+            return full_url
+    except Exception as e:
+        return None
+
+
+def getonedayurls(driver, date, conferences):
+    url = getdayurl(date)
+    driver.get(url)
+    
+    # Give page a moment to load, then find schedule boxes
+    
+    try:
+        # Find all schedule boxes (no wait - returns immediately, empty list if none found)
+        schedule_boxes = driver.find_elements(By.CSS_SELECTOR, 'div.sked-col[data-filter-conference]')
+        
+        # If no boxes found, return None immediately
+        if not schedule_boxes:
+            return None
+        
+        # Filter boxes based on selected conferences
+        # Each box has data-filter-conference attribute that may contain multiple conferences separated by |
+        game_urls = []
+        for box in schedule_boxes:
+            box_conferences = box.get_attribute("data-filter-conference")
+            if box_conferences:
+                # Split by | to get individual conferences
+                box_conference_list = [c.strip() for c in box_conferences.split("|")]
+                # Check if any of the requested conferences match this box
+                if any(conf in box_conference_list for conf in conferences):
+                    url = getgameurl(box)
+                    if url is not None:
+                        game_urls.append(url)
+        
+        # Only return None if NONE of the boxes match the requested conferences
+        if not game_urls:
+            return None
+        return game_urls
+      
+    except Exception as e:
+        return None
+    
+    
+def save_meet_data_to_mongodb(event_results, collection):
+    """
+    Saves meet data to MongoDB and updates best times for swimmers.
+    
+    For each time swum, finds the corresponding swimmer in the database.
+    If swimmer is found and the time is faster than existing best time (or doesn't exist),
+    updates the best_times field in officialswimmerprofiles collection.
+    
+    Args:
+        event_results: List of event results from scrapeOneMeet with structure:
+            [
+                {
+                    "event": "200 Free",
+                    "course": "SCY",
+                    "data": [
+                        {"place": 1, "name": "John Doe", "team": "Team1", "time": 120.5},
+                        ...
+                    ]
+                },
+                ...
+            ]
+        collection: MongoDB collection object (officialswimmerprofiles)
+    
+    Returns:
+        dict: {
+            "swimmers_found": int,
+            "swimmers_updated": int,
+            "swimmers_not_found": int
+        }
+    """
+    stats = {
+        "swimmers_found": 0,
+        "swimmers_updated": 0,
+        "swimmers_not_found": 0
+    }
+    
+    try:
+        # Iterate through each event
+        for event_result in event_results:
+            event_name = event_result.get("event", "")
+            
+            # Skip if not an HS event
+            if event_name not in HSEVENTS:
+                continue
+            
+            # Iterate through each swimmer result in the event
+            for swimmer_result in event_result.get("data", []):
+                swimmer_name = swimmer_result.get("name", "").strip()
+                new_time = swimmer_result.get("time")
+                
+                if not swimmer_name or new_time is None:
+                    continue
+                
+                # Find swimmer in database
+                swimmer_doc = collection.find_one({"swimmer": swimmer_name})
+                
+                if not swimmer_doc:
+                    stats["swimmers_not_found"] += 1
+                    continue
+                
+                stats["swimmers_found"] += 1
+                
+                # Get current best_times
+                best_times = swimmer_doc.get("best_times", {})
+                current_best = best_times.get(event_name)
+                
+                # Update if new time is faster or if no current best time exists
+                should_update = False
+                if current_best is None:
+                    should_update = True
+                elif new_time < current_best:
+                    should_update = True
+                
+                if should_update:
+                    # Update the best time
+                    collection.update_one(
+                        {"swimmer": swimmer_name},
+                        {"$set": {f"best_times.{event_name}": new_time}}
+                    )
+                    stats["swimmers_updated"] += 1
+                    print(f"Updated {swimmer_name}'s {event_name}: {current_best} -> {new_time}")
+        
+        return stats
+        
+    except Exception as e:
+        print(f"Error saving meet data to MongoDB: {e}")
+        return stats
+
+
+if __name__ == "__main__":
+    target_date = date.today() - timedelta(days=4)
+    client, db = connect_to_mongodb()
+    collection = db[OFFICIAL_COLLECTION_NAME]
+    driver = webdriver.Chrome()
+    game_urls = getonedayurls(driver, target_date, ["CVC"])
+    for url in game_urls:
+        driver.get(url)
+        data = scrapeOneMeet(driver, target_date)
+        if data and data.get("data"):
+            stats = save_meet_data_to_mongodb(data, collection)
+            print(f"Meet stats: {stats}")
+        else:
+            print("No data to save")
+    driver.quit()
+    client.close()
+
+##todo, try less sleep time

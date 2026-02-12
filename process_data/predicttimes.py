@@ -252,6 +252,7 @@ if __name__ == "__main__":
                         }
                     
                     # Update the document with predicted_times field (separate from best_times)
+                    # This replaces the entire predicted_times field with new predictions
                     collection.update_one(
                         {"swimmer": swimmer},
                         {"$set": {"predicted_times": predicted_times}}
