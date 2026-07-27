@@ -1,0 +1,4 @@
+- currently a work in progress... 
+- aiming to build a system to discover the best way to deploy a high school swimming team across multiple events so the team wins... possibbly integrated with a gui in the future???
+- currently completed first version of the data pipeline- working on formulating lineups as an integer programming problem and solving with cp-sat solver from google ortools
+- check backkk later for more updatessss
