@@ -1,1 +1,6 @@
 process_data/data/
+workingreadme.md
+.obsidian/
+.DS_Store
+.vscode/
+process_data/__pycache__/
