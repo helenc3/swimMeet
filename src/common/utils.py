@@ -20,6 +20,10 @@ CONVERSIONS_FILE = COMMON_DIR / "conversions.json"
 
 HSEVENTS = ['50 Free', '100 Free', '200 Free', '500 Free', '100 Back', '100 Breast', '100 Fly', '200 IM']
 
+PENALTY_FACTOR = 1.07 ## penalty factor for predicted times
+
+
+
 # Equivalent events across different courses (e.g., 500 Free SCY = 400 Free SCM/LCM)
 EQUIVALENT_EVENTS = {
     "500 Free": "400 Free",      # 500 Free (SCY) = 400 Free (SCM/LCM)
@@ -32,6 +36,64 @@ EQUIVALENT_EVENTS = {
 TIMEEXPIRATION = 2 # years -- how many before the last Nov 1st is a valid time
 
 STATE = 'nj' # state to search for
+
+EVENT_MAP = {
+    0: '200 Free',
+    1: '200 IM',
+    2: '50 Free',
+    3: '100 Fly',
+    4: '100 Free',
+    5: '500 Free',
+    6: '100 Back',
+    7: '100 Breast',
+    8: '200 FR A',
+    9: '200 FR B',
+    10: '200 FR C',
+    11: '400 FR A',
+    12: '400 FR B',
+    13: '400 FR C',
+    14: '200 MR A1',
+    15: '200 MR A2',
+    16: '200 MR A3',
+    17: '200 MR A4',
+    18: '200 MR B1',
+    19: '200 MR B2',
+    20: '200 MR B3',
+    21: '200 MR B4',
+    22: '200 MR C1',
+    23: '200 MR C2',
+    24: '200 MR C3',
+    25: '200 MR C4' }
+
+## contains the corresponding individual event/time for each relay event
+EVENT_MAP_EQUIVALENTS = { ## used for dealing with relay powerpoints/ indiividual events
+    "200 FR A": "50 Free",
+    "200 FR B": "50 Free",
+    "200 FR C": "50 Free",
+    "400 FR A": "100 Free",
+    "400 FR B": "100 Free",
+    "400 FR C": "100 Free",
+    "200 MR A1": "100 Back",
+    "200 MR A2": "100 Breast",
+    "200 MR A3": "100 Fly",
+    "200 MR A4": "50 Free",
+    "200 MR B1": "100 Back",
+    "200 MR B2": "100 Breast",
+    "200 MR B3": "100 Fly",
+    "200 MR B4": "50 Free",
+    "200 MR C1": "100 Back",
+    "200 MR C2": "100 Breast",
+    "200 MR C3": "100 Fly",
+    "200 MR C4": "50 Free",
+}
+
+INDIV_EVENT_COUNT = 8
+MR_EVENT_START_IDX = 14 ## index of first MR event
+MR_POSITION_COUNT = 4
+MR_RELAY_COUNT = 3
+TOTAL_EVENT_COUNT = 26
+
+BASE_TIMES_FILE = '/Users/HChen/workspace/swimMeet/src/common/basetimes.json'
 
 def parse_time_to_seconds(time_str):
     """

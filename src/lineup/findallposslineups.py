@@ -1,46 +1,13 @@
 import sys
 from pathlib import Path
 
+from common.utils import EVENT_MAP, INDIV_EVENT_COUNT, MR_EVENT_START_IDX, MR_POSITION_COUNT, MR_RELAY_COUNT, TOTAL_EVENT_COUNT
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from common.mongodb.connect import connect_to_mongodb
 from common.mongodb.queries2 import query_team_swimmers
 from common.utils import OFFICIAL_COLLECTION_NAME
 from ortools.sat.python import cp_model
-
-EVENT_MAP = {
-    0: '200 Free',
-    1: '200 IM',
-    2: '50 Free',
-    3: '100 Fly',
-    4: '100 Free',
-    5: '500 Free',
-    6: '100 Back',
-    7: '100 Breast',
-    8: '200 FR A',
-    9: '200 FR B',
-    10: '200 FR C',
-    11: '400 FR A',
-    12: '400 FR B',
-    13: '400 FR C',
-    14: '200 MR A1',
-    15: '200 MR A2',
-    16: '200 MR A3',
-    17: '200 MR A4',
-    18: '200 MR B1',
-    19: '200 MR B2',
-    20: '200 MR B3',
-    21: '200 MR B4',
-    22: '200 MR C1',
-    23: '200 MR C2',
-    24: '200 MR C3',
-    25: '200 MR C4' }
-
-INDIV_EVENT_COUNT = 8
-MR_EVENT_START_IDX = 14 ## index of first MR event
-MR_POSITION_COUNT = 4
-MR_RELAY_COUNT = 3
-TOTAL_EVENT_COUNT = 26
 
 season = '2025-2026'
 team = "West Windsor-Plainsboro South"
