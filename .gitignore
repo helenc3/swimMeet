@@ -1,6 +1,26 @@
-process_data/data/
-workingreadme.md
-.obsidian/
+src/data/
+
+# NJ.com error CSVs (reviewed locally, then cleared)
+src/scraper/njcom/updates/errorevents/
+*.csv
+*.json
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# OS / editor
 .DS_Store
+.obsidian/
 .vscode/
-process_data/__pycache__/
+.idea/
+
+# personal scratch notes (not project docs yet)
+workingreadme.md
