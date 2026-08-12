@@ -90,8 +90,12 @@ EVENT_MAP_EQUIVALENTS = { ## used for dealing with relay powerpoints/ indiividua
 INDIV_EVENT_COUNT = 8
 MR_EVENT_START_IDX = 14 ## index of first MR event
 MR_POSITION_COUNT = 4
-MR_RELAY_COUNT = 3
+RELAY_COUNT = 3 ## number of relays per event (eg a, b, c)
 TOTAL_EVENT_COUNT = 26
+FR2_START_IDX = 8 ## index of first 200 free relay
+FR4_START_IDX = 11 ## index of first 400 free relay
+FR_RELAY_COUNT = 2 ## number of free relay events
+MR_RELAY_COUNT = 1 ## number of medley relay events
 
 BASE_TIMES_FILE = '/Users/HChen/workspace/swimMeet/src/common/basetimes.json'
 

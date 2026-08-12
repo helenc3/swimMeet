@@ -6,6 +6,12 @@ from common.mongodb.connect import connect_to_mongodb
 from common.utils import EVENT_MAP
 from lineup.powerpoints.calculate import calculate_powerpoint_matrix
 
+"""
+this is a testing script mainly for the methods in the queries2.py and calculate.py (see imports)
+writes the times and powerpoint matrices to csv files in the out_dir
+see the files in this directory for examples.
+"""
+
 client, db = connect_to_mongodb()
 season = "2025-2026"
 team = "Princeton"

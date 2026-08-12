@@ -29,7 +29,7 @@ def calculate_powerpoint_matrix(gender, times, event_map = EVENT_MAP, basetimes_
         basetimes_file: str, the file name of the basetimes file
 
     returns:
-        2d array powerpoints[swimmer][event] = powerpoint
+        2d array powerpoints[swimmer][event] = powerpoint (int, rounded to the nearest integer)
     """
 
     basetimes = load_basetimes(basetimes_file)[gender]
@@ -41,8 +41,24 @@ def calculate_powerpoint_matrix(gender, times, event_map = EVENT_MAP, basetimes_
             basetime = basetimes[event_name]
             time = times[swimmer_idx][event_idx]
             calculation = (basetime/time)**3 * 1000
+            calculation = int(round(calculation)) ## round to nearest integer for cpsat
             swimmer_pp.append(calculation)
         pp.append(swimmer_pp)
     return pp # list of lists --- i might consider changing this to a numpy array later
 
-
+def calculate_relay_powerpoint(gender, time, relay_event, basetimes_file = BASE_TIMES_FILE):
+    """
+    calculate the powerpoint for a relay event
+    args:
+        gender: str, the gender of the swimmers
+        time: float, the time of the relay
+        relay_event: str, the relay event name, (200 MR, 200 FR, 400 FR)
+        basetimes_file: str, the file name of the basetimes file
+    returns:
+        int, the powerpoint for the relay event, rounded to the nearest integer
+    """
+    basetimes = load_basetimes(basetimes_file)[gender]
+    basetime = basetimes[relay_event]
+    calculation = (basetime/time)**3 * 1000
+    calculation = int(round(calculation)) ## round to nearest integer for cpsat
+    return calculation
