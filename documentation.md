@@ -34,6 +34,12 @@ src
 - data/ : contains backup datafile
 
 - archive/ : contains a bunch of one time run scripts to fix little errors. might be useful for emergency fixes...
+	- pp_max_tests/ : folder with test code for maximizing powerpoints for lineup
+		  -test.py :test script
+		  - max_powerpoint_lineup.csv : optimal lineup output
+	- pp_times_gen/ : folder with test code for the powerpoint and times matrix generation functions
+		  - test.py : test script
+		  - csv files are example outputs- just for easy verification
     - jsontodb.py : used to write the backup data files in njcom to mngodb
     - rvillefix.py : used to fix the scm/scy problem with all rville meets
     - scrape_conversions.py : used to scrape+calculate the conversion constants from an online site
@@ -62,13 +68,18 @@ src
 	- system_prompt.txt :system prompt
 	  ```
 	  
-- lineup/ : a work in progress ...
+- lineup/ : 
+	- powerpoints/ : scripts related to powerpoints
+	  - calculate.py : useful functions for powerpoint calculation
+	- model.utils.py : useful functions for building/adding constraints to the model
 
 
-pipeline to run : (last scrapeday : 2/6/2026 )
+pipeline to run : (last scrapeday : 8/9/2026 -- but some unsolved errors so check the errors dir to find additional urls to check)
 
-cd /Users/HChen/workspace/swimMeet/src
+cd /Users/HChen/workspace/swimMeet/src -- or navigate to src/
 python -m scraper.swimcloud.updates.main
 python -m scraper.njcom.updates.main
-python -m scraper.njcom.updates.fixerrors (if errorevents/ isnt empty and is fixed)
+python -m scraper.njcom.updates.fixerrors (if errorevents/ isnt empty and is fixed-- make sure to remove "unverified" once files are verified)
 python -m predict_times.main 
+```
+
